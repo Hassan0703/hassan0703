@@ -1,156 +1,196 @@
 <div align="center">
 
-<!-- BOOT ANIMATION HEADER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:21262d&height=120&section=header&text=&fontSize=0" width="100%"/>
+<!-- ANIMATED NEON HEADER SVG - custom built, nobody has this -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=200&color=gradient&customColorList=12&text=HASSAN%20ALI&fontSize=72&fontColor=fff&stroke=00ff88&strokeWidth=3&animation=fadeIn&desc=Frappe%20%7C%20ERPNext%20%7C%20ERP%20Architect&descSize=18&descAlignY=75&descColor=88ffd0"/>
 
-<!-- ANIMATED TITLE SVG -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=13&pause=1000&color=39D353&background=0D111700&center=true&vCenter=true&multiline=true&repeat=false&width=700&height=110&lines=%5BSYS%5D+Initializing+Hassan.Ali.Runtime+v2.7...;%5BOK%5D++Frappe+core+loaded+%E2%80%94+ERPNext+modules+mounted;%5BOK%5D++Python+%7C+Jinja2+%7C+MariaDB+%7C+Redis+%E2%80%94+all+services+up;%5BREADY%5D+ERP+Architect+online.+Welcome." alt="boot sequence"/>
+</div>
+
+<div align="center">
+
+<!-- CINEMATIC TYPEWRITER - 3 lines cycling, nobody uses this combo for ERP devs -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2500&pause=800&color=00FF88&background=00000000&center=true&vCenter=true&multiline=false&repeat=true&width=600&height=50&lines=⚙️+Building+ERP+systems+that+replace+spreadsheets;🐍+Frappe+%2F+ERPNext+%2F+Python+%2F+Jinja2+%2F+Vue+3;🌍+Serving+clients+from+Lahore+to+the+Gulf;🏗️+Currently+building+lushaka__core+%26+TradeFlow;💡+Custom+apps+%7C+Print+formats+%7C+ERP+rollouts" alt="typing"/>
+
+</div>
+
+---
+
+<!-- FULL-WIDTH SNAKE CONTRIBUTION GRID -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hassan0703/Hassan0703/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hassan0703/Hassan0703/output/github-contribution-grid-snake.svg"/>
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/Hassan0703/Hassan0703/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+</picture>
+
+> **⚠️ To activate the snake above:** Create `.github/workflows/snake.yml` in your profile repo — instructions at the bottom of this README.
+
+---
+
+## 🧠 The Stack That Runs My World
+
+<div align="center">
+
+<!-- SKILL ICONS - uses skill-icons service, far more visual than shields.io -->
+<img src="https://skillicons.dev/icons?i=python,js,vue,html,css,mysql,redis,linux,docker,nginx,git,vscode,github,wordpress,flask&perline=8&theme=dark" />
+
+</div>
 
 <br/>
 
-<!-- GLITCH NAME -->
-<img src="https://capsule-render.vercel.app/api?type=transparent&color=gradient&customColorList=0,2,2,5,30&height=90&text=HASSAN%20ALI&fontColor=39D353&fontSize=62&fontAlignY=55&fontFamily=JetBrains+Mono&animation=fadeIn&desc=Frappe%20%2F%20ERPNext%20Architect%20%E2%80%94%20Lahore%2C%20PK&descAlignY=80&descColor=8b949e&descSize=13" width="100%"/>
+<div align="center">
+
+<!-- FRAPPE/ERPNEXT CUSTOM BADGES - dark themed, no background mismatch -->
+![Frappe](https://img.shields.io/badge/-Frappe_Framework-0d1117?style=for-the-badge&logo=frappé&logoColor=0099ff&labelColor=0d1117)
+![ERPNext](https://img.shields.io/badge/-ERPNext-0d1117?style=for-the-badge&logo=frappé&logoColor=00ff88&labelColor=0d1117)
+![Jinja2](https://img.shields.io/badge/-Jinja2-0d1117?style=for-the-badge&logo=jinja&logoColor=b41717&labelColor=0d1117)
+![MariaDB](https://img.shields.io/badge/-MariaDB-0d1117?style=for-the-badge&logo=mariadb&logoColor=c0765a&labelColor=0d1117)
 
 </div>
 
 ---
 
-```python
-# hassan_ali.py  —  instantiated on every visit
-class HassanAli:
-    role       = "Frappe / ERPNext Developer"
-    company    = "NexTash · Lahore, Pakistan"
-    stack      = ["Python", "Frappe", "ERPNext", "Jinja2", "MariaDB",
-                  "JavaScript", "Vue 3", "HTML/CSS", "Redis", "Linux"]
-    currently  = ["lushaka_core  — Property Rental ERP (Frappe)",
-                  "TradeFlow     — Rice Import/Export commodity ERP",
-                  "Frapxel       — Custom invoice system for ERPNext clients"]
-    reach_me   = "linkedin.com/in/hassan-ali-frappe-dev"
+## 🚀 What I'm Shipping Right Now
 
-    def what_i_build(self):
-        return "Production ERP systems that replace spreadsheets with sanity."
-```
+<table>
+<tr>
+<td width="50%">
 
----
+### 🏠 lushaka_core
+**Property Rental ERP on Frappe**
 
-<div align="center">
+Custom app built around a `Property` doctype. Backend controller logic, file upload activity logging, custom dashboard overrides for Project linkage.
 
-## `> erp --status --modules`
+`Python` `Frappe` `Jinja2` `MariaDB`
 
-</div>
+</td>
+<td width="50%">
 
-```
-╔══════════════════════════════════════════════════════════════════════════╗
-║  MODULE                    STATUS        SPECIALTY                       ║
-╠══════════════════════════════════════════════════════════════════════════╣
-║  Frappe Custom Apps        ● LIVE        DocTypes · Controllers · Hooks  ║
-║  ERPNext Implementation    ● LIVE        Full-cycle ERP for SMEs         ║
-║  Print Formats             ● LIVE        Jinja2 · wkhtmltopdf · CSS      ║
-║  Frontend UI Systems       ● LIVE        Vue 3 · Frappe UI Kit · JS      ║
-║  Commodity Trading ERP     ◉ BUILD       TradeFlow — rice import/export  ║
-║  Property Rental ERP       ◉ BUILD       lushaka_core — custom Frappe    ║
-╚══════════════════════════════════════════════════════════════════════════╝
-```
+### 🌾 TradeFlow
+**Commodity Trading ERP**
 
----
+Full 4-phase rice import/export workflow: Master Data → Procurement → Logistics/Costing → Sales/Finance. Built for Pakistani & Gulf traders.
 
-<div align="center">
+`ERPNext` `Python` `Custom DocTypes`
 
-## `> git log --oneline --projects`
+</td>
+</tr>
+<tr>
+<td width="50%">
 
-</div>
+### 🧾 Frapxel
+**Branded Invoice System**
 
-| # | Project | Stack | What it does |
-|---|---------|-------|-------------|
-| `01` | **[everest-invoice-system](https://github.com/Hassan0703/everest-invoice-system)** | HTML · Python · Flask | Offline desktop invoice generator — PDF output, business-ready |
-| `02` | **[NxT-Car-Rental-Management](https://github.com/Hassan0703/NxT-Car-Rental-Management)** | Frappe · HTML | Full rental system — vehicles, customers, billing |
-| `03` | **[Gifoy Ecommerce × Frappe](https://github.com/Hassan0703/Gifoy-shop-Ecommerce-Store-Frape-Integration)** | Frappe · HTML | Storefront integrated into ERPNext backend |
-| `04` | **[Custom Naming Series](https://github.com/Hassan0703/Custom-Namming-Series)** | Python · Frappe | Flexible document ID patterns for ERPNext DocTypes |
-| `05` | **[Nexilo Frontend](https://github.com/Hassan0703/Nexilo-Website---Frontend-Only-)** | HTML · CSS · JS | Futuristic P2P lending web UI |
-| `06` | **[Portfolio](https://github.com/Hassan0703/Portfolio)** | React · JS | Personal dev portfolio |
+Production-grade ERPNext invoice solution for SME clients. Marketed to Pakistan & Gulf. HTML/CSS/Jinja2 print format architecture.
+
+`Jinja2` `HTML/CSS` `wkhtmltopdf`
+
+</td>
+<td width="50%">
+
+### 🎨 ERPNext Prime UI
+**Custom Frappe UI Kit**
+
+Full CSS design token architecture + modular JS components. Vue 3 ERPNova variant with Pinia stores, pure SVG charts, command palette.
+
+`Vue 3` `CSS Tokens` `JavaScript`
+
+</td>
+</tr>
+</table>
 
 ---
 
-<div align="center">
-
-## `> cat /proc/skills`
-
-</div>
+## 📊 My GitHub Universe
 
 <div align="center">
 
-**Backend**
-
-![Python](https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=3776AB)
-![Frappe](https://img.shields.io/badge/Frappe-0d1117?style=flat-square&logo=frappé&logoColor=0089FF)
-![ERPNext](https://img.shields.io/badge/ERPNext-0d1117?style=flat-square&logo=frappé&logoColor=39D353)
-![MariaDB](https://img.shields.io/badge/MariaDB-0d1117?style=flat-square&logo=mariadb&logoColor=C0765A)
-![Redis](https://img.shields.io/badge/Redis-0d1117?style=flat-square&logo=redis&logoColor=DC382D)
-![Linux](https://img.shields.io/badge/Linux-0d1117?style=flat-square&logo=linux&logoColor=FCC624)
-
-**Frontend**
-
-![JavaScript](https://img.shields.io/badge/JavaScript-0d1117?style=flat-square&logo=javascript&logoColor=F7DF1E)
-![Vue 3](https://img.shields.io/badge/Vue_3-0d1117?style=flat-square&logo=vuedotjs&logoColor=42b883)
-![HTML5](https://img.shields.io/badge/HTML5-0d1117?style=flat-square&logo=html5&logoColor=E34F26)
-![CSS3](https://img.shields.io/badge/CSS3-0d1117?style=flat-square&logo=css3&logoColor=1572B6)
-![Jinja2](https://img.shields.io/badge/Jinja2-0d1117?style=flat-square&logo=jinja&logoColor=B41717)
-
-**Tools**
-
-![Git](https://img.shields.io/badge/Git-0d1117?style=flat-square&logo=git&logoColor=F05032)
-![VS Code](https://img.shields.io/badge/VS_Code-0d1117?style=flat-square&logo=visualstudiocode&logoColor=007ACC)
-![Docker](https://img.shields.io/badge/Docker-0d1117?style=flat-square&logo=docker&logoColor=2496ED)
-![Nginx](https://img.shields.io/badge/Nginx-0d1117?style=flat-square&logo=nginx&logoColor=009639)
-![WordPress](https://img.shields.io/badge/WordPress-0d1117?style=flat-square&logo=wordpress&logoColor=21759B)
-
-</div>
-
----
-
-<div align="center">
-
-## `> uptime --stats`
-
-<br/>
-
-<img src="https://github-readme-stats.vercel.app/api?username=Hassan0703&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=39D353&icon_color=39D353&text_color=8b949e&ring_color=39D353" height="155"/>
-&nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hassan0703&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=39D353&text_color=8b949e&langs_count=6" height="155"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=Hassan0703&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00ff88&icon_color=00ff88&text_color=c9d1d9&ring_color=00ff88&include_all_commits=true&count_private=true"/>
+&nbsp;
+<img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=Hassan0703&theme=chartreuse-dark&hide_border=true&background=0d1117&stroke=00ff88&ring=00ff88&fire=ff6e00&currStreakLabel=00ff88"/>
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Hassan0703&theme=github-compact&bg_color=0d1117&color=39D353&line=39D353&point=ffffff&area=true&hide_border=true" width="100%"/>
+<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=Hassan0703&bg_color=0d1117&color=00ff88&line=00ff88&point=ffffff&area_color=00ff8820&area=true&hide_border=true&custom_title=Hassan's%20Contribution%20Pulse"/>
 
 </div>
 
 ---
 
+## 🏆 Trophies & Achievements
+
 <div align="center">
 
-## `> ping hassan --connect`
+<img src="https://github-profile-trophy.vercel.app/?username=Hassan0703&theme=matrix&no-bg=true&no-frame=true&column=7&margin-w=8"/>
+
+</div>
+
+---
+
+## 📌 Pinned Work
+
+<div align="center">
+
+[![everest](https://github-readme-stats.vercel.app/api/pin/?username=Hassan0703&repo=everest-invoice-system&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00ff88&icon_color=00ff88)](https://github.com/Hassan0703/everest-invoice-system)
+[![car-rental](https://github-readme-stats.vercel.app/api/pin/?username=Hassan0703&repo=NxT-Car-Rental-Management&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00ff88&icon_color=00ff88)](https://github.com/Hassan0703/NxT-Car-Rental-Management)
+
+[![gifoy](https://github-readme-stats.vercel.app/api/pin/?username=Hassan0703&repo=Gifoy-shop-Ecommerce-Store-Frape-Integration&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00ff88&icon_color=00ff88)](https://github.com/Hassan0703/Gifoy-shop-Ecommerce-Store-Frape-Integration)
+[![naming](https://github-readme-stats.vercel.app/api/pin/?username=Hassan0703&repo=Custom-Namming-Series&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00ff88&icon_color=00ff88)](https://github.com/Hassan0703/Custom-Namming-Series)
+
+</div>
+
+---
+
+## 🌐 Let's Connect
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Hassan_Ali-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hassan-ali-frappe-dev/)
+[![Instagram](https://img.shields.io/badge/Instagram-hassan_______47-e4405f?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/hassan_______47)
+[![GitHub](https://img.shields.io/badge/GitHub-Hassan0703-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Hassan0703)
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0d1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=0d1117&color=161b22)](https://www.linkedin.com/in/hassan-ali-frappe-dev/)
-&nbsp;
-[![Instagram](https://img.shields.io/badge/Instagram-Follow-0d1117?style=for-the-badge&logo=instagram&logoColor=E4405F&labelColor=0d1117&color=161b22)](https://www.instagram.com/hassan_______47)
-&nbsp;
-[![GitHub](https://img.shields.io/badge/GitHub-hassan0703-0d1117?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=0d1117&color=161b22)](https://github.com/Hassan0703)
+![Profile Views](https://komarev.com/ghpvc/?username=Hassan0703&color=00ff88&style=for-the-badge&label=PROFILE+VIEWS)
 
-<br/>
+</div>
 
+---
+
+## ⚙️ Activate the Contribution Snake
+
+Create this file in your profile repo at `.github/workflows/snake.yml`:
+
+```yaml
+name: Generate Snake Animation
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: Hassan0703
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
-┌─────────────────────────────────────────────────────────┐
-│  Building something with Frappe or ERPNext?             │
-│  Need a custom app, print format, or ERP implementation?│
-│                                                         │
-│  → Let's talk.  linkedin.com/in/hassan-ali-frappe-dev   │
-└─────────────────────────────────────────────────────────┘
-```
 
-<br/>
+Then go to **Settings → Actions → General** and enable **Read and write permissions** for Actions. The snake will auto-generate every 12 hours.
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:21262d,50:161b22,100:0d1117&height=80&section=footer" width="100%"/>
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=100&section=footer&animation=twinkling"/>
 
 </div>
