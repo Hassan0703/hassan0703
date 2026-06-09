@@ -195,61 +195,6 @@ open_to:  Frappe projects  ·  ERP consulting
 
 </div>
 
-<br/>
-
----
-
-<details>
-<summary><b>⚙️ Click here — How to activate the contribution snake on your profile</b></summary>
-
-<br/>
-
-The **snake animation** is a live SVG that eats your green GitHub contribution squares. It's generated automatically by a GitHub Action (a scheduled bot running on GitHub's servers — completely free).
-
-**Step 1 — Enable write permissions for Actions:**
-Go to your profile repo `hassan0703/hassan0703` → **Settings** → **Actions** → **General** → under "Workflow permissions" select **Read and write permissions** → Save.
-
-**Step 2 — Create this file** at `.github/workflows/snake.yml` inside your profile repo:
-
-```yaml
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 */12 * * *"   # runs every 12 hours automatically
-  workflow_dispatch:           # lets you run it manually too
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-
-    steps:
-      - name: generate snake.svg
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: Hassan0703
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - name: push snake.svg to output branch
-        uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-**Step 3 — Run it once manually:**
-Go to your repo → **Actions** tab → click **Generate Snake** → click **Run workflow** → wait ~60 seconds.
-
-After that, the snake auto-regenerates every 12 hours forever. Done.
-
-</details>
-
-<br/>
 
 <!-- ░░ FOOTER WAVE ░░ -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:0d1b2a,100:0d1117&height=100&section=footer&animation=twinkling"/>
