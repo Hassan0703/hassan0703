@@ -1,15 +1,15 @@
-<!-- ╔════════════════════════════════════════════════════════════════[...]
+<!-- ╔══════════════════════════════════════════════════════════════════╗
      ║        HASSAN ALI  ·  FRAPPE / ERPNEXT ARCHITECT               ║
      ║        hassan0703  ·  Lahore, Pakistan                          ║
-     ╚════════════════════════════════════════════════════════════════[...]
+     ╚══════════════════════════════════════════════════════════════════╝ -->
 
 <!-- ━━━━━━━━━━━━━━━━━━━━  HERO  ━━━━━━━━━━━━━━━━━━━━ -->
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=260&color=0:000005,30:050d1a,60:071428,100:000005&text=HASSAN%20ALI&fontColor=e8f4ff&fontSize=96&fontAlignY=42&stroke=00b[...]
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=260&color=0:000005,30:050d1a,60:071428,100:000005&text=HASSAN%20ALI&fontColor=e8f4ff&fontSize=96&fontAlignY=42&stroke=00bfff&strokeWidth=2.5&desc=Frappe%20%E2%80%A2%20ERPNext%20Architect%20%E2%80%A2%20Lahore%2C%20Pakistan&descSize=17&descAlignY=67&descColor=00bfff&animation=fadeIn"/>
 
 <!-- TYPEWRITER -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=2800&pause=600&color=00BFFF&background=00000000&center=true&vCenter=true&multiline=false&repeat=true&wid[...]
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=2800&pause=600&color=00BFFF&background=00000000&center=true&vCenter=true&multiline=false&repeat=true&width=700&height=42&lines=%E2%9A%99%EF%B8%8F+Building+ERP+systems+that+replace+spreadsheets+with+sanity.;%F0%9F%90%8D+Python+%C2%B7+Frappe+%C2%B7+ERPNext+%C2%B7+Jinja2+%C2%B7+MariaDB+%C2%B7+Vue+3;%F0%9F%8F%97%EF%B8%8F+lushaka__core+%E2%80%94+Property+Rental+ERP+%5BBuilding%5D;%F0%9F%8C%BE+TradeFlow+%E2%80%94+Rice+Import%2FExport+Commodity+ERP+%5BBuilding%5D;%F0%9F%8C%8D+Pakistan+%26+Gulf+%E2%80%94+Open+for+Frappe+%2F+ERPNext+Projects" alt="typing"/>
 
 </div>
 
@@ -69,11 +69,11 @@ active_builds:
 
 ### 📡 Activity
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Hassan0703&bg_color=050d1a&color=00bfff&line=00bfff&point=ffffff&area_color=00bfff15&area=true&hide_border=true&custom_title=Co[...]
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Hassan0703&bg_color=050d1a&color=00bfff&line=00bfff&point=ffffff&area_color=00bfff15&area=true&hide_border=true&custom_title=Contribution+Graph&radius=6" width="100%"/>
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Hassan0703&theme=github-dark-blue&hide_border=true&background=050d1a&stroke=0d2035&ring=00bfff&fire=ff8c00&currStreakLabel=00bfff&sideL[...]
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Hassan0703&theme=github-dark-blue&hide_border=true&background=050d1a&stroke=0d2035&ring=00bfff&fire=ff8c00&currStreakLabel=00bfff&sideLabels=00bfff&dates=7b92a8" width="100%"/>
 
 </td>
 </tr>
@@ -93,7 +93,7 @@ active_builds:
 <br/><br/>
 
 <!-- FRAPPE ECOSYSTEM PILLS -->
-![Frappe](https://img.shields.io/badge/Frappe_Framework-050d1a?style=flat-square&color=050d1a&logoColor=00bfff&labelColor=050d1a&logo=frappé)&ensp;![ERPNext](https://img.shields.io/badge/ERPNext-050d[...]
+![Frappe](https://img.shields.io/badge/Frappe_Framework-050d1a?style=flat-square&color=050d1a&logoColor=00bfff&labelColor=050d1a&logo=frappé)&ensp;![ERPNext](https://img.shields.io/badge/ERPNext-050d1a?style=flat-square&color=050d1a&logoColor=00bfff&labelColor=050d1a&logo=frappé)&ensp;![Jinja2](https://img.shields.io/badge/Jinja2-050d1a?style=flat-square&logo=jinja&logoColor=c0392b&labelColor=050d1a)&ensp;![wkhtmltopdf](https://img.shields.io/badge/wkhtmltopdf-050d1a?style=flat-square&logoColor=ff5252&labelColor=050d1a)&ensp;![MariaDB](https://img.shields.io/badge/MariaDB-050d1a?style=flat-square&logo=mariadb&logoColor=c0765a&labelColor=050d1a)&ensp;![Redis](https://img.shields.io/badge/Redis-050d1a?style=flat-square&logo=redis&logoColor=dc382d&labelColor=050d1a)&ensp;![Bench](https://img.shields.io/badge/Bench_CLI-050d1a?style=flat-square&logo=gnubash&logoColor=00bfff&labelColor=050d1a)
 
 </div>
 
@@ -110,7 +110,7 @@ active_builds:
 ### Gifoy Shop — Ecommerce × Frappe Integration
 
 <a href="https://github.com/Hassan0703/Gifoy-shop-Ecommerce-Store-Frape-Integration">
-  <img src="Images/ecommerce.jpeg"
+  <img src="https://raw.githubusercontent.com/Hassan0703/Gifoy-shop-Ecommerce-Store-Frape-Integration/main/ecommerce.jpeg"
        alt="Gifoy Ecommerce Screenshot"
        width="85%"
        style="border-radius:12px; border: 1px solid #0d2035;"/>
@@ -126,22 +126,19 @@ active_builds:
 <div align="center">
 
 <a href="https://github.com/Hassan0703/NxT-Car-Rental-Management">
-  <img src="Images/ecommerce.jpeg"
-       alt="Gifoy Ecommerce Screenshot"
-       width="85%"
-       style="border-radius:12px; border: 1px solid #0d2035;"/>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Hassan0703&repo=NxT-Car-Rental-Management&theme=github_dark&hide_border=false&bg_color=050d1a&title_color=00bfff&icon_color=00bfff&border_color=0d2035&border_radius=12"/>
 </a>&ensp;
 <a href="https://github.com/Hassan0703/everest-invoice-system">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Hassan0703&repo=everest-invoice-system&theme=github_dark&hide_border=false&bg_color=050d1a&title_color=00bfff&icon_color=00bfff&bor[...]
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Hassan0703&repo=everest-invoice-system&theme=github_dark&hide_border=false&bg_color=050d1a&title_color=00bfff&icon_color=00bfff&border_color=0d2035&border_radius=12"/>
 </a>
 
 <br/>
 
 <a href="https://github.com/Hassan0703/Custom-Namming-Series">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Hassan0703&repo=Custom-Namming-Series&theme=github_dark&hide_border=false&bg_color=050d1a&title_color=00bfff&icon_color=00bfff&bord[...]
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Hassan0703&repo=Custom-Namming-Series&theme=github_dark&hide_border=false&bg_color=050d1a&title_color=00bfff&icon_color=00bfff&border_color=0d2035&border_radius=12"/>
 </a>&ensp;
 <a href="https://github.com/Hassan0703/Nexilo-Website---Frontend-Only-">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Hassan0703&repo=Nexilo-Website---Frontend-Only-&theme=github_dark&hide_border=false&bg_color=050d1a&title_color=00bfff&icon_co[...]
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Hassan0703&repo=Nexilo-Website---Frontend-Only-&theme=github_dark&hide_border=false&bg_color=050d1a&title_color=00bfff&icon_color=00bfff&border_color=0d2035&border_radius=12"/>
 </a>
 
 </div>
@@ -170,9 +167,9 @@ active_builds:
 
 ## 📊 Numbers
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Hassan0703&show_icons=true&count_private=true&include_all_commits=true&theme=github_dark&hide_border=true&bg_color=050d1a&tit[...]
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Hassan0703&show_icons=true&count_private=true&include_all_commits=true&theme=github_dark&hide_border=true&bg_color=050d1a&title_color=00bfff&icon_color=00bfff&text_color=c9d1d9&ring_color=00bfff"/>
 &ensp;
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hassan0703&layout=compact&theme=github_dark&hide_border=true&bg_color=050d1a&title_color=00bfff&text_color=c9d1d9&[...]
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hassan0703&layout=compact&theme=github_dark&hide_border=true&bg_color=050d1a&title_color=00bfff&text_color=c9d1d9&langs_count=7&card_width=310"/>
 
 <br/><br/>
 
@@ -194,7 +191,7 @@ active_builds:
 ## 🧠 How I Think
 
 ```
-╔═══════════════════════════════════════════════════════════════════[...]
+╔═══════════════════════════════════════════════════════════════════════╗
 ║                                                                       ║
 ║   Most developers build features. I build systems.                    ║
 ║                                                                       ║
@@ -216,7 +213,7 @@ active_builds:
 ║                                                                       ║
 ║   End result: spreadsheet hell  →  structured ERP system             ║
 ║                                                                       ║
-╚═══════════════════════════════════════════════════════════════════[...]
+╚═══════════════════════════════════════════════════════════════════════╝
 ```
 
 <br/>
@@ -260,12 +257,12 @@ active_builds:
 <br/><br/>
 
 ```
-┌─────────────────────────────────────────────────────────────────══[...]
+┌─────────────────────────────────────────────────────────────────┐
 │   Building something with Frappe or ERPNext?                    │
 │   Need a custom app, print format, or full ERP rollout?         │
 │                                                                 │
 │   → linkedin.com/in/hassan-ali-frappe-dev                       │
-└─────────────────────────────────────────────────────────────────══[...]
+└─────────────────────────────────────────────────────────────────┘
 ```
 
 </div>
