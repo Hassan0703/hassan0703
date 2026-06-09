@@ -110,7 +110,7 @@ active_builds:
 ### Gifoy Shop — Ecommerce × Frappe Integration
 
 <a href="https://github.com/Hassan0703/Gifoy-shop-Ecommerce-Store-Frape-Integration">
-  <img src="https://raw.githubusercontent.com/Hassan0703/Gifoy-shop-Ecommerce-Store-Frape-Integration/main/ecommerce.jpeg"
+  <img src="/Images/ecommerce.jpeg"
        alt="Gifoy Ecommerce Screenshot"
        width="85%"
        style="border-radius:12px; border: 1px solid #0d2035;"/>
@@ -126,7 +126,10 @@ active_builds:
 <div align="center">
 
 <a href="https://github.com/Hassan0703/NxT-Car-Rental-Management">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Hassan0703&repo=NxT-Car-Rental-Management&theme=github_dark&hide_border=false&bg_color=050d1a&title_color=00bfff&icon_color=00bfff&border_color=0d2035&border_radius=12"/>
+  <img src="/Images/ecommerce.jpeg"
+       alt="Gifoy Ecommerce Screenshot"
+       width="85%"
+       style="border-radius:12px; border: 1px solid #0d2035;"/>
 </a>&ensp;
 <a href="https://github.com/Hassan0703/everest-invoice-system">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=Hassan0703&repo=everest-invoice-system&theme=github_dark&hide_border=false&bg_color=050d1a&title_color=00bfff&icon_color=00bfff&border_color=0d2035&border_radius=12"/>
