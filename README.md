@@ -124,6 +124,7 @@ active_builds:
 
 <!-- PROJECT CARD GRID -->
 <div align="center">
+     
 ### Rental Management Software — RMS × Frappe Integration
      
 <a href="https://github.com/Hassan0703/NxT-Car-Rental-Management">
@@ -132,18 +133,23 @@ active_builds:
        width="85%"
        style="border-radius:12px; border: 1px solid #0d2035;"/>
 </a>&ensp;
+
 <br/><sub>🛒 Car Rental Management Software with live Frappe/ERPNext backend · HTML · CSS · Frappe Integration</sub>
+
 <a href="https://github.com/Hassan0703/everest-invoice-system">
-     ### Everest Invoicing System — SQL-Lite × Flask x HTML-CSS
+  
+### Everest Invoicing System — SQL-Lite × Flask x HTML-CSS
      
   <img src="Everest Thumbnail.png"
        alt="Everest Thumbnail png"
        width="85%"
        style="border-radius:12px; border: 1px solid #0d2035;"/>
 </a>
+
 <br/><sub>Everest Invoicing System with live — SQL-Lite x Flask x HTML-CSS · HTML · CSS · Frappe Integration</sub>
 
 <br/>
+
 ### Custom Namming Series — ERP-Next × Frappe Integration
 
 <a href="https://github.com/Hassan0703/Custom-Namming-Series">
@@ -155,14 +161,15 @@ active_builds:
 
 <br/><sub>🛒 Custom Namming Series for live Frappe/ERPNext Application - backend · HTML · CSS · Frappe Integration</sub>
 
-
 <a href="https://github.com/Hassan0703/Nexilo-Website---Frontend-Only-">
      
 ### Nexilo - Loan App — ERP-Next × Frappe Integration
 
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=Hassan0703&repo=Nexilo-Website---Frontend-Only-&theme=github_dark&hide_border=false&bg_color=050d1a&title_color=00bfff&icon_color=00bfff&border_color=0d2035&border_radius=12"/>
 </a>
+
 <br/><sub> Nexilo- Loan Application - backend · HTML · CSS · Frappe Integration</sub>
+
 </div>
 
 <br/>
