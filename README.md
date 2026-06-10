@@ -150,7 +150,7 @@ active_builds:
 
 <br/>
 
-### Custom Namming Series — ERP-Next × Frappe Integration
+### FrapXel — HTML × CSS - Complete Web-site
 
 <a href="https://github.com/Hassan0703/Custom-Namming-Series">
   <img src="/Landing pages.png"
@@ -159,7 +159,7 @@ active_builds:
        style="border-radius:12px; border: 1px solid #0d2035;"/>
 </a>&ensp;
 
-<br/><sub>🛒 Custom Namming Series for live Frappe/ERPNext Application - backend · HTML · CSS · Frappe Integration</sub>
+<br/><sub>FrapXel for live Frappe/ERPNext Application - backend · HTML · CSS · Frappe Integration</sub>
 
 <a href="https://github.com/Hassan0703/Nexilo-Website---Frontend-Only-">
      
