@@ -48,10 +48,10 @@
   <style>
     <![CDATA[
       @keyframes fadeInUp { 0% { transform: translateY(15px); opacity: 0; } 100% { transform: translateY(0); opacity: 1; } }
-      @keyframes holoSweep { 0% { transform: translateX(-200%); opacity: 0; } 10% { opacity: 1; } 90% { opacity: 1; } 100% { transform: translateX(200%); opacity: 0; } }
+      @keyframes holoSweep { 0% { transform: translateX(-800px); opacity: 0; } 10% { opacity: 1; } 90% { opacity: 1; } 100% { transform: translateX(800px); opacity: 0; } }
       @keyframes lineGrow { 0% { stroke-dashoffset: 500; } 100% { stroke-dashoffset: 0; } }
-      .focus-item { transition: transform 0.3s ease, filter 0.3s ease; transform-box: fill-box; transform-origin: center; }
-      .focus-item:hover { transform: translateX(2px); filter: drop-shadow(0 4px 12px rgba(201,164,76,0.15)); }
+      .focus-item { transition: transform 0.3s ease, filter 0.3s ease; }
+      .focus-item:hover { transform: translateX(2px); filter: url(#hoverShadow)); }
       .focus-item:hover .item-bg { stroke-opacity: 0.7; fill: rgba(201,164,76,0.06); transition: fill 0.3s ease, stroke-opacity 0.3s ease; }
       .focus-item:hover .holo-overlay { animation: holoSweep 0.4s ease forwards; }
       .focus-item:hover .focus-title { fill: #F5F2EA; transition: fill 0.3s ease; }
@@ -79,6 +79,10 @@
       .progress-fill.p5 { animation: fadeInUp 0.6s ease 0.7s forwards; }
     ]]>
   </style>
+
+  <filter id="hoverShadow" x="-50%" y="-50%" width="200%" height="200%">
+    <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#C9A44C" flood-opacity="0.2"/>
+  </filter>
 </defs>
 <g clip-path="url(#canvasClip)">
   <rect x="0" y="0" width="1400" height="520" fill="url(#bgGrad)"/>

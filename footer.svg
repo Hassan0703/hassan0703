@@ -38,6 +38,10 @@
       .fade-el.f5 { animation: fadeIn 0.6s ease 0.5s forwards; }
     ]]>
   </style>
+
+  <filter id="hoverShadow" x="-50%" y="-50%" width="200%" height="200%">
+    <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#C9A44C" flood-opacity="0.2"/>
+  </filter>
 </defs>
 <g clip-path="url(#canvasClip)">
   <rect x="0" y="0" width="1400" height="280" fill="url(#bgGrad)"/>

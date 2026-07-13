@@ -60,11 +60,11 @@
   <style>
     <![CDATA[
       @keyframes fadeInUp { 0% { transform: translateY(12px); opacity: 0; } 100% { transform: translateY(0); opacity: 1; } }
-      @keyframes holoSweep { 0% { transform: translateX(-200%); opacity: 0; } 10% { opacity: 1; } 90% { opacity: 1; } 100% { transform: translateX(200%); opacity: 0; } }
+      @keyframes holoSweep { 0% { transform: translateX(-800px); opacity: 0; } 10% { opacity: 1; } 90% { opacity: 1; } 100% { transform: translateX(800px); opacity: 0; } }
       @keyframes flowDash { 0% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: -38; } }
       @keyframes breathe { 0% { opacity: 0.6; } 50% { opacity: 1; } 100% { opacity: 0.6; } }
       @keyframes breatheGlow { 0% { filter: url(#nodeOuterGlow); opacity: 0.4; } 50% { opacity: 0.8; } 100% { filter: url(#nodeOuterGlow); opacity: 0.4; } }
-      @keyframes periodicSweep { 0% { transform: translateX(-200%); opacity: 0; } 8% { opacity: 0.12; } 42% { transform: translateX(250%); opacity: 0.12; } 50% { opacity: 0; } 100% { transform: translateX(250%); opacity: 0; } }
+      @keyframes periodicSweep { 0% { transform: translateX(-800px); opacity: 0; } 8% { opacity: 0.12; } 42% { transform: translateX(1000px); opacity: 0.12; } 50% { opacity: 0; } 100% { transform: translateX(1000px); opacity: 0; } }
       @keyframes scanLine { 0% { transform: translateY(-100px); opacity: 0; } 92% { opacity: 0; } 95% { opacity: 0.06; } 97% { opacity: 0.03; } 100% { transform: translateY(620px); opacity: 0; } }
       @keyframes packetPulse { 0% { opacity: 0; } 5% { opacity: 1; } 90% { opacity: 1; } 100% { opacity: 0; } }
       /* Neural Nodes */
@@ -80,8 +80,8 @@
       .conn-line { stroke: url(#goldGrad); stroke-width: 0.6; fill: none; stroke-opacity: 0.1; }
       .conn-flow { stroke: url(#goldGrad); stroke-width: 0.9; fill: none; stroke-opacity: 0.2; stroke-dasharray: 3 16; animation: flowDash 2s linear infinite; }
       /* Metric Cards */
-      .metric-card { transition: transform 0.3s ease, filter 0.3s ease; transform-box: fill-box; transform-origin: center; }
-      .metric-card:hover { transform: translateY(-2px); filter: drop-shadow(0 8px 20px rgba(201,164,76,0.18)); }
+      .metric-card { transition: transform 0.3s ease, filter 0.3s ease; }
+      .metric-card:hover { transform: translateY(-2px); filter: url(#hoverShadow)); }
       .metric-card:hover .metric-bg { stroke-opacity: 0.7; fill: rgba(201,164,76,0.06); transition: fill 0.3s ease, stroke-opacity 0.3s ease; }
       .metric-card:hover .holo-overlay { animation: holoSweep 0.5s ease forwards; }
       .metric-card:hover .metric-value { filter: url(#metricGlow); }
@@ -103,6 +103,10 @@
       .fade-el.f { animation: fadeInUp 0.5s ease 0.5s forwards; }
     ]]>
   </style>
+
+  <filter id="hoverShadow" x="-50%" y="-50%" width="200%" height="200%">
+    <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#C9A44C" flood-opacity="0.2"/>
+  </filter>
 </defs>
 <g clip-path="url(#canvasClip)">
   <rect x="0" y="0" width="1400" height="620" fill="url(#bgGrad)"/>

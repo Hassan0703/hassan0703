@@ -47,7 +47,7 @@
     <![CDATA[
       @keyframes fadeInUp { 0% { transform: translateY(40px); opacity: 0; } 100% { transform: translateY(0); opacity: 1; } }
       @keyframes scaleIn { 0% { transform: scale(0.92); opacity: 0; } 100% { transform: scale(1); opacity: 1; } }
-      @keyframes holoSweep { 0% { transform: translateX(-200%); opacity: 0; } 10% { opacity: 1; } 90% { opacity: 1; } 100% { transform: translateX(200%); opacity: 0; } }
+      @keyframes holoSweep { 0% { transform: translateX(-800px); opacity: 0; } 10% { opacity: 1; } 90% { opacity: 1; } 100% { transform: translateX(800px); opacity: 0; } }
       .card-outer { opacity: 0; }
       .card-outer.e1 { animation: scaleIn 0.6s ease 0s forwards; }
       .card-outer.e2 { animation: fadeInUp 0.6s ease 0.1s forwards; }
@@ -55,11 +55,11 @@
       .card-outer.e4 { animation: fadeInUp 0.6s ease 0.3s forwards; }
       .card-outer.e5 { animation: fadeInUp 0.6s ease 0.4s forwards; }
       .card-outer.e6 { animation: fadeInUp 0.6s ease 0.5s forwards; }
-      .card-inner { transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94), filter 0.35s ease; transform-box: fill-box; transform-origin: center; }
-      .card-inner:hover { transform: translateY(-2px); filter: drop-shadow(0 12px 24px rgba(201,164,76,0.18)); }
+      .card-inner { transition: transform 0.35s ease, filter 0.35s ease; }
+      .card-inner:hover { transform: translateY(-2px); filter: url(#hoverShadow)); }
       .card-inner:hover .card-bg { stroke-opacity: 0.8; fill: rgba(201,164,76,0.08); stroke-width: 1.5; transition: fill 0.35s ease, stroke-opacity 0.35s ease, stroke-width 0.35s ease; }
-      .card-inner:hover .holo-overlay { animation: holoSweep 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards; }
-      .card-inner:hover .thumb-sweep { animation: holoSweep 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards; }
+      .card-inner:hover .holo-overlay { animation: holoSweep 0.6s ease forwards; }
+      .card-inner:hover .thumb-sweep { animation: holoSweep 0.5s ease forwards; }
       .card-inner:hover .title-text { filter: url(#goldGlow); transition: filter 0.35s ease; }
       .card-bg { transition: fill 0.35s ease, stroke-opacity 0.35s ease, stroke-width 0.35s ease; }
       .holo-overlay { opacity: 0; pointer-events: none; }
@@ -68,6 +68,10 @@
       .title-text { transition: filter 0.35s ease; }
     ]]>
   </style>
+
+  <filter id="hoverShadow" x="-50%" y="-50%" width="200%" height="200%">
+    <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#C9A44C" flood-opacity="0.2"/>
+  </filter>
 </defs>
 <g clip-path="url(#canvasClip)">
   <rect x="0" y="0" width="1400" height="1120" fill="url(#bgGrad)"/>
@@ -88,7 +92,7 @@
         <rect class="card-bg" clip-path="url(#cardClip)" x="0" y="0" width="406" height="460" rx="16" ry="16" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="1.1" stroke-opacity="0.35" filter="url(#cardShadow)"/>
         <rect class="holo-overlay" clip-path="url(#cardClip)" x="0" y="0" width="406" height="460" rx="16" ry="16" fill="url(#holoSweep)" opacity="0"/>
         <g clip-path="url(#thumbClip)">
-          <image class="thumb-img" x="10" y="10" width="386" height="220" href="ecommerce.jpeg" preserveAspectRatio="xMidYMid slice"/>
+          <image class="thumb-img" x="10" y="10" width="386" height="220" href="https://raw.githubusercontent.com/Hassan0703/Hassan0703/main/ecommerce.jpeg" preserveAspectRatio="xMidYMid slice"/>
           <rect class="thumb-sweep" x="10" y="10" width="386" height="220" fill="url(#thumbSweep)" opacity="0"/>
         </g>
         <g transform="translate(20, 255)" font-family="'Segoe UI',sans-serif">
@@ -143,7 +147,7 @@
         <rect class="card-bg" clip-path="url(#cardClip)" x="0" y="0" width="406" height="460" rx="16" ry="16" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="1.1" stroke-opacity="0.35" filter="url(#cardShadow)"/>
         <rect class="holo-overlay" clip-path="url(#cardClip)" x="0" y="0" width="406" height="460" rx="16" ry="16" fill="url(#holoSweep)" opacity="0"/>
         <g clip-path="url(#thumbClip)">
-          <image class="thumb-img" x="10" y="10" width="386" height="220" href="car_rms.jpeg" preserveAspectRatio="xMidYMid slice"/>
+          <image class="thumb-img" x="10" y="10" width="386" height="220" href="https://raw.githubusercontent.com/Hassan0703/Hassan0703/main/car_rms.jpeg" preserveAspectRatio="xMidYMid slice"/>
           <rect class="thumb-sweep" x="10" y="10" width="386" height="220" fill="url(#thumbSweep)" opacity="0"/>
         </g>
         <g transform="translate(20, 255)" font-family="'Segoe UI',sans-serif">
@@ -198,7 +202,7 @@
         <rect class="card-bg" clip-path="url(#cardClip)" x="0" y="0" width="406" height="460" rx="16" ry="16" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="1.1" stroke-opacity="0.35" filter="url(#cardShadow)"/>
         <rect class="holo-overlay" clip-path="url(#cardClip)" x="0" y="0" width="406" height="460" rx="16" ry="16" fill="url(#holoSweep)" opacity="0"/>
         <g clip-path="url(#thumbClip)">
-          <image class="thumb-img" x="10" y="10" width="386" height="220" href="Everest%20Thumbnail.png" preserveAspectRatio="xMidYMid slice"/>
+          <image class="thumb-img" x="10" y="10" width="386" height="220" href="https://raw.githubusercontent.com/Hassan0703/Hassan0703/main/Everest%20Thumbnail.png" preserveAspectRatio="xMidYMid slice"/>
           <rect class="thumb-sweep" x="10" y="10" width="386" height="220" fill="url(#thumbSweep)" opacity="0"/>
         </g>
         <g transform="translate(20, 255)" font-family="'Segoe UI',sans-serif">
@@ -253,7 +257,7 @@
         <rect class="card-bg" clip-path="url(#cardClip)" x="0" y="0" width="406" height="460" rx="16" ry="16" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="1.1" stroke-opacity="0.35" filter="url(#cardShadow)"/>
         <rect class="holo-overlay" clip-path="url(#cardClip)" x="0" y="0" width="406" height="460" rx="16" ry="16" fill="url(#holoSweep)" opacity="0"/>
         <g clip-path="url(#thumbClip)">
-          <image class="thumb-img" x="10" y="10" width="386" height="220" href="Landing%20pages.png" preserveAspectRatio="xMidYMid slice"/>
+          <image class="thumb-img" x="10" y="10" width="386" height="220" href="https://raw.githubusercontent.com/Hassan0703/Hassan0703/main/Landing%20pages.png" preserveAspectRatio="xMidYMid slice"/>
           <rect class="thumb-sweep" x="10" y="10" width="386" height="220" fill="url(#thumbSweep)" opacity="0"/>
         </g>
         <g transform="translate(20, 255)" font-family="'Segoe UI',sans-serif">
@@ -307,7 +311,7 @@
         <rect class="card-bg" clip-path="url(#cardClip)" x="0" y="0" width="406" height="460" rx="16" ry="16" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="1.1" stroke-opacity="0.35" filter="url(#cardShadow)"/>
         <rect class="holo-overlay" clip-path="url(#cardClip)" x="0" y="0" width="406" height="460" rx="16" ry="16" fill="url(#holoSweep)" opacity="0"/>
         <g clip-path="url(#thumbClip)">
-          <image class="thumb-img" x="10" y="10" width="386" height="220" href="property-rms.jpeg" preserveAspectRatio="xMidYMid slice"/>
+          <image class="thumb-img" x="10" y="10" width="386" height="220" href="https://raw.githubusercontent.com/Hassan0703/Hassan0703/main/property-rms.jpeg" preserveAspectRatio="xMidYMid slice"/>
           <rect class="thumb-sweep" x="10" y="10" width="386" height="220" fill="url(#thumbSweep)" opacity="0"/>
         </g>
         <g transform="translate(20, 255)" font-family="'Segoe UI',sans-serif">
@@ -361,7 +365,7 @@
         <rect class="card-bg" clip-path="url(#cardClip)" x="0" y="0" width="406" height="460" rx="16" ry="16" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="1.1" stroke-opacity="0.35" filter="url(#cardShadow)"/>
         <rect class="holo-overlay" clip-path="url(#cardClip)" x="0" y="0" width="406" height="460" rx="16" ry="16" fill="url(#holoSweep)" opacity="0"/>
         <g clip-path="url(#thumbClip)">
-          <image class="thumb-img" x="10" y="10" width="386" height="220" href="3rd.png" preserveAspectRatio="xMidYMid slice"/>
+          <image class="thumb-img" x="10" y="10" width="386" height="220" href="https://raw.githubusercontent.com/Hassan0703/Hassan0703/main/3rd.png" preserveAspectRatio="xMidYMid slice"/>
           <rect class="thumb-sweep" x="10" y="10" width="386" height="220" fill="url(#thumbSweep)" opacity="0"/>
         </g>
         <g transform="translate(20, 255)" font-family="'Segoe UI',sans-serif">

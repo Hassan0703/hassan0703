@@ -48,16 +48,14 @@
 
   <style>
     <![CDATA[
-      @keyframes holoSweep { 0% { transform: translateX(-200%); opacity: 0; } 10% { opacity: 1; } 90% { opacity: 1; } 100% { transform: translateX(200%); opacity: 0; } }
+      @keyframes holoSweep { 0% { transform: translateX(-800px); opacity: 0; } 10% { opacity: 1; } 90% { opacity: 1; } 100% { transform: translateX(800px); opacity: 0; } }
 
       .feature-card {
-        transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94), filter 0.35s ease;
-        transform-box: fill-box;
-        transform-origin: center;
-      }
+        transition: transform 0.35s ease, filter 0.35s ease;
+        }
       .feature-card:hover {
         transform: translateY(-2px);
-        filter: drop-shadow(0 12px 24px rgba(201,164,76,0.18));
+        filter: url(#hoverShadow));
       }
       .feature-card:hover .feature-bg {
         stroke-opacity: 1;
@@ -66,7 +64,7 @@
         transition: fill 0.35s ease, stroke-opacity 0.35s ease, stroke-width 0.35s ease;
       }
       .feature-card:hover .holo-overlay {
-        animation: holoSweep 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+        animation: holoSweep 0.6s ease forwards;
       }
       .feature-bg {
         transition: fill 0.35s ease, stroke-opacity 0.35s ease, stroke-width 0.35s ease;
@@ -74,12 +72,10 @@
 
       .skill-chip {
         transition: transform 0.3s ease, filter 0.3s ease;
-        transform-box: fill-box;
-        transform-origin: center;
-      }
+        }
       .skill-chip:hover {
         transform: translateY(-1px);
-        filter: drop-shadow(0 6px 12px rgba(201,164,76,0.2));
+        filter: url(#hoverShadow));
       }
       .skill-chip:hover rect {
         fill: rgba(201,164,76,0.12);
@@ -88,61 +84,52 @@
         transition: fill 0.3s ease, stroke-opacity 0.3s ease, stroke-width 0.3s ease;
       }
       .skill-chip:hover .holo-overlay {
-        animation: holoSweep 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+        animation: holoSweep 0.4s ease forwards;
       }
 
       .quote-bubble {
-        transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94), filter 0.35s ease;
-        transform-box: fill-box;
-        transform-origin: center;
-      }
+        transition: transform 0.35s ease, filter 0.35s ease;
+        }
       .quote-bubble:hover {
         transform: translateY(-2px);
-        filter: drop-shadow(0 16px 32px rgba(201,164,76,0.15));
+        filter: url(#hoverShadow));
       }
       .quote-bubble:hover .holo-overlay {
-        animation: holoSweep 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+        animation: holoSweep 0.7s ease forwards;
       }
 
       .badge-chip {
         transition: transform 0.3s ease, filter 0.3s ease;
-        transform-box: fill-box;
-        transform-origin: center;
-      }
+        }
       .badge-chip:hover {
         transform: translateY(-2px);
-        filter: drop-shadow(0 8px 20px rgba(201,164,76,0.35));
+        filter: url(#hoverShadow));
       }
       .badge-chip:hover .holo-overlay {
-        animation: holoSweep 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+        animation: holoSweep 0.5s ease forwards;
       }
 
       .stat-item {
-        transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94), filter 0.35s ease;
-        transform-box: fill-box;
-        transform-origin: center;
-      }
+        transition: transform 0.35s ease, filter 0.35s ease;
+        }
       .stat-item:hover {
         transform: translateY(-2px);
-        filter: drop-shadow(0 8px 16px rgba(201,164,76,0.2));
+        filter: url(#hoverShadow));
       }
       .stat-item:hover text {
         fill: #F5EAC9;
         transition: fill 0.35s ease;
       }
       .stat-item:hover .holo-overlay {
-        animation: holoSweep 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+        animation: holoSweep 0.6s ease forwards;
       }
 
       .contact-pill {
-        cursor: pointer;
         transition: transform 0.3s ease, filter 0.3s ease;
-        transform-box: fill-box;
-        transform-origin: center;
-      }
+        }
       .contact-pill:hover {
         transform: translateY(-2px);
-        filter: drop-shadow(0 6px 14px rgba(201,164,76,0.3));
+        filter: url(#hoverShadow));
       }
       .contact-pill:hover .pill-icon {
         filter: url(#goldGlow);
@@ -153,17 +140,15 @@
         transition: fill 0.3s ease;
       }
       .contact-pill:hover .holo-overlay {
-        animation: holoSweep 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+        animation: holoSweep 0.4s ease forwards;
       }
 
       .profile-photo {
-        transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94), filter 0.5s ease;
-        transform-box: fill-box;
-        transform-origin: center;
-      }
+        transition: transform 0.5s ease, filter 0.5s ease;
+        }
       .profile-photo:hover {
         transform: translateY(-2px);
-        filter: drop-shadow(0 16px 32px rgba(201,164,76,0.35));
+        filter: url(#hoverShadow));
       }
       .profile-photo:hover + .photo-glow {
         opacity: 1;
@@ -186,6 +171,10 @@
       .title-line:hover { filter: url(#goldGlow); }
     ]]>
   </style>
+
+  <filter id="hoverShadow" x="-50%" y="-50%" width="200%" height="200%">
+    <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#C9A44C" flood-opacity="0.2"/>
+  </filter>
 </defs>
 
 <g clip-path="url(#canvasClip)">
@@ -416,7 +405,7 @@
     <rect x="1018" y="298" width="264" height="264" fill="#1C160E"/>
     <circle cx="1150" cy="382" r="52" fill="#C9A44C" fill-opacity="0.22"/>
     <path d="M1058 562c0-62 40-100 92-100s92 38 92 100" fill="#C9A44C" fill-opacity="0.22"/>
-    <image class="profile-photo" id="profilePhoto" href="Profile pic.png" x="1018" y="298" width="264" height="264" preserveAspectRatio="xMidYMid slice"/>
+    <image class="profile-photo" id="profilePhoto" href="https://raw.githubusercontent.com/Hassan0703/Hassan0703/main/Profile%20pic.png" x="1018" y="298" width="264" height="264" preserveAspectRatio="xMidYMid slice"/>
   </g>
   <circle class="photo-glow" cx="1150" cy="430" r="140" fill="url(#photoGlow)" filter="url(#softShadow)"/>
   <circle cx="1150" cy="430" r="132" fill="none" stroke="url(#goldGrad)" stroke-width="2.6" filter="url(#softShadow)"/>

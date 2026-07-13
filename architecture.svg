@@ -38,9 +38,9 @@
       @keyframes fadeIn { 0% { opacity: 0; } 100% { opacity: 1; } }
       @keyframes fadeInUp { 0% { transform: translateY(10px); opacity: 0; } 100% { transform: translateY(0); opacity: 1; } }
       @keyframes flowDot { 0% { transform: translateY(0); opacity: 0; } 20% { opacity: 1; } 80% { opacity: 1; } 100% { transform: translateY(60px); opacity: 0; } }
-      @keyframes holoSweep { 0% { transform: translateX(-200%); opacity: 0; } 10% { opacity: 1; } 90% { opacity: 1; } 100% { transform: translateX(200%); opacity: 0; } }
-      .layer-card { transition: transform 0.3s ease, filter 0.3s ease; transform-box: fill-box; transform-origin: center; }
-      .layer-card:hover { transform: translateX(4px); filter: drop-shadow(0 4px 16px rgba(201,164,76,0.15)); }
+      @keyframes holoSweep { 0% { transform: translateX(-800px); opacity: 0; } 10% { opacity: 1; } 90% { opacity: 1; } 100% { transform: translateX(800px); opacity: 0; } }
+      .layer-card { transition: transform 0.3s ease, filter 0.3s ease; }
+      .layer-card:hover { transform: translateX(4px); filter: url(#hoverShadow)); }
       .layer-card:hover .layer-bg { stroke-opacity: 0.7; fill: rgba(201,164,76,0.06); transition: fill 0.3s ease, stroke-opacity 0.3s ease; }
       .layer-card:hover .holo-overlay { animation: holoSweep 0.4s ease forwards; }
       .layer-card:hover .layer-title { fill: #F5F2EA; transition: fill 0.3s ease; }
@@ -60,6 +60,10 @@
       .arrow-line { stroke-dasharray: 6 4; }
     ]]>
   </style>
+
+  <filter id="hoverShadow" x="-50%" y="-50%" width="200%" height="200%">
+    <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#C9A44C" flood-opacity="0.2"/>
+  </filter>
 </defs>
 <g clip-path="url(#canvasClip)">
   <rect x="0" y="0" width="1400" height="620" fill="url(#bgGrad)"/>
