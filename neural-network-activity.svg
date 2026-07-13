@@ -1,0 +1,376 @@
+<svg width="1400" height="620" viewBox="0 0 1400 620" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+  <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#0A0806"/>
+    <stop offset="55%" stop-color="#14100B"/>
+    <stop offset="100%" stop-color="#1C160E"/>
+  </linearGradient>
+  <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#E8C77E"/>
+    <stop offset="50%" stop-color="#C9A44C"/>
+    <stop offset="100%" stop-color="#9C7A2E"/>
+  </linearGradient>
+  <linearGradient id="nodeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#F5EAC9"/>
+    <stop offset="50%" stop-color="#C9A44C"/>
+    <stop offset="100%" stop-color="#9C7A2E"/>
+  </linearGradient>
+  <linearGradient id="holoSweep" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#E8C77E" stop-opacity="0"/>
+    <stop offset="40%" stop-color="#E8C77E" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#FFF8E7" stop-opacity="0.35"/>
+    <stop offset="60%" stop-color="#E8C77E" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#E8C77E" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="vignette" cx="50%" cy="50%" r="80%">
+    <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#000000" stop-opacity="0.3"/>
+  </radialGradient>
+  <radialGradient id="nodeGlow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#E8C77E" stop-opacity="0.4"/>
+    <stop offset="100%" stop-color="#C9A44C" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
+    <feDropShadow dx="0" dy="2" stdDeviation="5" flood-color="#000000" flood-opacity="0.4"/>
+  </filter>
+  <filter id="goldGlow" x="-80%" y="-80%" width="260%" height="260%">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="nodeOuterGlow" x="-100%" y="-100%" width="300%" height="300%">
+    <feGaussianBlur stdDeviation="6" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="metricGlow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="8" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="hexPattern" width="46" height="80" patternUnits="userSpaceOnUse">
+    <path d="M23 0 L46 13 L46 40 L23 53 L0 40 L0 13 Z" fill="none" stroke="#C9A44C" stroke-opacity="0.03" stroke-width="1"/>
+    <path d="M23 40 L46 53 L46 80 L23 93 L0 80 L0 53 Z" fill="none" stroke="#C9A44C" stroke-opacity="0.03" stroke-width="1"/>
+  </pattern>
+  <pattern id="dotGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <circle cx="16" cy="16" r="0.8" fill="#C9A44C" opacity="0.05"/>
+  </pattern>
+  <clipPath id="canvasClip"><rect x="0" y="0" width="1400" height="620" rx="20" ry="20"/></clipPath>
+  <!-- Information packet paths -->
+  <path id="packetCenter" d="M220 410 C288 410,322 390,390 390 C454 390,486 370,550 370 C614 370,646 370,710 370 C774 370,806 390,870 390 C934 390,966 410,1030 410 C1092 410,1123 405,1185 405" fill="none"/>
+  <path id="packetUpper" d="M220 345 C288 345,322 325,390 325 C454 325,486 310,550 310 C614 310,646 310,710 310 C774 310,806 325,870 325 C934 325,966 345,1030 345 C1092 345,1123 325,1185 325" fill="none"/>
+  <path id="packetLower" d="M220 475 C288 475,322 455,390 455 C454 455,486 430,550 430 C614 430,646 430,710 430 C774 430,806 455,870 455 C934 455,966 475,1030 475 C1092 475,1123 485,1185 485" fill="none"/>
+  <style>
+    <![CDATA[
+      @keyframes fadeInUp { 0% { transform: translateY(12px); opacity: 0; } 100% { transform: translateY(0); opacity: 1; } }
+      @keyframes holoSweep { 0% { transform: translateX(-200%); opacity: 0; } 10% { opacity: 1; } 90% { opacity: 1; } 100% { transform: translateX(200%); opacity: 0; } }
+      @keyframes flowDash { 0% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: -38; } }
+      @keyframes breathe { 0% { opacity: 0.6; } 50% { opacity: 1; } 100% { opacity: 0.6; } }
+      @keyframes breatheGlow { 0% { filter: url(#nodeOuterGlow); opacity: 0.4; } 50% { opacity: 0.8; } 100% { filter: url(#nodeOuterGlow); opacity: 0.4; } }
+      @keyframes periodicSweep { 0% { transform: translateX(-200%); opacity: 0; } 8% { opacity: 0.12; } 42% { transform: translateX(250%); opacity: 0.12; } 50% { opacity: 0; } 100% { transform: translateX(250%); opacity: 0; } }
+      @keyframes scanLine { 0% { transform: translateY(-100px); opacity: 0; } 92% { opacity: 0; } 95% { opacity: 0.06; } 97% { opacity: 0.03; } 100% { transform: translateY(620px); opacity: 0; } }
+      @keyframes packetPulse { 0% { opacity: 0; } 5% { opacity: 1; } 90% { opacity: 1; } 100% { opacity: 0; } }
+      /* Neural Nodes */
+      .neural-node { transition: filter 0.3s ease; }
+      .neural-node:hover { filter: url(#nodeOuterGlow); }
+      .neural-node:hover .node-circle { stroke-opacity: 0.9; fill: rgba(232,199,126,0.2); transition: fill 0.3s ease, stroke-opacity 0.3s ease; }
+      .neural-node:hover .node-core { fill: #F5EAC9; transition: fill 0.3s ease; }
+      .node-circle { transition: fill 0.3s ease, stroke-opacity 0.3s ease; }
+      .node-core { transition: fill 0.3s ease; }
+      .neural-node.active .node-breathe { animation: breathe 3s ease-in-out infinite; }
+      .neural-node.active .node-glow { animation: breatheGlow 3s ease-in-out infinite; }
+      /* Flow paths */
+      .conn-line { stroke: url(#goldGrad); stroke-width: 0.6; fill: none; stroke-opacity: 0.1; }
+      .conn-flow { stroke: url(#goldGrad); stroke-width: 0.9; fill: none; stroke-opacity: 0.2; stroke-dasharray: 3 16; animation: flowDash 2s linear infinite; }
+      /* Metric Cards */
+      .metric-card { transition: transform 0.3s ease, filter 0.3s ease; transform-box: fill-box; transform-origin: center; }
+      .metric-card:hover { transform: translateY(-2px); filter: drop-shadow(0 8px 20px rgba(201,164,76,0.18)); }
+      .metric-card:hover .metric-bg { stroke-opacity: 0.7; fill: rgba(201,164,76,0.06); transition: fill 0.3s ease, stroke-opacity 0.3s ease; }
+      .metric-card:hover .holo-overlay { animation: holoSweep 0.5s ease forwards; }
+      .metric-card:hover .metric-value { filter: url(#metricGlow); }
+      .metric-bg { transition: fill 0.3s ease, stroke-opacity 0.3s ease; }
+      .holo-overlay { opacity: 0; pointer-events: none; }
+      .metric-value { transition: filter 0.3s ease; }
+      /* Sweep */
+      .network-sweep { animation: periodicSweep 10s ease-in-out infinite; }
+      .scan-line { animation: scanLine 10s ease-in-out infinite; }
+      /* Fade in */
+      .fade-el { opacity: 0; }
+      .fade-el.h { animation: fadeInUp 0.5s ease 0s forwards; }
+      .fade-el.m1 { animation: fadeInUp 0.4s ease 0.1s forwards; }
+      .fade-el.m2 { animation: fadeInUp 0.4s ease 0.15s forwards; }
+      .fade-el.m3 { animation: fadeInUp 0.4s ease 0.2s forwards; }
+      .fade-el.m4 { animation: fadeInUp 0.4s ease 0.25s forwards; }
+      .fade-el.m5 { animation: fadeInUp 0.4s ease 0.3s forwards; }
+      .fade-el.n { animation: fadeInUp 0.5s ease 0.4s forwards; }
+      .fade-el.f { animation: fadeInUp 0.5s ease 0.5s forwards; }
+    ]]>
+  </style>
+</defs>
+<g clip-path="url(#canvasClip)">
+  <rect x="0" y="0" width="1400" height="620" fill="url(#bgGrad)"/>
+  <rect x="0" y="0" width="1400" height="620" fill="url(#hexPattern)"/>
+  <rect x="0" y="0" width="1400" height="620" fill="url(#vignette)"/>
+  <rect x="1.5" y="1.5" width="1397" height="617" rx="19" ry="19" fill="none" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3"/>
+
+  <!-- ════════════ HEADER ════════════ -->
+  <text class="fade-el h" x="700" y="52" text-anchor="middle" font-family="'Arial Black','Segoe UI',sans-serif" font-weight="800" font-size="28" fill="#F5F2EA">Neural Network Activity</text>
+  <rect class="fade-el h" x="540" y="68" width="320" height="2.5" rx="1.25" fill="url(#goldGrad)"/>
+  <text class="fade-el h" x="700" y="92" text-anchor="middle" font-family="Consolas,monospace" font-size="10" fill="#8A8272" letter-spacing="2">SIMULATING SOFTWARE EVOLUTION THROUGH INTELLIGENT CONTRIBUTION ACTIVITY</text>
+
+  <!-- ════════════ LIVE METRICS ════════════ -->
+  <!-- Metric 1: Commits -->
+  <g transform="translate(55, 118)"><g class="metric-card fade-el m1">
+    <rect class="metric-bg" x="0" y="0" width="230" height="72" rx="12" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#cardShadow)"/>
+    <rect class="holo-overlay" x="0" y="0" width="230" height="72" rx="12" fill="url(#holoSweep)" opacity="0"/>
+    <g transform="translate(18, 15)">
+      <circle cx="10" cy="10" r="3" fill="none" stroke="url(#goldGrad)" stroke-width="1.8"/>
+      <path d="M13 10h5" stroke="url(#goldGrad)" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+    </g>
+    <text class="metric-value" x="54" y="38" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="22" fill="url(#goldGrad)">1,847</text>
+    <text x="54" y="56" font-family="'Segoe UI',sans-serif" font-size="10" fill="#8A8272">Total Commits</text>
+  </g></g>
+
+  <!-- Metric 2: Repositories -->
+  <g transform="translate(320, 118)"><g class="metric-card fade-el m2">
+    <rect class="metric-bg" x="0" y="0" width="230" height="72" rx="12" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#cardShadow)"/>
+    <rect class="holo-overlay" x="0" y="0" width="230" height="72" rx="12" fill="url(#holoSweep)" opacity="0"/>
+    <g transform="translate(18, 15)">
+      <path d="M2 4h16v16H2z" fill="none" stroke="url(#goldGrad)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M2 12h16" stroke="url(#goldGrad)" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+      <path d="M8 4v16" stroke="url(#goldGrad)" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+    </g>
+    <text class="metric-value" x="54" y="38" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="22" fill="url(#goldGrad)">24</text>
+    <text x="54" y="56" font-family="'Segoe UI',sans-serif" font-size="10" fill="#8A8272">Public Repositories</text>
+  </g></g>
+
+  <!-- Metric 3: Contributions -->
+  <g transform="translate(585, 118)"><g class="metric-card fade-el m3">
+    <rect class="metric-bg" x="0" y="0" width="230" height="72" rx="12" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#cardShadow)"/>
+    <rect class="holo-overlay" x="0" y="0" width="230" height="72" rx="12" fill="url(#holoSweep)" opacity="0"/>
+    <g transform="translate(18, 15)">
+      <rect x="2" y="5" width="16" height="12" rx="2" fill="none" stroke="url(#goldGrad)" stroke-width="1.8"/>
+      <path d="M2 9h16M7 2v3M13 2v3" stroke="url(#goldGrad)" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+    </g>
+    <text class="metric-value" x="54" y="38" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="22" fill="url(#goldGrad)">1.2k</text>
+    <text x="54" y="56" font-family="'Segoe UI',sans-serif" font-size="10" fill="#8A8272">Contributions This Year</text>
+  </g></g>
+
+  <!-- Metric 4: Pull Requests -->
+  <g transform="translate(850, 118)"><g class="metric-card fade-el m4">
+    <rect class="metric-bg" x="0" y="0" width="230" height="72" rx="12" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#cardShadow)"/>
+    <rect class="holo-overlay" x="0" y="0" width="230" height="72" rx="12" fill="url(#holoSweep)" opacity="0"/>
+    <g transform="translate(18, 15)">
+      <circle cx="5" cy="5" r="3" fill="none" stroke="url(#goldGrad)" stroke-width="1.8"/>
+      <circle cx="15" cy="15" r="3" fill="none" stroke="url(#goldGrad)" stroke-width="1.8"/>
+      <path d="M5 8v7h10" stroke="url(#goldGrad)" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+    </g>
+    <text class="metric-value" x="54" y="38" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="22" fill="url(#goldGrad)">89</text>
+    <text x="54" y="56" font-family="'Segoe UI',sans-serif" font-size="10" fill="#8A8272">Pull Requests Merged</text>
+  </g></g>
+
+  <!-- Metric 5: Streak -->
+  <g transform="translate(1115, 118)"><g class="metric-card fade-el m5">
+    <rect class="metric-bg" x="0" y="0" width="230" height="72" rx="12" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#cardShadow)"/>
+    <rect class="holo-overlay" x="0" y="0" width="230" height="72" rx="12" fill="url(#holoSweep)" opacity="0"/>
+    <g transform="translate(18, 15)">
+      <path d="M10 2C8 6 5 8 5 11c0 3 2.2 5 5 5s5-2.2 5-5c0-3-3-7-5-9z" fill="none" stroke="url(#goldGrad)" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M10 16c-2.5 0-4 1.2-4 3s1.8 3 4 3 4-1.2 4-3-1.5-3-4-3z" fill="none" stroke="url(#goldGrad)" stroke-width="1.8"/>
+    </g>
+    <text class="metric-value" x="54" y="38" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="22" fill="url(#goldGrad)">14</text>
+    <text x="54" y="56" font-family="'Segoe UI',sans-serif" font-size="10" fill="#8A8272">Day Current Streak</text>
+  </g></g>
+
+  <!-- ════════════ NEURAL NETWORK ════════════ -->
+  <g class="fade-el n">
+  <!-- Network background label -->
+  <text x="700" y="218" text-anchor="middle" font-family="Consolas,monospace" font-size="9" fill="#6A6358" letter-spacing="1">CONTRIBUTION NEURAL NETWORK</text>
+
+  <!-- Diagonal holographic sweep across network -->
+  <rect class="network-sweep" x="220" y="230" width="1000" height="350" fill="url(#holoSweep)" opacity="0" pointer-events="none"/>
+
+  <!-- Scan line -->
+  <rect class="scan-line" x="220" y="230" width="965" height="1.5" fill="url(#goldGrad)" opacity="0" pointer-events="none"/>
+
+  <!-- Background dot grid for network area -->
+  <rect x="220" y="230" width="965" height="350" fill="url(#dotGrid)" opacity="0.5"/>
+
+  <!-- ─────── CONNECTIONS ─────── -->
+  <!-- Layer 1 → Layer 2 -->
+  <path class="conn-line" d="M220 280 C288 280,322 265,390 265"/>
+  <path class="conn-flow" d="M220 280 C288 280,322 265,390 265"/>
+  <path class="conn-line" d="M220 280 C288 280,322 325,390 325"/>
+  <path class="conn-line" d="M220 345 C288 345,322 325,390 325"/>
+  <path class="conn-flow" d="M220 345 C288 345,322 325,390 325"/>
+  <path class="conn-line" d="M220 345 C288 345,322 390,390 390"/>
+  <path class="conn-line" d="M220 410 C288 410,322 390,390 390"/>
+  <path class="conn-flow" d="M220 410 C288 410,322 390,390 390"/>
+  <path class="conn-line" d="M220 410 C288 410,322 455,390 455"/>
+  <path class="conn-line" d="M220 475 C288 475,322 455,390 455"/>
+  <path class="conn-flow" d="M220 475 C288 475,322 455,390 455"/>
+  <path class="conn-line" d="M220 475 C288 475,322 520,390 520"/>
+
+  <!-- Layer 2 → Layer 3 -->
+  <path class="conn-line" d="M390 265 C454 265,486 250,550 250"/>
+  <path class="conn-flow" d="M390 265 C454 265,486 250,550 250"/>
+  <path class="conn-line" d="M390 265 C454 265,486 310,550 310"/>
+  <path class="conn-line" d="M390 325 C454 325,486 310,550 310"/>
+  <path class="conn-flow" d="M390 325 C454 325,486 310,550 310"/>
+  <path class="conn-line" d="M390 325 C454 325,486 370,550 370"/>
+  <path class="conn-line" d="M390 390 C454 390,486 370,550 370"/>
+  <path class="conn-flow" d="M390 390 C454 390,486 370,550 370"/>
+  <path class="conn-line" d="M390 390 C454 390,486 430,550 430"/>
+  <path class="conn-line" d="M390 455 C454 455,486 430,550 430"/>
+  <path class="conn-flow" d="M390 455 C454 455,486 430,550 430"/>
+  <path class="conn-line" d="M390 455 C454 455,486 490,550 490"/>
+  <path class="conn-line" d="M390 520 C454 520,486 490,550 490"/>
+  <path class="conn-flow" d="M390 520 C454 520,486 490,550 490"/>
+  <path class="conn-line" d="M390 520 C454 520,486 550,550 550"/>
+
+  <!-- Layer 3 → Layer 4 -->
+  <path class="conn-line" d="M550 250 C614 250,646 250,710 250"/>
+  <path class="conn-flow" d="M550 250 C614 250,646 250,710 250"/>
+  <path class="conn-line" d="M550 250 C614 250,646 310,710 310"/>
+  <path class="conn-line" d="M550 310 C614 310,646 310,710 310"/>
+  <path class="conn-flow" d="M550 310 C614 310,646 310,710 310"/>
+  <path class="conn-line" d="M550 310 C614 310,646 370,710 370"/>
+  <path class="conn-line" d="M550 370 C614 370,646 370,710 370"/>
+  <path class="conn-flow" d="M550 370 C614 370,646 370,710 370"/>
+  <path class="conn-line" d="M550 370 C614 370,646 430,710 430"/>
+  <path class="conn-line" d="M550 430 C614 430,646 430,710 430"/>
+  <path class="conn-flow" d="M550 430 C614 430,646 430,710 430"/>
+  <path class="conn-line" d="M550 430 C614 430,646 490,710 490"/>
+  <path class="conn-line" d="M550 490 C614 490,646 490,710 490"/>
+  <path class="conn-flow" d="M550 490 C614 490,646 490,710 490"/>
+  <path class="conn-line" d="M550 490 C614 490,646 550,710 550"/>
+  <path class="conn-line" d="M550 550 C614 550,646 550,710 550"/>
+  <path class="conn-flow" d="M550 550 C614 550,646 550,710 550"/>
+
+  <!-- Layer 4 → Layer 5 -->
+  <path class="conn-line" d="M710 250 C774 250,806 265,870 265"/>
+  <path class="conn-flow" d="M710 250 C774 250,806 265,870 265"/>
+  <path class="conn-line" d="M710 250 C774 250,806 325,870 325"/>
+  <path class="conn-line" d="M710 310 C774 310,806 325,870 325"/>
+  <path class="conn-flow" d="M710 310 C774 310,806 325,870 325"/>
+  <path class="conn-line" d="M710 310 C774 310,806 390,870 390"/>
+  <path class="conn-line" d="M710 370 C774 370,806 390,870 390"/>
+  <path class="conn-flow" d="M710 370 C774 370,806 390,870 390"/>
+  <path class="conn-line" d="M710 370 C774 370,806 455,870 455"/>
+  <path class="conn-line" d="M710 430 C774 430,806 455,870 455"/>
+  <path class="conn-flow" d="M710 430 C774 430,806 455,870 455"/>
+  <path class="conn-line" d="M710 430 C774 430,806 520,870 520"/>
+  <path class="conn-line" d="M710 490 C774 490,806 455,870 455"/>
+  <path class="conn-flow" d="M710 490 C774 490,806 455,870 455"/>
+  <path class="conn-line" d="M710 550 C774 550,806 520,870 520"/>
+
+  <!-- Layer 5 → Layer 6 -->
+  <path class="conn-line" d="M870 265 C934 265,966 280,1030 280"/>
+  <path class="conn-flow" d="M870 265 C934 265,966 280,1030 280"/>
+  <path class="conn-line" d="M870 265 C934 265,966 345,1030 345"/>
+  <path class="conn-line" d="M870 325 C934 325,966 345,1030 345"/>
+  <path class="conn-flow" d="M870 325 C934 325,966 345,1030 345"/>
+  <path class="conn-line" d="M870 325 C934 325,966 410,1030 410"/>
+  <path class="conn-line" d="M870 390 C934 390,966 410,1030 410"/>
+  <path class="conn-flow" d="M870 390 C934 390,966 410,1030 410"/>
+  <path class="conn-line" d="M870 390 C934 390,966 475,1030 475"/>
+  <path class="conn-line" d="M870 455 C934 455,966 410,1030 410"/>
+  <path class="conn-flow" d="M870 455 C934 455,966 410,1030 410"/>
+  <path class="conn-line" d="M870 455 C934 455,966 475,1030 475"/>
+  <path class="conn-line" d="M870 520 C934 520,966 475,1030 475"/>
+
+  <!-- Layer 6 → Output -->
+  <path class="conn-line" d="M1030 280 C1092 280,1123 325,1185 325"/>
+  <path class="conn-flow" d="M1030 280 C1092 280,1123 325,1185 325"/>
+  <path class="conn-line" d="M1030 280 C1092 280,1123 405,1185 405"/>
+  <path class="conn-line" d="M1030 345 C1092 345,1123 325,1185 325"/>
+  <path class="conn-flow" d="M1030 345 C1092 345,1123 325,1185 325"/>
+  <path class="conn-line" d="M1030 345 C1092 345,1123 405,1185 405"/>
+  <path class="conn-line" d="M1030 410 C1092 410,1123 405,1185 405"/>
+  <path class="conn-flow" d="M1030 410 C1092 410,1123 405,1185 405"/>
+  <path class="conn-line" d="M1030 410 C1092 410,1123 485,1185 485"/>
+  <path class="conn-line" d="M1030 475 C1092 475,1123 405,1185 405"/>
+  <path class="conn-flow" d="M1030 475 C1092 475,1123 405,1185 405"/>
+  <path class="conn-line" d="M1030 475 C1092 475,1123 485,1185 485"/>
+
+  <!-- Skip connections -->
+  <path class="conn-line" d="M390 390 C550 390,580 370,710 370" stroke-opacity="0.06"/>
+  <path class="conn-line" d="M550 430 C710 430,740 455,870 455" stroke-opacity="0.06"/>
+  <path class="conn-line" d="M710 370 C870 370,900 345,1030 345" stroke-opacity="0.06"/>
+  <path class="conn-line" d="M870 390 C1030 390,1060 405,1185 405" stroke-opacity="0.06"/>
+
+  <!-- ─────── INFORMATION PACKETS ─────── -->
+  <!-- Packet 1: Center channel -->
+  <circle r="3" fill="url(#goldGrad)" filter="url(#goldGlow)" opacity="0">
+    <animateMotion dur="6s" repeatCount="indefinite" begin="0s">
+      <mpath xlink:href="#packetCenter"/>
+    </animateMotion>
+    <animate attributeName="opacity" values="0;1;1;0" dur="6s" repeatCount="indefinite" begin="0s"/>
+  </circle>
+  <!-- Packet 2: Upper channel (offset start) -->
+  <circle r="2.5" fill="url(#goldGrad)" filter="url(#goldGlow)" opacity="0">
+    <animateMotion dur="7s" repeatCount="indefinite" begin="2s">
+      <mpath xlink:href="#packetUpper"/>
+    </animateMotion>
+    <animate attributeName="opacity" values="0;1;1;0" dur="7s" repeatCount="indefinite" begin="2s"/>
+  </circle>
+  <!-- Packet 3: Lower channel (further offset) -->
+  <circle r="2.5" fill="url(#goldGrad)" filter="url(#goldGlow)" opacity="0">
+    <animateMotion dur="5.5s" repeatCount="indefinite" begin="4s">
+      <mpath xlink:href="#packetLower"/>
+    </animateMotion>
+    <animate attributeName="opacity" values="0;1;1;0" dur="5.5s" repeatCount="indefinite" begin="4s"/>
+  </circle>
+
+  <!-- ─────── LAYER 1 (Input) ─────── -->
+  <g class="neural-node"><circle class="node-glow" cx="220" cy="280" r="14" fill="url(#nodeGlow)"/><circle class="node-circle" cx="220" cy="280" r="7" fill="rgba(201,164,76,0.08)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.4"/><circle class="node-core" cx="220" cy="280" r="3.5" fill="url(#nodeGrad)"/></g>
+  <g class="neural-node active"><circle class="node-glow" cx="220" cy="345" r="20" fill="url(#nodeGlow)"/><circle class="node-circle node-breathe" cx="220" cy="345" r="10" fill="rgba(201,164,76,0.1)" stroke="url(#goldGrad)" stroke-width="1" stroke-opacity="0.5"/><circle class="node-core" cx="220" cy="345" r="5" fill="url(#nodeGrad)"/></g>
+  <g class="neural-node"><circle class="node-glow" cx="220" cy="410" r="18" fill="url(#nodeGlow)"/><circle class="node-circle" cx="220" cy="410" r="9" fill="rgba(201,164,76,0.08)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.4"/><circle class="node-core" cx="220" cy="410" r="4.5" fill="url(#nodeGrad)"/></g>
+  <g class="neural-node"><circle class="node-glow" cx="220" cy="475" r="12" fill="url(#nodeGlow)"/><circle class="node-circle" cx="220" cy="475" r="6" fill="rgba(201,164,76,0.06)" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.35"/><circle class="node-core" cx="220" cy="475" r="3" fill="url(#nodeGrad)"/></g>
+
+  <!-- ─────── LAYER 2 ─────── -->
+  <g class="neural-node"><circle class="node-glow" cx="390" cy="265" r="12" fill="url(#nodeGlow)"/><circle class="node-circle" cx="390" cy="265" r="6" fill="rgba(201,164,76,0.06)" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.35"/><circle class="node-core" cx="390" cy="265" r="3" fill="url(#nodeGrad)"/></g>
+  <g class="neural-node active"><circle class="node-glow" cx="390" cy="325" r="22" fill="url(#nodeGlow)"/><circle class="node-circle node-breathe" cx="390" cy="325" r="11" fill="rgba(201,164,76,0.1)" stroke="url(#goldGrad)" stroke-width="1" stroke-opacity="0.5"/><circle class="node-core" cx="390" cy="325" r="5.5" fill="url(#nodeGrad)"/></g>
+  <g class="neural-node"><circle class="node-glow" cx="390" cy="390" r="20" fill="url(#nodeGlow)"/><circle class="node-circle" cx="390" cy="390" r="10" fill="rgba(201,164,76,0.08)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.4"/><circle class="node-core" cx="390" cy="390" r="5" fill="url(#nodeGrad)"/></g>
+  <g class="neural-node"><circle class="node-glow" cx="390" cy="455" r="16" fill="url(#nodeGlow)"/><circle class="node-circle" cx="390" cy="455" r="8" fill="rgba(201,164,76,0.08)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.4"/><circle class="node-core" cx="390" cy="455" r="4" fill="url(#nodeGrad)"/></g>
+  <g class="neural-node"><circle class="node-glow" cx="390" cy="520" r="14" fill="url(#nodeGlow)"/><circle class="node-circle" cx="390" cy="520" r="7" fill="rgba(201,164,76,0.06)" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.35"/><circle class="node-core" cx="390" cy="520" r="3.5" fill="url(#nodeGrad)"/></g>
+
+  <!-- ─────── LAYER 3 ─────── -->
+  <g class="neural-node"><circle class="node-glow" cx="550" cy="250" r="18" fill="url(#nodeGlow)"/><circle class="node-circle" cx="550" cy="250" r="9" fill="rgba(201,164,76,0.08)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.4"/><circle class="node-core" cx="550" cy="250" r="4.5" fill="url(#nodeGrad)"/></g>
+  <g class="neural-node"><circle class="node-glow" cx="550" cy="310" r="14" fill="url(#nodeGlow)"/><circle class="node-circle" cx="550" cy="310" r="7" fill="rgba(201,164,76,0.06)" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.35"/><circle class="node-core" cx="550" cy="310" r="3.5" fill="url(#nodeGrad)"/></g>
+  <g class="neural-node active"><circle class="node-glow" cx="550" cy="370" r="24" fill="url(#nodeGlow)"/><circle class="node-circle node-breathe" cx="550" cy="370" r="12" fill="rgba(201,164,76,0.12)" stroke="url(#goldGrad)" stroke-width="1.2" stroke-opacity="0.55"/><circle class="node-core" cx="550" cy="370" r="6" fill="url(#nodeGrad)"/></g>
+  <g class="neural-node"><circle class="node-glow" cx="550" cy="430" r="20" fill="url(#nodeGlow)"/><circle class="node-circle" cx="550" cy="430" r="10" fill="rgba(201,164,76,0.08)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.4"/><circle class="node-core" cx="550" cy="430" r="5" fill="url(#nodeGrad)"/></g>
+  <g class="neural-node"><circle class="node-glow" cx="550" cy="490" r="16" fill="url(#nodeGlow)"/><circle class="node-circle" cx="550" cy="490" r="8" fill="rgba(201,164,76,0.08)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.4"/><circle class="node-core" cx="550" cy="490" r="4" fill="url(#nodeGrad)"/></g>
+  <g class="neural-node"><circle class="node-glow" cx="550" cy="550" r="12" fill="url(#nodeGlow)"/><circle class="node-circle" cx="550" cy="550" r="6" fill="rgba(201,164,76,0.06)" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.35"/><circle class="node-core" cx="550" cy="550" r="3" fill="url(#nodeGrad)"/></g>
+
+  <!-- ─────── LAYER 4 ─────── -->
+  <g class="neural-node"><circle class="node-glow" cx="710" cy="250" r="14" fill="url(#nodeGlow)"/><circle class="node-circle" cx="710" cy="250" r="7" fill="rgba(201,164,76,0.06)" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.35"/><circle class="node-core" cx="710" cy="250" r="3.5" fill="url(#nodeGrad)"/></g>
+  <g class="neural-node"><circle class="node-glow" cx="710" cy="310" r="20" fill="url(#nodeGlow)"/><circle class="node-circle" cx="710" cy="310" r="10" fill="rgba(201,164,76,0.08)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.4"/><circle class="node-core" cx="710" cy="310" r="5" fill="url(#nodeGrad)"/></g>
+  <g class="neural-node active"><circle class="node-glow" cx="710" cy="370" r="26" fill="url(#nodeGlow)"/><circle class="node-circle node-breathe" cx="710" cy="370" r="13" fill="rgba(201,164,76,0.12)" stroke="url(#goldGrad)" stroke-width="1.2" stroke-opacity="0.55"/><circle class="node-core" cx="710" cy="370" r="6.5" fill="url(#nodeGrad)"/></g>
+  <g class="neural-node"><circle class="node-glow" cx="710" cy="430" r="18" fill="url(#nodeGlow)"/><circle class="node-circle" cx="710" cy="430" r="9" fill="rgba(201,164,76,0.08)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.4"/><circle class="node-core" cx="710" cy="430" r="4.5" fill="url(#nodeGrad)"/></g>
+  <g class="neural-node"><circle class="node-glow" cx="710" cy="490" r="16" fill="url(#nodeGlow)"/><circle class="node-circle" cx="710" cy="490" r="8" fill="rgba(201,164,76,0.08)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.4"/><circle class="node-core" cx="710" cy="490" r="4" fill="url(#nodeGrad)"/></g>
+  <g class="neural-node"><circle class="node-glow" cx="710" cy="550" r="12" fill="url(#nodeGlow)"/><circle class="node-circle" cx="710" cy="550" r="6" fill="rgba(201,164,76,0.06)" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.35"/><circle class="node-core" cx="710" cy="550" r="3" fill="url(#nodeGrad)"/></g>
+
+  <!-- ─────── LAYER 5 ─────── -->
+  <g class="neural-node"><circle class="node-glow" cx="870" cy="265" r="16" fill="url(#nodeGlow)"/><circle class="node-circle" cx="870" cy="265" r="8" fill="rgba(201,164,76,0.08)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.4"/><circle class="node-core" cx="870" cy="265" r="4" fill="url(#nodeGrad)"/></g>
+  <g class="neural-node"><circle class="node-glow" cx="870" cy="325" r="18" fill="url(#nodeGlow)"/><circle class="node-circle" cx="870" cy="325" r="9" fill="rgba(201,164,76,0.08)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.4"/><circle class="node-core" cx="870" cy="325" r="4.5" fill="url(#nodeGrad)"/></g>
+  <g class="neural-node active"><circle class="node-glow" cx="870" cy="390" r="22" fill="url(#nodeGlow)"/><circle class="node-circle node-breathe" cx="870" cy="390" r="11" fill="rgba(201,164,76,0.1)" stroke="url(#goldGrad)" stroke-width="1" stroke-opacity="0.5"/><circle class="node-core" cx="870" cy="390" r="5.5" fill="url(#nodeGrad)"/></g>
+  <g class="neural-node"><circle class="node-glow" cx="870" cy="455" r="14" fill="url(#nodeGlow)"/><circle class="node-circle" cx="870" cy="455" r="7" fill="rgba(201,164,76,0.06)" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.35"/><circle class="node-core" cx="870" cy="455" r="3.5" fill="url(#nodeGrad)"/></g>
+  <g class="neural-node"><circle class="node-glow" cx="870" cy="520" r="12" fill="url(#nodeGlow)"/><circle class="node-circle" cx="870" cy="520" r="6" fill="rgba(201,164,76,0.06)" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.35"/><circle class="node-core" cx="870" cy="520" r="3" fill="url(#nodeGrad)"/></g>
+
+  <!-- ─────── LAYER 6 ─────── -->
+  <g class="neural-node"><circle class="node-glow" cx="1030" cy="280" r="12" fill="url(#nodeGlow)"/><circle class="node-circle" cx="1030" cy="280" r="6" fill="rgba(201,164,76,0.06)" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.35"/><circle class="node-core" cx="1030" cy="280" r="3" fill="url(#nodeGrad)"/></g>
+  <g class="neural-node active"><circle class="node-glow" cx="1030" cy="345" r="20" fill="url(#nodeGlow)"/><circle class="node-circle node-breathe" cx="1030" cy="345" r="10" fill="rgba(201,164,76,0.1)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.5"/><circle class="node-core" cx="1030" cy="345" r="5" fill="url(#nodeGrad)"/></g>
+  <g class="neural-node"><circle class="node-glow" cx="1030" cy="410" r="16" fill="url(#nodeGlow)"/><circle class="node-circle" cx="1030" cy="410" r="8" fill="rgba(201,164,76,0.08)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.4"/><circle class="node-core" cx="1030" cy="410" r="4" fill="url(#nodeGrad)"/></g>
+  <g class="neural-node"><circle class="node-glow" cx="1030" cy="475" r="14" fill="url(#nodeGlow)"/><circle class="node-circle" cx="1030" cy="475" r="7" fill="rgba(201,164,76,0.06)" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.35"/><circle class="node-core" cx="1030" cy="475" r="3.5" fill="url(#nodeGrad)"/></g>
+
+  <!-- ─────── OUTPUT LAYER ─────── -->
+  <g class="neural-node active"><circle class="node-glow" cx="1185" cy="325" r="22" fill="url(#nodeGlow)"/><circle class="node-circle node-breathe" cx="1185" cy="325" r="11" fill="rgba(201,164,76,0.1)" stroke="url(#goldGrad)" stroke-width="1" stroke-opacity="0.5"/><circle class="node-core" cx="1185" cy="325" r="5.5" fill="url(#nodeGrad)"/></g>
+  <g class="neural-node"><circle class="node-glow" cx="1185" cy="405" r="18" fill="url(#nodeGlow)"/><circle class="node-circle" cx="1185" cy="405" r="9" fill="rgba(201,164,76,0.08)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.4"/><circle class="node-core" cx="1185" cy="405" r="4.5" fill="url(#nodeGrad)"/></g>
+  <g class="neural-node"><circle class="node-glow" cx="1185" cy="485" r="20" fill="url(#nodeGlow)"/><circle class="node-circle" cx="1185" cy="485" r="10" fill="rgba(201,164,76,0.08)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.4"/><circle class="node-core" cx="1185" cy="485" r="5" fill="url(#nodeGrad)"/></g>
+
+  </g>
+
+  <!-- ════════════ FOOTER ════════════ -->
+  <g class="fade-el f">
+    <line x1="60" y1="585" x2="1340" y2="585" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.2"/>
+    <text x="700" y="606" text-anchor="middle" font-family="Georgia,serif" font-size="13" fill="#6A6358" font-style="italic">Continuously building scalable software. Always learning. Always shipping.</text>
+  </g>
+</g>
+</svg>

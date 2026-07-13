@@ -1,0 +1,105 @@
+<svg width="1400" height="280" viewBox="0 0 1400 280" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#0A0806"/>
+    <stop offset="55%" stop-color="#14100B"/>
+    <stop offset="100%" stop-color="#1C160E"/>
+  </linearGradient>
+  <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#E8C77E"/>
+    <stop offset="50%" stop-color="#C9A44C"/>
+    <stop offset="100%" stop-color="#9C7A2E"/>
+  </linearGradient>
+  <radialGradient id="vignette" cx="50%" cy="50%" r="80%">
+    <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#000000" stop-opacity="0.3"/>
+  </radialGradient>
+  <filter id="goldGlow" x="-80%" y="-80%" width="260%" height="260%">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="hexPattern" width="46" height="80" patternUnits="userSpaceOnUse">
+    <path d="M23 0 L46 13 L46 40 L23 53 L0 40 L0 13 Z" fill="none" stroke="#C9A44C" stroke-opacity="0.03" stroke-width="1"/>
+    <path d="M23 40 L46 53 L46 80 L23 93 L0 80 L0 53 Z" fill="none" stroke="#C9A44C" stroke-opacity="0.03" stroke-width="1"/>
+  </pattern>
+  <clipPath id="canvasClip"><rect x="0" y="0" width="1400" height="280" rx="20" ry="20"/></clipPath>
+  <style>
+    <![CDATA[
+      @keyframes fadeIn { 0% { opacity: 0; } 100% { opacity: 1; } }
+      .footer-link { transition: filter 0.3s ease, fill 0.3s ease; }
+      .footer-link:hover { filter: url(#goldGlow); }
+      .footer-link:hover .link-text { fill: #F5EAC9; transition: fill 0.3s ease; }
+      .link-text { transition: fill 0.3s ease; }
+      .fade-el { opacity: 0; }
+      .fade-el.f1 { animation: fadeIn 0.6s ease 0s forwards; }
+      .fade-el.f2 { animation: fadeIn 0.6s ease 0.15s forwards; }
+      .fade-el.f3 { animation: fadeIn 0.6s ease 0.3s forwards; }
+      .fade-el.f4 { animation: fadeIn 0.6s ease 0.4s forwards; }
+      .fade-el.f5 { animation: fadeIn 0.6s ease 0.5s forwards; }
+    ]]>
+  </style>
+</defs>
+<g clip-path="url(#canvasClip)">
+  <rect x="0" y="0" width="1400" height="280" fill="url(#bgGrad)"/>
+  <rect x="0" y="0" width="1400" height="280" fill="url(#hexPattern)"/>
+  <rect x="0" y="0" width="1400" height="280" fill="url(#vignette)"/>
+  <!-- animated divider line -->
+  <line x1="60" y1="30" x2="1340" y2="30" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.4">
+    <animate attributeName="stroke-opacity" values="0.2;0.5;0.2" dur="4s" repeatCount="indefinite"/>
+  </line>
+  <circle cx="700" cy="30" r="2.5" fill="url(#goldGrad)" opacity="0.6">
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <!-- tagline -->
+  <text class="fade-el f1" x="700" y="70" text-anchor="middle" font-family="Georgia,serif" font-size="19" fill="#8A8272" font-style="italic">Crafting scalable software with Frappe, ERPNext and modern web technologies.</text>
+  <!-- closing line -->
+  <text class="fade-el f2" x="700" y="97" text-anchor="middle" font-family="Georgia,serif" font-size="13" fill="#6A6358" font-style="italic">Building software that solves real business problems.</text>
+  <!-- contact links row -->
+  <g class="fade-el f3" transform="translate(0, 135)">
+    <!-- GitHub -->
+    <g class="footer-link" transform="translate(52, 0)">
+      <g transform="translate(9, 9) scale(1.35) translate(-9, -9)">
+        <path d="M9 0C4 0 0 4 0 9c0 4 2.5 7.4 6 8.6.4.1.6-.2.6-.4v-1.5c-2.4.5-2.9-1-2.9-1-.4-.9-1-1.2-1-1.2-.8-.5.1-.5.1-.5.9 0 1.4.9 1.4.9.8 1.3 2 .9 2.5.7.1-.5.3-.9.6-1.1-2-.2-4-1-4-4.3 0-.9.4-1.7 1-2.3 0-.2-.4-1.1.1-2.3 0 0 .7-.2 2.4.9.7-.2 1.4-.3 2.1-.3s1.4.1 2.1.3c1.7-1.1 2.4-.9 2.4-.9.5 1.2.1 2.1.1 2.3.6.6 1 1.4 1 2.3 0 3.3-2 4.1-4.1 4.3.3.3.5.7.5 1.4v2.1c0 .2.2.5.6.4 3.5-1.2 6-4.6 6-8.6 0-5-4-9-9-9z" fill="#C9A44C"/>
+      </g>
+      <text class="link-text" x="36" y="16" font-family="'Segoe UI',sans-serif" font-size="14" fill="#8A8272">github.com/Hassan0703</text>
+    </g>
+    <!-- LinkedIn -->
+    <g class="footer-link" transform="translate(319, 0)">
+      <g transform="translate(5, 5) scale(1.35) translate(-5, -5)">
+        <rect x="0" y="0" width="10" height="10" rx="1.5" fill="none" stroke="#C9A44C" stroke-width="1.3"/>
+        <circle cx="3" cy="3" r="1.2" fill="#C9A44C"/>
+        <path d="M1 6h3v4H1z" fill="#C9A44C"/>
+        <path d="M6 6h3v4H6zm0-2.5a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z" fill="none" stroke="#C9A44C" stroke-width="1.3"/>
+      </g>
+      <text class="link-text" x="36" y="16" font-family="'Segoe UI',sans-serif" font-size="14" fill="#8A8272">linkedin.com/in/hassan-ali-frappe-dev</text>
+    </g>
+    <!-- Email -->
+    <g class="footer-link" transform="translate(706, 0)">
+      <g transform="translate(6, 5) scale(1.35) translate(-6, -5)">
+        <rect x="0" y="0" width="12" height="10" rx="1.5" fill="none" stroke="#C9A44C" stroke-width="1.3"/>
+        <path d="M0.5 1L6 6l5.5-5" fill="none" stroke="#C9A44C" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text class="link-text" x="36" y="16" font-family="'Segoe UI',sans-serif" font-size="14" fill="#8A8272">hassan4185767@gmail.com</text>
+    </g>
+    <!-- Location -->
+    <g class="footer-link" transform="translate(989, 0)">
+      <g transform="translate(5, 5) scale(1.35) translate(-5, -5)">
+        <path d="M5 1c-2.2 0-4 1.8-4 4 0 3 4 8 4 8s4-5 4-8c0-2.2-1.8-4-4-4z" fill="none" stroke="#C9A44C" stroke-width="1.2"/>
+        <circle cx="5" cy="5" r="1.5" fill="none" stroke="#C9A44C" stroke-width="1.2"/>
+      </g>
+      <text class="link-text" x="36" y="16" font-family="'Segoe UI',sans-serif" font-size="14" fill="#8A8272">Lahore, Pakistan</text>
+    </g>
+    <!-- Open to Work -->
+    <g class="footer-link" transform="translate(1208, 0)">
+      <g transform="translate(5, 5) scale(1.35) translate(-5, -5)">
+        <circle cx="5" cy="5" r="4" fill="none" stroke="#C9A44C" stroke-width="1.2"/>
+        <path d="M3 5l1.5 1.5 3-3" fill="none" stroke="#C9A44C" stroke-width="1.1" stroke-linecap="round"/>
+      </g>
+      <text class="link-text" x="36" y="16" font-family="'Segoe UI',sans-serif" font-size="14" fill="#8A8272">Open to Work</text>
+    </g>
+  </g>
+  <!-- copyright -->
+  <text class="fade-el f4" x="700" y="210" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12" fill="#5C5548">&#169; 2026 Hassan Ali &#8212; Frappe / ERPNext Architect</text>
+  <text class="fade-el f5" x="700" y="230" text-anchor="middle" font-family="Consolas,monospace" font-size="10" fill="#4A4438" letter-spacing="1">&lt;/&gt; Built with passion in Lahore, Pakistan</text>
+</g>
+</svg>

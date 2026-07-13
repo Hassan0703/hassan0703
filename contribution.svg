@@ -1,0 +1,440 @@
+<svg width="1400" height="480" viewBox="0 0 1400 480" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#0A0806"/>
+    <stop offset="55%" stop-color="#14100B"/>
+    <stop offset="100%" stop-color="#1C160E"/>
+  </linearGradient>
+  <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#E8C77E"/>
+    <stop offset="50%" stop-color="#C9A44C"/>
+    <stop offset="100%" stop-color="#9C7A2E"/>
+  </linearGradient>
+  <radialGradient id="vignette" cx="50%" cy="50%" r="80%">
+    <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#000000" stop-opacity="0.3"/>
+  </radialGradient>
+  <filter id="goldGlow" x="-80%" y="-80%" width="260%" height="260%">
+    <feGaussianBlur stdDeviation="2" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="hexPattern" width="46" height="80" patternUnits="userSpaceOnUse">
+    <path d="M23 0 L46 13 L46 40 L23 53 L0 40 L0 13 Z" fill="none" stroke="#C9A44C" stroke-opacity="0.03" stroke-width="1"/>
+    <path d="M23 40 L46 53 L46 80 L23 93 L0 80 L0 53 Z" fill="none" stroke="#C9A44C" stroke-opacity="0.03" stroke-width="1"/>
+  </pattern>
+  <clipPath id="canvasClip"><rect x="0" y="0" width="1400" height="480" rx="20" ry="20"/></clipPath>
+  <style>
+    <![CDATA[
+      @keyframes fadeIn { 0% { opacity: 0; } 100% { opacity: 1; } }
+      @keyframes fadeInUp { 0% { transform: translateY(8px); opacity: 0; } 100% { transform: translateY(0); opacity: 1; } }
+      .contribution-cell { transition: filter 0.2s ease; }
+      .contribution-cell:hover { filter: url(#goldGlow); }
+      .fade-el { opacity: 0; }
+      .fade-el.h { animation: fadeIn 0.5s ease 0s forwards; }
+    ]]>
+  </style>
+</defs>
+<g clip-path="url(#canvasClip)">
+  <rect x="0" y="0" width="1400" height="480" fill="url(#bgGrad)"/>
+  <rect x="0" y="0" width="1400" height="480" fill="url(#hexPattern)"/>
+  <rect x="0" y="0" width="1400" height="480" fill="url(#vignette)"/>
+  <rect x="1.5" y="1.5" width="1397" height="477" rx="19" ry="19" fill="none" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3"/>
+  <text class="fade-el h" x="700" y="55" text-anchor="middle" font-family="'Arial Black','Segoe UI',sans-serif" font-weight="800" font-size="28" fill="#F5F2EA">GitHub Contributions</text>
+  <rect class="fade-el h" x="560" y="70" width="280" height="2.5" rx="1.25" fill="url(#goldGrad)"/>
+  <text class="fade-el h" x="700" y="93" text-anchor="middle" font-family="Consolas,monospace" font-size="10" fill="#8A8272" letter-spacing="2">CONTRIBUTION ACTIVITY</text>
+  <text class="fade-el h" x="249" y="150" font-family="'Segoe UI',sans-serif" font-size="9" fill="#6A6358">Jan</text>
+  <text class="fade-el h" x="317" y="150" font-family="'Segoe UI',sans-serif" font-size="9" fill="#6A6358">Feb</text>
+  <text class="fade-el h" x="402" y="150" font-family="'Segoe UI',sans-serif" font-size="9" fill="#6A6358">Mar</text>
+  <text class="fade-el h" x="470" y="150" font-family="'Segoe UI',sans-serif" font-size="9" fill="#6A6358">Apr</text>
+  <text class="fade-el h" x="538" y="150" font-family="'Segoe UI',sans-serif" font-size="9" fill="#6A6358">May</text>
+  <text class="fade-el h" x="623" y="150" font-family="'Segoe UI',sans-serif" font-size="9" fill="#6A6358">Jun</text>
+  <text class="fade-el h" x="691" y="150" font-family="'Segoe UI',sans-serif" font-size="9" fill="#6A6358">Jul</text>
+  <text class="fade-el h" x="776" y="150" font-family="'Segoe UI',sans-serif" font-size="9" fill="#6A6358">Aug</text>
+  <text class="fade-el h" x="844" y="150" font-family="'Segoe UI',sans-serif" font-size="9" fill="#6A6358">Sep</text>
+  <text class="fade-el h" x="912" y="150" font-family="'Segoe UI',sans-serif" font-size="9" fill="#6A6358">Oct</text>
+  <text class="fade-el h" x="997" y="150" font-family="'Segoe UI',sans-serif" font-size="9" fill="#6A6358">Nov</text>
+  <text class="fade-el h" x="1065" y="150" font-family="'Segoe UI',sans-serif" font-size="9" fill="#6A6358">Dec</text>
+  <text class="fade-el h" x="241" y="171" text-anchor="end" font-family="'Segoe UI',sans-serif" font-size="8" fill="#6A6358">Mon</text>
+  <text class="fade-el h" x="241" y="205" text-anchor="end" font-family="'Segoe UI',sans-serif" font-size="8" fill="#6A6358">Wed</text>
+  <text class="fade-el h" x="241" y="239" text-anchor="end" font-family="'Segoe UI',sans-serif" font-size="8" fill="#6A6358">Fri</text>
+  <rect class="contribution-cell fade-el h" x="249" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.2s"/>
+  <rect class="contribution-cell fade-el h" x="249" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.203s"/>
+  <rect class="contribution-cell fade-el h" x="249" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.206s"/>
+  <rect class="contribution-cell fade-el h" x="249" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.209s"/>
+  <rect class="contribution-cell fade-el h" x="249" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:0.212s"/>
+  <rect class="contribution-cell fade-el h" x="249" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.215s"/>
+  <rect class="contribution-cell fade-el h" x="249" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.218s"/>
+  <rect class="contribution-cell fade-el h" x="266" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.221s"/>
+  <rect class="contribution-cell fade-el h" x="266" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.224s"/>
+  <rect class="contribution-cell fade-el h" x="266" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.227s"/>
+  <rect class="contribution-cell fade-el h" x="266" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.23s"/>
+  <rect class="contribution-cell fade-el h" x="266" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.233s"/>
+  <rect class="contribution-cell fade-el h" x="266" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.236s"/>
+  <rect class="contribution-cell fade-el h" x="266" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.239s"/>
+  <rect class="contribution-cell fade-el h" x="283" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.242s"/>
+  <rect class="contribution-cell fade-el h" x="283" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.245s"/>
+  <rect class="contribution-cell fade-el h" x="283" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.248s"/>
+  <rect class="contribution-cell fade-el h" x="283" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.251s"/>
+  <rect class="contribution-cell fade-el h" x="283" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:0.254s"/>
+  <rect class="contribution-cell fade-el h" x="283" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.257s"/>
+  <rect class="contribution-cell fade-el h" x="283" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:0.26s"/>
+  <rect class="contribution-cell fade-el h" x="300" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.263s"/>
+  <rect class="contribution-cell fade-el h" x="300" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.266s"/>
+  <rect class="contribution-cell fade-el h" x="300" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.269s"/>
+  <rect class="contribution-cell fade-el h" x="300" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.272s"/>
+  <rect class="contribution-cell fade-el h" x="300" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.275s"/>
+  <rect class="contribution-cell fade-el h" x="300" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.278s"/>
+  <rect class="contribution-cell fade-el h" x="300" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.281s"/>
+  <rect class="contribution-cell fade-el h" x="317" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:0.284s"/>
+  <rect class="contribution-cell fade-el h" x="317" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.287s"/>
+  <rect class="contribution-cell fade-el h" x="317" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:0.29s"/>
+  <rect class="contribution-cell fade-el h" x="317" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:0.293s"/>
+  <rect class="contribution-cell fade-el h" x="317" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.296s"/>
+  <rect class="contribution-cell fade-el h" x="317" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.299s"/>
+  <rect class="contribution-cell fade-el h" x="317" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.302s"/>
+  <rect class="contribution-cell fade-el h" x="334" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.305s"/>
+  <rect class="contribution-cell fade-el h" x="334" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:0.308s"/>
+  <rect class="contribution-cell fade-el h" x="334" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.311s"/>
+  <rect class="contribution-cell fade-el h" x="334" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.314s"/>
+  <rect class="contribution-cell fade-el h" x="334" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.317s"/>
+  <rect class="contribution-cell fade-el h" x="334" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.32s"/>
+  <rect class="contribution-cell fade-el h" x="334" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.323s"/>
+  <rect class="contribution-cell fade-el h" x="351" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.326s"/>
+  <rect class="contribution-cell fade-el h" x="351" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.329s"/>
+  <rect class="contribution-cell fade-el h" x="351" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.332s"/>
+  <rect class="contribution-cell fade-el h" x="351" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.335s"/>
+  <rect class="contribution-cell fade-el h" x="351" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.338s"/>
+  <rect class="contribution-cell fade-el h" x="351" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.341s"/>
+  <rect class="contribution-cell fade-el h" x="351" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.344s"/>
+  <rect class="contribution-cell fade-el h" x="368" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.347s"/>
+  <rect class="contribution-cell fade-el h" x="368" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.35s"/>
+  <rect class="contribution-cell fade-el h" x="368" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.353s"/>
+  <rect class="contribution-cell fade-el h" x="368" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.356s"/>
+  <rect class="contribution-cell fade-el h" x="368" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.359s"/>
+  <rect class="contribution-cell fade-el h" x="368" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.362s"/>
+  <rect class="contribution-cell fade-el h" x="368" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.365s"/>
+  <rect class="contribution-cell fade-el h" x="385" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.368s"/>
+  <rect class="contribution-cell fade-el h" x="385" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:0.371s"/>
+  <rect class="contribution-cell fade-el h" x="385" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.374s"/>
+  <rect class="contribution-cell fade-el h" x="385" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.377s"/>
+  <rect class="contribution-cell fade-el h" x="385" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.38s"/>
+  <rect class="contribution-cell fade-el h" x="385" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.383s"/>
+  <rect class="contribution-cell fade-el h" x="385" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.386s"/>
+  <rect class="contribution-cell fade-el h" x="402" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.389s"/>
+  <rect class="contribution-cell fade-el h" x="402" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:0.392s"/>
+  <rect class="contribution-cell fade-el h" x="402" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:0.395s"/>
+  <rect class="contribution-cell fade-el h" x="402" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.398s"/>
+  <rect class="contribution-cell fade-el h" x="402" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.401s"/>
+  <rect class="contribution-cell fade-el h" x="402" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.404s"/>
+  <rect class="contribution-cell fade-el h" x="402" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.407s"/>
+  <rect class="contribution-cell fade-el h" x="419" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.41s"/>
+  <rect class="contribution-cell fade-el h" x="419" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.413s"/>
+  <rect class="contribution-cell fade-el h" x="419" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.416s"/>
+  <rect class="contribution-cell fade-el h" x="419" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.419s"/>
+  <rect class="contribution-cell fade-el h" x="419" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.422s"/>
+  <rect class="contribution-cell fade-el h" x="419" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.425s"/>
+  <rect class="contribution-cell fade-el h" x="419" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.428s"/>
+  <rect class="contribution-cell fade-el h" x="436" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.431s"/>
+  <rect class="contribution-cell fade-el h" x="436" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.434s"/>
+  <rect class="contribution-cell fade-el h" x="436" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.437s"/>
+  <rect class="contribution-cell fade-el h" x="436" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.44s"/>
+  <rect class="contribution-cell fade-el h" x="436" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.443s"/>
+  <rect class="contribution-cell fade-el h" x="436" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.446s"/>
+  <rect class="contribution-cell fade-el h" x="436" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.449s"/>
+  <rect class="contribution-cell fade-el h" x="453" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.452s"/>
+  <rect class="contribution-cell fade-el h" x="453" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.455s"/>
+  <rect class="contribution-cell fade-el h" x="453" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.458s"/>
+  <rect class="contribution-cell fade-el h" x="453" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.461s"/>
+  <rect class="contribution-cell fade-el h" x="453" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.464s"/>
+  <rect class="contribution-cell fade-el h" x="453" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.467s"/>
+  <rect class="contribution-cell fade-el h" x="453" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.47s"/>
+  <rect class="contribution-cell fade-el h" x="470" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.473s"/>
+  <rect class="contribution-cell fade-el h" x="470" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:0.476s"/>
+  <rect class="contribution-cell fade-el h" x="470" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.479s"/>
+  <rect class="contribution-cell fade-el h" x="470" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.482s"/>
+  <rect class="contribution-cell fade-el h" x="470" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.485s"/>
+  <rect class="contribution-cell fade-el h" x="470" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.488s"/>
+  <rect class="contribution-cell fade-el h" x="470" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.491s"/>
+  <rect class="contribution-cell fade-el h" x="487" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.494s"/>
+  <rect class="contribution-cell fade-el h" x="487" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.497s"/>
+  <rect class="contribution-cell fade-el h" x="487" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.5s"/>
+  <rect class="contribution-cell fade-el h" x="487" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:0.503s"/>
+  <rect class="contribution-cell fade-el h" x="487" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.506s"/>
+  <rect class="contribution-cell fade-el h" x="487" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.509s"/>
+  <rect class="contribution-cell fade-el h" x="487" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.512s"/>
+  <rect class="contribution-cell fade-el h" x="504" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.515s"/>
+  <rect class="contribution-cell fade-el h" x="504" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.518s"/>
+  <rect class="contribution-cell fade-el h" x="504" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.521s"/>
+  <rect class="contribution-cell fade-el h" x="504" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.524s"/>
+  <rect class="contribution-cell fade-el h" x="504" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.527s"/>
+  <rect class="contribution-cell fade-el h" x="504" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.53s"/>
+  <rect class="contribution-cell fade-el h" x="504" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.533s"/>
+  <rect class="contribution-cell fade-el h" x="521" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.536s"/>
+  <rect class="contribution-cell fade-el h" x="521" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.539s"/>
+  <rect class="contribution-cell fade-el h" x="521" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.542s"/>
+  <rect class="contribution-cell fade-el h" x="521" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.545s"/>
+  <rect class="contribution-cell fade-el h" x="521" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.548s"/>
+  <rect class="contribution-cell fade-el h" x="521" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.551s"/>
+  <rect class="contribution-cell fade-el h" x="521" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.554s"/>
+  <rect class="contribution-cell fade-el h" x="538" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.557s"/>
+  <rect class="contribution-cell fade-el h" x="538" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:0.56s"/>
+  <rect class="contribution-cell fade-el h" x="538" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.563s"/>
+  <rect class="contribution-cell fade-el h" x="538" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:0.566s"/>
+  <rect class="contribution-cell fade-el h" x="538" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.569s"/>
+  <rect class="contribution-cell fade-el h" x="538" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.572s"/>
+  <rect class="contribution-cell fade-el h" x="538" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.575s"/>
+  <rect class="contribution-cell fade-el h" x="555" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.578s"/>
+  <rect class="contribution-cell fade-el h" x="555" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.581s"/>
+  <rect class="contribution-cell fade-el h" x="555" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.584s"/>
+  <rect class="contribution-cell fade-el h" x="555" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:0.587s"/>
+  <rect class="contribution-cell fade-el h" x="555" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.59s"/>
+  <rect class="contribution-cell fade-el h" x="555" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.593s"/>
+  <rect class="contribution-cell fade-el h" x="555" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.596s"/>
+  <rect class="contribution-cell fade-el h" x="572" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.599s"/>
+  <rect class="contribution-cell fade-el h" x="572" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.602s"/>
+  <rect class="contribution-cell fade-el h" x="572" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.605s"/>
+  <rect class="contribution-cell fade-el h" x="572" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.608s"/>
+  <rect class="contribution-cell fade-el h" x="572" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:0.611s"/>
+  <rect class="contribution-cell fade-el h" x="572" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:0.614s"/>
+  <rect class="contribution-cell fade-el h" x="572" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.617s"/>
+  <rect class="contribution-cell fade-el h" x="589" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.62s"/>
+  <rect class="contribution-cell fade-el h" x="589" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.623s"/>
+  <rect class="contribution-cell fade-el h" x="589" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.626s"/>
+  <rect class="contribution-cell fade-el h" x="589" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.629s"/>
+  <rect class="contribution-cell fade-el h" x="589" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.632s"/>
+  <rect class="contribution-cell fade-el h" x="589" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.635s"/>
+  <rect class="contribution-cell fade-el h" x="589" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.638s"/>
+  <rect class="contribution-cell fade-el h" x="606" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:0.641s"/>
+  <rect class="contribution-cell fade-el h" x="606" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.644s"/>
+  <rect class="contribution-cell fade-el h" x="606" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.647s"/>
+  <rect class="contribution-cell fade-el h" x="606" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.65s"/>
+  <rect class="contribution-cell fade-el h" x="606" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.653s"/>
+  <rect class="contribution-cell fade-el h" x="606" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.656s"/>
+  <rect class="contribution-cell fade-el h" x="606" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.659s"/>
+  <rect class="contribution-cell fade-el h" x="623" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.662s"/>
+  <rect class="contribution-cell fade-el h" x="623" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.665s"/>
+  <rect class="contribution-cell fade-el h" x="623" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.668s"/>
+  <rect class="contribution-cell fade-el h" x="623" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.671s"/>
+  <rect class="contribution-cell fade-el h" x="623" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.674s"/>
+  <rect class="contribution-cell fade-el h" x="623" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.677s"/>
+  <rect class="contribution-cell fade-el h" x="623" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.68s"/>
+  <rect class="contribution-cell fade-el h" x="640" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.683s"/>
+  <rect class="contribution-cell fade-el h" x="640" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.686s"/>
+  <rect class="contribution-cell fade-el h" x="640" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.689s"/>
+  <rect class="contribution-cell fade-el h" x="640" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.692s"/>
+  <rect class="contribution-cell fade-el h" x="640" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.695s"/>
+  <rect class="contribution-cell fade-el h" x="640" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.698s"/>
+  <rect class="contribution-cell fade-el h" x="640" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.701s"/>
+  <rect class="contribution-cell fade-el h" x="657" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.704s"/>
+  <rect class="contribution-cell fade-el h" x="657" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.707s"/>
+  <rect class="contribution-cell fade-el h" x="657" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.71s"/>
+  <rect class="contribution-cell fade-el h" x="657" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.713s"/>
+  <rect class="contribution-cell fade-el h" x="657" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.716s"/>
+  <rect class="contribution-cell fade-el h" x="657" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:0.719s"/>
+  <rect class="contribution-cell fade-el h" x="657" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:0.722s"/>
+  <rect class="contribution-cell fade-el h" x="674" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.725s"/>
+  <rect class="contribution-cell fade-el h" x="674" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.728s"/>
+  <rect class="contribution-cell fade-el h" x="674" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.731s"/>
+  <rect class="contribution-cell fade-el h" x="674" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.734s"/>
+  <rect class="contribution-cell fade-el h" x="674" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.737s"/>
+  <rect class="contribution-cell fade-el h" x="674" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:0.74s"/>
+  <rect class="contribution-cell fade-el h" x="674" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.743s"/>
+  <rect class="contribution-cell fade-el h" x="691" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.746s"/>
+  <rect class="contribution-cell fade-el h" x="691" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.749s"/>
+  <rect class="contribution-cell fade-el h" x="691" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.752s"/>
+  <rect class="contribution-cell fade-el h" x="691" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.755s"/>
+  <rect class="contribution-cell fade-el h" x="691" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.758s"/>
+  <rect class="contribution-cell fade-el h" x="691" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.761s"/>
+  <rect class="contribution-cell fade-el h" x="691" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.764s"/>
+  <rect class="contribution-cell fade-el h" x="708" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.767s"/>
+  <rect class="contribution-cell fade-el h" x="708" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.77s"/>
+  <rect class="contribution-cell fade-el h" x="708" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.773s"/>
+  <rect class="contribution-cell fade-el h" x="708" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.776s"/>
+  <rect class="contribution-cell fade-el h" x="708" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.779s"/>
+  <rect class="contribution-cell fade-el h" x="708" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.782s"/>
+  <rect class="contribution-cell fade-el h" x="708" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.785s"/>
+  <rect class="contribution-cell fade-el h" x="725" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.788s"/>
+  <rect class="contribution-cell fade-el h" x="725" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.791s"/>
+  <rect class="contribution-cell fade-el h" x="725" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.794s"/>
+  <rect class="contribution-cell fade-el h" x="725" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:0.797s"/>
+  <rect class="contribution-cell fade-el h" x="725" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.8s"/>
+  <rect class="contribution-cell fade-el h" x="725" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.803s"/>
+  <rect class="contribution-cell fade-el h" x="725" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:0.806s"/>
+  <rect class="contribution-cell fade-el h" x="742" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.809s"/>
+  <rect class="contribution-cell fade-el h" x="742" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.812s"/>
+  <rect class="contribution-cell fade-el h" x="742" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.815s"/>
+  <rect class="contribution-cell fade-el h" x="742" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.818s"/>
+  <rect class="contribution-cell fade-el h" x="742" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.821s"/>
+  <rect class="contribution-cell fade-el h" x="742" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.824s"/>
+  <rect class="contribution-cell fade-el h" x="742" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.827s"/>
+  <rect class="contribution-cell fade-el h" x="759" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.83s"/>
+  <rect class="contribution-cell fade-el h" x="759" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:0.833s"/>
+  <rect class="contribution-cell fade-el h" x="759" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.836s"/>
+  <rect class="contribution-cell fade-el h" x="759" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.839s"/>
+  <rect class="contribution-cell fade-el h" x="759" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.842s"/>
+  <rect class="contribution-cell fade-el h" x="759" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.845s"/>
+  <rect class="contribution-cell fade-el h" x="759" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.848s"/>
+  <rect class="contribution-cell fade-el h" x="776" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.851s"/>
+  <rect class="contribution-cell fade-el h" x="776" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.854s"/>
+  <rect class="contribution-cell fade-el h" x="776" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.857s"/>
+  <rect class="contribution-cell fade-el h" x="776" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.86s"/>
+  <rect class="contribution-cell fade-el h" x="776" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.863s"/>
+  <rect class="contribution-cell fade-el h" x="776" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.866s"/>
+  <rect class="contribution-cell fade-el h" x="776" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:0.869s"/>
+  <rect class="contribution-cell fade-el h" x="793" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.872s"/>
+  <rect class="contribution-cell fade-el h" x="793" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.875s"/>
+  <rect class="contribution-cell fade-el h" x="793" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.878s"/>
+  <rect class="contribution-cell fade-el h" x="793" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.881s"/>
+  <rect class="contribution-cell fade-el h" x="793" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.884s"/>
+  <rect class="contribution-cell fade-el h" x="793" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.887s"/>
+  <rect class="contribution-cell fade-el h" x="793" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.89s"/>
+  <rect class="contribution-cell fade-el h" x="810" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.893s"/>
+  <rect class="contribution-cell fade-el h" x="810" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.896s"/>
+  <rect class="contribution-cell fade-el h" x="810" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.899s"/>
+  <rect class="contribution-cell fade-el h" x="810" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.902s"/>
+  <rect class="contribution-cell fade-el h" x="810" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.905s"/>
+  <rect class="contribution-cell fade-el h" x="810" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.908s"/>
+  <rect class="contribution-cell fade-el h" x="810" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.911s"/>
+  <rect class="contribution-cell fade-el h" x="827" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.914s"/>
+  <rect class="contribution-cell fade-el h" x="827" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.917s"/>
+  <rect class="contribution-cell fade-el h" x="827" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.92s"/>
+  <rect class="contribution-cell fade-el h" x="827" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.923s"/>
+  <rect class="contribution-cell fade-el h" x="827" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.926s"/>
+  <rect class="contribution-cell fade-el h" x="827" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.929s"/>
+  <rect class="contribution-cell fade-el h" x="827" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.932s"/>
+  <rect class="contribution-cell fade-el h" x="844" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.935s"/>
+  <rect class="contribution-cell fade-el h" x="844" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.938s"/>
+  <rect class="contribution-cell fade-el h" x="844" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.941s"/>
+  <rect class="contribution-cell fade-el h" x="844" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.944s"/>
+  <rect class="contribution-cell fade-el h" x="844" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.947s"/>
+  <rect class="contribution-cell fade-el h" x="844" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.95s"/>
+  <rect class="contribution-cell fade-el h" x="844" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:0.953s"/>
+  <rect class="contribution-cell fade-el h" x="861" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.956s"/>
+  <rect class="contribution-cell fade-el h" x="861" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.959s"/>
+  <rect class="contribution-cell fade-el h" x="861" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.962s"/>
+  <rect class="contribution-cell fade-el h" x="861" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.965s"/>
+  <rect class="contribution-cell fade-el h" x="861" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.968s"/>
+  <rect class="contribution-cell fade-el h" x="861" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.971s"/>
+  <rect class="contribution-cell fade-el h" x="861" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.974s"/>
+  <rect class="contribution-cell fade-el h" x="878" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.977s"/>
+  <rect class="contribution-cell fade-el h" x="878" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.98s"/>
+  <rect class="contribution-cell fade-el h" x="878" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:0.983s"/>
+  <rect class="contribution-cell fade-el h" x="878" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:0.986s"/>
+  <rect class="contribution-cell fade-el h" x="878" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.989s"/>
+  <rect class="contribution-cell fade-el h" x="878" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:0.992s"/>
+  <rect class="contribution-cell fade-el h" x="878" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.995s"/>
+  <rect class="contribution-cell fade-el h" x="895" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.998s"/>
+  <rect class="contribution-cell fade-el h" x="895" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:1.001s"/>
+  <rect class="contribution-cell fade-el h" x="895" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:1.004s"/>
+  <rect class="contribution-cell fade-el h" x="895" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:1.007s"/>
+  <rect class="contribution-cell fade-el h" x="895" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:1.01s"/>
+  <rect class="contribution-cell fade-el h" x="895" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:1.013s"/>
+  <rect class="contribution-cell fade-el h" x="895" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:1.016s"/>
+  <rect class="contribution-cell fade-el h" x="912" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:1.019s"/>
+  <rect class="contribution-cell fade-el h" x="912" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:1.022s"/>
+  <rect class="contribution-cell fade-el h" x="912" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:1.025s"/>
+  <rect class="contribution-cell fade-el h" x="912" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:1.028s"/>
+  <rect class="contribution-cell fade-el h" x="912" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:1.031s"/>
+  <rect class="contribution-cell fade-el h" x="912" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:1.034s"/>
+  <rect class="contribution-cell fade-el h" x="912" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:1.037s"/>
+  <rect class="contribution-cell fade-el h" x="929" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:1.04s"/>
+  <rect class="contribution-cell fade-el h" x="929" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:1.043s"/>
+  <rect class="contribution-cell fade-el h" x="929" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:1.046s"/>
+  <rect class="contribution-cell fade-el h" x="929" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:1.049s"/>
+  <rect class="contribution-cell fade-el h" x="929" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:1.052s"/>
+  <rect class="contribution-cell fade-el h" x="929" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:1.055s"/>
+  <rect class="contribution-cell fade-el h" x="929" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:1.058s"/>
+  <rect class="contribution-cell fade-el h" x="946" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:1.061s"/>
+  <rect class="contribution-cell fade-el h" x="946" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:1.064s"/>
+  <rect class="contribution-cell fade-el h" x="946" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:1.067s"/>
+  <rect class="contribution-cell fade-el h" x="946" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:1.07s"/>
+  <rect class="contribution-cell fade-el h" x="946" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:1.073s"/>
+  <rect class="contribution-cell fade-el h" x="946" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:1.076s"/>
+  <rect class="contribution-cell fade-el h" x="946" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:1.079s"/>
+  <rect class="contribution-cell fade-el h" x="963" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:1.082s"/>
+  <rect class="contribution-cell fade-el h" x="963" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:1.085s"/>
+  <rect class="contribution-cell fade-el h" x="963" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:1.088s"/>
+  <rect class="contribution-cell fade-el h" x="963" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:1.091s"/>
+  <rect class="contribution-cell fade-el h" x="963" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:1.094s"/>
+  <rect class="contribution-cell fade-el h" x="963" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:1.097s"/>
+  <rect class="contribution-cell fade-el h" x="963" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:1.1s"/>
+  <rect class="contribution-cell fade-el h" x="980" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:1.103s"/>
+  <rect class="contribution-cell fade-el h" x="980" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:1.106s"/>
+  <rect class="contribution-cell fade-el h" x="980" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:1.109s"/>
+  <rect class="contribution-cell fade-el h" x="980" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:1.112s"/>
+  <rect class="contribution-cell fade-el h" x="980" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:1.115s"/>
+  <rect class="contribution-cell fade-el h" x="980" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:1.118s"/>
+  <rect class="contribution-cell fade-el h" x="980" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:1.121s"/>
+  <rect class="contribution-cell fade-el h" x="997" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:1.124s"/>
+  <rect class="contribution-cell fade-el h" x="997" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:1.127s"/>
+  <rect class="contribution-cell fade-el h" x="997" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:1.13s"/>
+  <rect class="contribution-cell fade-el h" x="997" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:1.133s"/>
+  <rect class="contribution-cell fade-el h" x="997" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:1.136s"/>
+  <rect class="contribution-cell fade-el h" x="997" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:1.139s"/>
+  <rect class="contribution-cell fade-el h" x="997" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:1.142s"/>
+  <rect class="contribution-cell fade-el h" x="1014" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:1.145s"/>
+  <rect class="contribution-cell fade-el h" x="1014" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:1.148s"/>
+  <rect class="contribution-cell fade-el h" x="1014" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:1.151s"/>
+  <rect class="contribution-cell fade-el h" x="1014" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:1.154s"/>
+  <rect class="contribution-cell fade-el h" x="1014" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:1.157s"/>
+  <rect class="contribution-cell fade-el h" x="1014" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:1.16s"/>
+  <rect class="contribution-cell fade-el h" x="1014" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:1.163s"/>
+  <rect class="contribution-cell fade-el h" x="1031" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:1.166s"/>
+  <rect class="contribution-cell fade-el h" x="1031" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:1.169s"/>
+  <rect class="contribution-cell fade-el h" x="1031" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:1.172s"/>
+  <rect class="contribution-cell fade-el h" x="1031" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:1.175s"/>
+  <rect class="contribution-cell fade-el h" x="1031" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:1.178s"/>
+  <rect class="contribution-cell fade-el h" x="1031" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:1.181s"/>
+  <rect class="contribution-cell fade-el h" x="1031" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:1.184s"/>
+  <rect class="contribution-cell fade-el h" x="1048" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:1.187s"/>
+  <rect class="contribution-cell fade-el h" x="1048" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:1.19s"/>
+  <rect class="contribution-cell fade-el h" x="1048" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:1.193s"/>
+  <rect class="contribution-cell fade-el h" x="1048" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:1.196s"/>
+  <rect class="contribution-cell fade-el h" x="1048" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:1.199s"/>
+  <rect class="contribution-cell fade-el h" x="1048" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:1.202s"/>
+  <rect class="contribution-cell fade-el h" x="1048" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:1.205s"/>
+  <rect class="contribution-cell fade-el h" x="1065" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:1.208s"/>
+  <rect class="contribution-cell fade-el h" x="1065" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:1.211s"/>
+  <rect class="contribution-cell fade-el h" x="1065" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:1.214s"/>
+  <rect class="contribution-cell fade-el h" x="1065" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:1.217s"/>
+  <rect class="contribution-cell fade-el h" x="1065" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:1.22s"/>
+  <rect class="contribution-cell fade-el h" x="1065" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:1.223s"/>
+  <rect class="contribution-cell fade-el h" x="1065" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:1.226s"/>
+  <rect class="contribution-cell fade-el h" x="1082" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:1.229s"/>
+  <rect class="contribution-cell fade-el h" x="1082" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:1.232s"/>
+  <rect class="contribution-cell fade-el h" x="1082" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:1.235s"/>
+  <rect class="contribution-cell fade-el h" x="1082" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:1.238s"/>
+  <rect class="contribution-cell fade-el h" x="1082" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:1.241s"/>
+  <rect class="contribution-cell fade-el h" x="1082" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:1.244s"/>
+  <rect class="contribution-cell fade-el h" x="1082" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:1.247s"/>
+  <rect class="contribution-cell fade-el h" x="1099" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:1.25s"/>
+  <rect class="contribution-cell fade-el h" x="1099" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:1.253s"/>
+  <rect class="contribution-cell fade-el h" x="1099" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:1.256s"/>
+  <rect class="contribution-cell fade-el h" x="1099" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:1.259s"/>
+  <rect class="contribution-cell fade-el h" x="1099" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:1.262s"/>
+  <rect class="contribution-cell fade-el h" x="1099" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:1.265s"/>
+  <rect class="contribution-cell fade-el h" x="1099" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:1.268s"/>
+  <rect class="contribution-cell fade-el h" x="1116" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:1.271s"/>
+  <rect class="contribution-cell fade-el h" x="1116" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:1.274s"/>
+  <rect class="contribution-cell fade-el h" x="1116" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:1.277s"/>
+  <rect class="contribution-cell fade-el h" x="1116" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)" style="animation-delay:1.28s"/>
+  <rect class="contribution-cell fade-el h" x="1116" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:1.283s"/>
+  <rect class="contribution-cell fade-el h" x="1116" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:1.286s"/>
+  <rect class="contribution-cell fade-el h" x="1116" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:1.289s"/>
+  <rect class="contribution-cell fade-el h" x="1133" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:1.292s"/>
+  <rect class="contribution-cell fade-el h" x="1133" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:1.295s"/>
+  <rect class="contribution-cell fade-el h" x="1133" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:1.298s"/>
+  <rect class="contribution-cell fade-el h" x="1133" y="211" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:1.301s"/>
+  <rect class="contribution-cell fade-el h" x="1133" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:1.304s"/>
+  <rect class="contribution-cell fade-el h" x="1133" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:1.307s"/>
+  <rect class="contribution-cell fade-el h" x="1133" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:1.31s"/>
+  <text class="fade-el h" x="269" y="316" font-family="'Segoe UI',sans-serif" font-size="9" fill="#6A6358">Less</text>
+  <rect class="fade-el h" x="304" y="304" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)"/>
+  <rect class="fade-el h" x="321" y="304" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)"/>
+  <rect class="fade-el h" x="338" y="304" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)"/>
+  <rect class="fade-el h" x="355" y="304" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)"/>
+  <rect class="fade-el h" x="372" y="304" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)"/>
+  <text class="fade-el h" x="394" y="316" font-family="'Segoe UI',sans-serif" font-size="9" fill="#6A6358">More</text>
+  <text class="fade-el h" x="1140" y="316" text-anchor="end" font-family="Consolas,monospace" font-size="9" fill="#8A8272">~2,400 contributions in the last year</text>
+</g>
+</svg>
