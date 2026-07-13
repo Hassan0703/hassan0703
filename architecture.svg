@@ -40,7 +40,7 @@
       @keyframes flowDot { 0% { transform: translateY(0); opacity: 0; } 20% { opacity: 1; } 80% { opacity: 1; } 100% { transform: translateY(60px); opacity: 0; } }
       @keyframes holoSweep { 0% { transform: translateX(-800px); opacity: 0; } 10% { opacity: 1; } 90% { opacity: 1; } 100% { transform: translateX(800px); opacity: 0; } }
       .layer-card { transition: transform 0.3s ease, filter 0.3s ease; }
-      .layer-card:hover { transform: translateX(4px); filter: url(#hoverShadow)); }
+      .layer-card:hover { transform: translateX(4px); filter: url(#hoverShadow); }
       .layer-card:hover .layer-bg { stroke-opacity: 0.7; fill: rgba(201,164,76,0.06); transition: fill 0.3s ease, stroke-opacity 0.3s ease; }
       .layer-card:hover .holo-overlay { animation: holoSweep 0.4s ease forwards; }
       .layer-card:hover .layer-title { fill: #F5F2EA; transition: fill 0.3s ease; }

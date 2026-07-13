@@ -38,7 +38,7 @@
       @keyframes fadeInUp { 0% { transform: translateY(15px); opacity: 0; } 100% { transform: translateY(0); opacity: 1; } }
       @keyframes holoSweep { 0% { transform: translateX(-800px); opacity: 0; } 10% { opacity: 1; } 90% { opacity: 1; } 100% { transform: translateX(800px); opacity: 0; } }
       .fact-pill { transition: transform 0.3s ease, filter 0.3s ease; }
-      .fact-pill:hover { transform: translateY(-1px); filter: url(#hoverShadow)); }
+      .fact-pill:hover { transform: translateY(-1px); filter: url(#hoverShadow); }
       .fact-pill:hover .pill-bg { stroke-opacity: 0.7; fill: rgba(201,164,76,0.08); transition: fill 0.3s ease, stroke-opacity 0.3s ease; }
       .fact-pill:hover .holo-overlay { animation: holoSweep 0.4s ease forwards; }
       .fact-pill:hover .icon-path { stroke: #F5EAC9; transition: stroke 0.3s ease; }
