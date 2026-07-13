@@ -67,9 +67,9 @@
   <rect x="0" y="0" width="1400" height="480" fill="url(#hexPattern)"/>
   <rect x="0" y="0" width="1400" height="480" fill="url(#vignette)"/>
   <rect x="1.5" y="1.5" width="1397" height="477" rx="19" ry="19" fill="none" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3"/>
-  <text class="fade-el h" x="700" y="55" text-anchor="middle" font-family="'Arial Black','Segoe UI',sans-serif" font-weight="800" font-size="28" fill="#F5F2EA">Tech Radar</text>
-  <rect class="fade-el h" x="590" y="70" width="220" height="2.5" rx="1.25" fill="url(#goldGrad)"/>
-  <text class="fade-el h" x="700" y="93" text-anchor="middle" font-family="Consolas,monospace" font-size="10" fill="#8A8272" letter-spacing="2">SKILL LANDSCAPE</text>
+  <text class="fade-el h" x="700" y="55" text-anchor="middle" font-family="'Arial Black','Segoe UI',sans-serif" font-weight="800" font-size="32" fill="#F5F2EA">Tech Radar</text>
+  <rect class="fade-el h" x="590" y="70" width="240" height="3" rx="1.5" fill="url(#goldGrad)"/>
+  <text class="fade-el h" x="700" y="93" text-anchor="middle" font-family="Consolas,monospace" font-size="12" fill="#8A8272" letter-spacing="2">SKILL LANDSCAPE</text>
   <!-- Radar visualization (decorative) -->
   <g transform="translate(700, 300)" opacity="0.06">
     <circle cx="0" cy="0" r="140" fill="none" stroke="url(#goldGrad)" stroke-width="0.8"/>
@@ -83,70 +83,70 @@
   </g>
   <!-- Category: Using -->
   <g transform="translate(55, 120)"><g class="fade-el c1"><g class="tech-card">
-    <rect class="card-bg" x="0" y="0" width="300" height="220" rx="14" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#cardShadow)"/>
-    <rect class="holo-overlay" x="0" y="0" width="300" height="220" rx="14" fill="url(#holoSweep)" opacity="0"/>
+    <rect class="card-bg" x="0" y="0" width="300" height="230" rx="14" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#cardShadow)"/>
+    <rect class="holo-overlay" x="0" y="0" width="300" height="230" rx="14" fill="url(#holoSweep)" opacity="0"/>
     <g transform="translate(20, 16)">
-      <rect x="0" y="0" width="24" height="24" rx="7" fill="rgba(76,175,80,0.08)" stroke="#4CAF50" stroke-width="0.7" stroke-opacity="0.5"/>
+      <rect x="0" y="0" width="28" height="28" rx="8" fill="rgba(76,175,80,0.08)" stroke="#4CAF50" stroke-width="0.7" stroke-opacity="0.5"/>
       <path d="M8 12l2 2 4-4" fill="none" stroke="#4CAF50" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
-    <text class="cat-title" x="56" y="33" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="16" fill="#EDE7D8">Using</text>
-    <text x="56" y="50" font-family="'Segoe UI',sans-serif" font-size="9" fill="#6A6358">Daily drivers</text>
+    <text class="cat-title" x="56" y="33" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="18" fill="#EDE7D8">Using</text>
+    <text x="56" y="50" font-family="'Segoe UI',sans-serif" font-size="11" fill="#6A6358">Daily drivers</text>
     <g transform="translate(20, 68)">
-      <g class="tech-pill"><rect class="pill-rect" x="0" y="0" width="82" height="28" rx="14" fill="rgba(201,164,76,0.04)" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.3"/><text x="41" y="18" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="11" font-weight="600" fill="#D9D3C4">Python</text></g>
-      <g transform="translate(0, 36)"><g class="tech-pill"><rect class="pill-rect" x="0" y="0" width="90" height="28" rx="14" fill="rgba(201,164,76,0.04)" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.3"/><text x="45" y="18" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="11" font-weight="600" fill="#D9D3C4">ERPNext</text></g></g>
-      <g transform="translate(0, 72)"><g class="tech-pill"><rect class="pill-rect" x="0" y="0" width="82" height="28" rx="14" fill="rgba(201,164,76,0.04)" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.3"/><text x="41" y="18" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="11" font-weight="600" fill="#D9D3C4">Frappe</text></g></g>
-      <g transform="translate(96, 0)"><g class="tech-pill"><rect class="pill-rect" x="0" y="0" width="88" height="28" rx="14" fill="rgba(201,164,76,0.04)" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.3"/><text x="44" y="18" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="11" font-weight="600" fill="#D9D3C4">MariaDB</text></g></g>
+      <g class="tech-pill"><rect class="pill-rect" x="0" y="0" width="82" height="32" rx="16" fill="rgba(201,164,76,0.04)" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.3"/><text x="41" y="18" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="13" font-weight="600" fill="#D9D3C4">Python</text></g>
+      <g transform="translate(0, 36)"><g class="tech-pill"><rect class="pill-rect" x="0" y="0" width="90" height="32" rx="16" fill="rgba(201,164,76,0.04)" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.3"/><text x="45" y="18" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="13" font-weight="600" fill="#D9D3C4">ERPNext</text></g></g>
+      <g transform="translate(0, 72)"><g class="tech-pill"><rect class="pill-rect" x="0" y="0" width="82" height="32" rx="16" fill="rgba(201,164,76,0.04)" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.3"/><text x="41" y="18" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="13" font-weight="600" fill="#D9D3C4">Frappe</text></g></g>
+      <g transform="translate(96, 0)"><g class="tech-pill"><rect class="pill-rect" x="0" y="0" width="88" height="32" rx="16" fill="rgba(201,164,76,0.04)" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.3"/><text x="44" y="18" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="13" font-weight="600" fill="#D9D3C4">MariaDB</text></g></g>
     </g>
   </g></g></g>
   <!-- Category: Learning -->
   <g transform="translate(385, 120)"><g class="fade-el c2"><g class="tech-card">
-    <rect class="card-bg" x="0" y="0" width="300" height="220" rx="14" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#cardShadow)"/>
-    <rect class="holo-overlay" x="0" y="0" width="300" height="220" rx="14" fill="url(#holoSweep)" opacity="0"/>
+    <rect class="card-bg" x="0" y="0" width="300" height="230" rx="14" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#cardShadow)"/>
+    <rect class="holo-overlay" x="0" y="0" width="300" height="230" rx="14" fill="url(#holoSweep)" opacity="0"/>
     <g transform="translate(20, 16)">
-      <rect x="0" y="0" width="24" height="24" rx="7" fill="rgba(66,165,245,0.08)" stroke="#42A5F5" stroke-width="0.7" stroke-opacity="0.5"/>
+      <rect x="0" y="0" width="28" height="28" rx="8" fill="rgba(66,165,245,0.08)" stroke="#42A5F5" stroke-width="0.7" stroke-opacity="0.5"/>
       <path d="M12 6v6l4 2" fill="none" stroke="#42A5F5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
       <circle cx="12" cy="12" r="9" fill="none" stroke="#42A5F5" stroke-width="1.5"/>
     </g>
-    <text class="cat-title" x="56" y="33" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="16" fill="#EDE7D8">Learning</text>
-    <text x="56" y="50" font-family="'Segoe UI',sans-serif" font-size="9" fill="#6A6358">Currently studying</text>
+    <text class="cat-title" x="56" y="33" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="18" fill="#EDE7D8">Learning</text>
+    <text x="56" y="50" font-family="'Segoe UI',sans-serif" font-size="11" fill="#6A6358">Currently studying</text>
     <g transform="translate(20, 68)">
-      <g class="tech-pill"><rect class="pill-rect" x="0" y="0" width="80" height="28" rx="14" fill="rgba(201,164,76,0.04)" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.3"/><text x="40" y="18" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="11" font-weight="600" fill="#D9D3C4">Docker</text></g>
-      <g transform="translate(0, 36)"><g class="tech-pill"><rect class="pill-rect" x="0" y="0" width="88" height="28" rx="14" fill="rgba(201,164,76,0.04)" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.3"/><text x="44" y="18" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="11" font-weight="600" fill="#D9D3C4">Next.js</text></g></g>
-      <g transform="translate(0, 72)"><g class="tech-pill"><rect class="pill-rect" x="0" y="0" width="96" height="28" rx="14" fill="rgba(201,164,76,0.04)" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.3"/><text x="48" y="18" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="11" font-weight="600" fill="#D9D3C4">AI Agents</text></g></g>
+      <g class="tech-pill"><rect class="pill-rect" x="0" y="0" width="80" height="32" rx="16" fill="rgba(201,164,76,0.04)" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.3"/><text x="40" y="18" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="13" font-weight="600" fill="#D9D3C4">Docker</text></g>
+      <g transform="translate(0, 36)"><g class="tech-pill"><rect class="pill-rect" x="0" y="0" width="88" height="32" rx="16" fill="rgba(201,164,76,0.04)" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.3"/><text x="44" y="18" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="13" font-weight="600" fill="#D9D3C4">Next.js</text></g></g>
+      <g transform="translate(0, 72)"><g class="tech-pill"><rect class="pill-rect" x="0" y="0" width="96" height="32" rx="16" fill="rgba(201,164,76,0.04)" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.3"/><text x="48" y="18" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="13" font-weight="600" fill="#D9D3C4">AI Agents</text></g></g>
     </g>
   </g></g></g>
   <!-- Category: Exploring -->
   <g transform="translate(715, 120)"><g class="fade-el c3"><g class="tech-card">
-    <rect class="card-bg" x="0" y="0" width="300" height="220" rx="14" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#cardShadow)"/>
-    <rect class="holo-overlay" x="0" y="0" width="300" height="220" rx="14" fill="url(#holoSweep)" opacity="0"/>
+    <rect class="card-bg" x="0" y="0" width="300" height="230" rx="14" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#cardShadow)"/>
+    <rect class="holo-overlay" x="0" y="0" width="300" height="230" rx="14" fill="url(#holoSweep)" opacity="0"/>
     <g transform="translate(20, 16)">
-      <rect x="0" y="0" width="24" height="24" rx="7" fill="rgba(255,183,77,0.08)" stroke="#FFB74D" stroke-width="0.7" stroke-opacity="0.5"/>
+      <rect x="0" y="0" width="28" height="28" rx="8" fill="rgba(255,183,77,0.08)" stroke="#FFB74D" stroke-width="0.7" stroke-opacity="0.5"/>
       <path d="M12 2a10 10 0 1010 10" fill="none" stroke="#FFB74D" stroke-width="1.5" stroke-linecap="round"/>
       <circle cx="12" cy="12" r="3" fill="none" stroke="#FFB74D" stroke-width="1.5"/>
     </g>
-    <text class="cat-title" x="56" y="33" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="16" fill="#EDE7D8">Exploring</text>
-    <text x="56" y="50" font-family="'Segoe UI',sans-serif" font-size="9" fill="#6A6358">Experimenting with</text>
+    <text class="cat-title" x="56" y="33" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="18" fill="#EDE7D8">Exploring</text>
+    <text x="56" y="50" font-family="'Segoe UI',sans-serif" font-size="11" fill="#6A6358">Experimenting with</text>
     <g transform="translate(20, 68)">
-      <g class="tech-pill"><rect class="pill-rect" x="0" y="0" width="68" height="28" rx="14" fill="rgba(201,164,76,0.04)" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.3"/><text x="34" y="18" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="11" font-weight="600" fill="#D9D3C4">Rust</text></g>
-      <g transform="translate(0, 36)"><g class="tech-pill"><rect class="pill-rect" x="0" y="0" width="62" height="28" rx="14" fill="rgba(201,164,76,0.04)" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.3"/><text x="31" y="18" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="11" font-weight="600" fill="#D9D3C4">Go</text></g></g>
-      <g transform="translate(76, 0)"><g class="tech-pill"><rect class="pill-rect" x="0" y="0" width="112" height="28" rx="14" fill="rgba(201,164,76,0.04)" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.3"/><text x="56" y="18" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="11" font-weight="600" fill="#D9D3C4">Kubernetes</text></g></g>
+      <g class="tech-pill"><rect class="pill-rect" x="0" y="0" width="68" height="32" rx="16" fill="rgba(201,164,76,0.04)" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.3"/><text x="34" y="18" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="13" font-weight="600" fill="#D9D3C4">Rust</text></g>
+      <g transform="translate(0, 36)"><g class="tech-pill"><rect class="pill-rect" x="0" y="0" width="62" height="32" rx="16" fill="rgba(201,164,76,0.04)" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.3"/><text x="31" y="18" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="13" font-weight="600" fill="#D9D3C4">Go</text></g></g>
+      <g transform="translate(76, 0)"><g class="tech-pill"><rect class="pill-rect" x="0" y="0" width="112" height="32" rx="16" fill="rgba(201,164,76,0.04)" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.3"/><text x="56" y="18" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="13" font-weight="600" fill="#D9D3C4">Kubernetes</text></g></g>
     </g>
   </g></g></g>
   <!-- Category: Future -->
   <g transform="translate(1045, 120)"><g class="fade-el c4"><g class="tech-card">
-    <rect class="card-bg" x="0" y="0" width="300" height="220" rx="14" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#cardShadow)"/>
-    <rect class="holo-overlay" x="0" y="0" width="300" height="220" rx="14" fill="url(#holoSweep)" opacity="0"/>
+    <rect class="card-bg" x="0" y="0" width="300" height="230" rx="14" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#cardShadow)"/>
+    <rect class="holo-overlay" x="0" y="0" width="300" height="230" rx="14" fill="url(#holoSweep)" opacity="0"/>
     <g transform="translate(20, 16)">
-      <rect x="0" y="0" width="24" height="24" rx="7" fill="rgba(201,164,76,0.08)" stroke="url(#goldGrad)" stroke-width="0.7" stroke-opacity="0.5"/>
+      <rect x="0" y="0" width="28" height="28" rx="8" fill="rgba(201,164,76,0.08)" stroke="url(#goldGrad)" stroke-width="0.7" stroke-opacity="0.5"/>
       <path d="M12 2v20M2 12h20" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" stroke-linecap="round"/>
       <path d="M5 5l4 4m6-4l-4 4m4 6l-4-4m-6 4l4-4" fill="none" stroke="url(#goldGrad)" stroke-width="1.2" stroke-linecap="round"/>
     </g>
-    <text class="cat-title" x="56" y="33" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="16" fill="#EDE7D8">Future</text>
-    <text x="56" y="50" font-family="'Segoe UI',sans-serif" font-size="9" fill="#6A6358">Next on the list</text>
+    <text class="cat-title" x="56" y="33" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="18" fill="#EDE7D8">Future</text>
+    <text x="56" y="50" font-family="'Segoe UI',sans-serif" font-size="11" fill="#6A6358">Next on the list</text>
     <g transform="translate(20, 68)">
-      <g class="tech-pill"><rect class="pill-rect" x="0" y="0" width="130" height="28" rx="14" fill="rgba(201,164,76,0.04)" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.3"/><text x="65" y="18" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="11" font-weight="600" fill="#D9D3C4">Cloud Native</text></g>
-      <g transform="translate(0, 36)"><g class="tech-pill"><rect class="pill-rect" x="0" y="0" width="72" height="28" rx="14" fill="rgba(201,164,76,0.04)" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.3"/><text x="36" y="18" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="11" font-weight="600" fill="#D9D3C4">LLMs</text></g></g>
-      <g transform="translate(86, 36)"><g class="tech-pill"><rect class="pill-rect" x="0" y="0" width="114" height="28" rx="14" fill="rgba(201,164,76,0.04)" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.3"/><text x="57" y="18" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="11" font-weight="600" fill="#D9D3C4">Automation</text></g></g>
+      <g class="tech-pill"><rect class="pill-rect" x="0" y="0" width="130" height="32" rx="16" fill="rgba(201,164,76,0.04)" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.3"/><text x="65" y="18" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="13" font-weight="600" fill="#D9D3C4">Cloud Native</text></g>
+      <g transform="translate(0, 36)"><g class="tech-pill"><rect class="pill-rect" x="0" y="0" width="72" height="32" rx="16" fill="rgba(201,164,76,0.04)" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.3"/><text x="36" y="18" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="13" font-weight="600" fill="#D9D3C4">LLMs</text></g></g>
+      <g transform="translate(86, 36)"><g class="tech-pill"><rect class="pill-rect" x="0" y="0" width="114" height="32" rx="16" fill="rgba(201,164,76,0.04)" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.3"/><text x="57" y="18" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="13" font-weight="600" fill="#D9D3C4">Automation</text></g></g>
     </g>
   </g></g></g>
 </g>

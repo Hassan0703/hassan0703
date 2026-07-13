@@ -39,24 +39,24 @@
   <rect x="0" y="0" width="1400" height="480" fill="url(#hexPattern)"/>
   <rect x="0" y="0" width="1400" height="480" fill="url(#vignette)"/>
   <rect x="1.5" y="1.5" width="1397" height="477" rx="19" ry="19" fill="none" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3"/>
-  <text class="fade-el h" x="700" y="55" text-anchor="middle" font-family="'Arial Black','Segoe UI',sans-serif" font-weight="800" font-size="28" fill="#F5F2EA">GitHub Contributions</text>
-  <rect class="fade-el h" x="560" y="70" width="280" height="2.5" rx="1.25" fill="url(#goldGrad)"/>
-  <text class="fade-el h" x="700" y="93" text-anchor="middle" font-family="Consolas,monospace" font-size="10" fill="#8A8272" letter-spacing="2">CONTRIBUTION ACTIVITY</text>
-  <text class="fade-el h" x="249" y="150" font-family="'Segoe UI',sans-serif" font-size="9" fill="#6A6358">Jan</text>
-  <text class="fade-el h" x="317" y="150" font-family="'Segoe UI',sans-serif" font-size="9" fill="#6A6358">Feb</text>
-  <text class="fade-el h" x="402" y="150" font-family="'Segoe UI',sans-serif" font-size="9" fill="#6A6358">Mar</text>
-  <text class="fade-el h" x="470" y="150" font-family="'Segoe UI',sans-serif" font-size="9" fill="#6A6358">Apr</text>
-  <text class="fade-el h" x="538" y="150" font-family="'Segoe UI',sans-serif" font-size="9" fill="#6A6358">May</text>
-  <text class="fade-el h" x="623" y="150" font-family="'Segoe UI',sans-serif" font-size="9" fill="#6A6358">Jun</text>
-  <text class="fade-el h" x="691" y="150" font-family="'Segoe UI',sans-serif" font-size="9" fill="#6A6358">Jul</text>
-  <text class="fade-el h" x="776" y="150" font-family="'Segoe UI',sans-serif" font-size="9" fill="#6A6358">Aug</text>
-  <text class="fade-el h" x="844" y="150" font-family="'Segoe UI',sans-serif" font-size="9" fill="#6A6358">Sep</text>
-  <text class="fade-el h" x="912" y="150" font-family="'Segoe UI',sans-serif" font-size="9" fill="#6A6358">Oct</text>
-  <text class="fade-el h" x="997" y="150" font-family="'Segoe UI',sans-serif" font-size="9" fill="#6A6358">Nov</text>
-  <text class="fade-el h" x="1065" y="150" font-family="'Segoe UI',sans-serif" font-size="9" fill="#6A6358">Dec</text>
-  <text class="fade-el h" x="241" y="171" text-anchor="end" font-family="'Segoe UI',sans-serif" font-size="8" fill="#6A6358">Mon</text>
-  <text class="fade-el h" x="241" y="205" text-anchor="end" font-family="'Segoe UI',sans-serif" font-size="8" fill="#6A6358">Wed</text>
-  <text class="fade-el h" x="241" y="239" text-anchor="end" font-family="'Segoe UI',sans-serif" font-size="8" fill="#6A6358">Fri</text>
+  <text class="fade-el h" x="700" y="55" text-anchor="middle" font-family="'Arial Black','Segoe UI',sans-serif" font-weight="800" font-size="32" fill="#F5F2EA">GitHub Contributions</text>
+  <rect class="fade-el h" x="560" y="70" width="300" height="3" rx="1.5" fill="url(#goldGrad)"/>
+  <text class="fade-el h" x="700" y="93" text-anchor="middle" font-family="Consolas,monospace" font-size="12" fill="#8A8272" letter-spacing="2">CONTRIBUTION ACTIVITY</text>
+  <text class="fade-el h" x="249" y="150" font-family="'Segoe UI',sans-serif" font-size="11" fill="#6A6358">Jan</text>
+  <text class="fade-el h" x="317" y="150" font-family="'Segoe UI',sans-serif" font-size="11" fill="#6A6358">Feb</text>
+  <text class="fade-el h" x="402" y="150" font-family="'Segoe UI',sans-serif" font-size="11" fill="#6A6358">Mar</text>
+  <text class="fade-el h" x="470" y="150" font-family="'Segoe UI',sans-serif" font-size="11" fill="#6A6358">Apr</text>
+  <text class="fade-el h" x="538" y="150" font-family="'Segoe UI',sans-serif" font-size="11" fill="#6A6358">May</text>
+  <text class="fade-el h" x="623" y="150" font-family="'Segoe UI',sans-serif" font-size="11" fill="#6A6358">Jun</text>
+  <text class="fade-el h" x="691" y="150" font-family="'Segoe UI',sans-serif" font-size="11" fill="#6A6358">Jul</text>
+  <text class="fade-el h" x="776" y="150" font-family="'Segoe UI',sans-serif" font-size="11" fill="#6A6358">Aug</text>
+  <text class="fade-el h" x="844" y="150" font-family="'Segoe UI',sans-serif" font-size="11" fill="#6A6358">Sep</text>
+  <text class="fade-el h" x="912" y="150" font-family="'Segoe UI',sans-serif" font-size="11" fill="#6A6358">Oct</text>
+  <text class="fade-el h" x="997" y="150" font-family="'Segoe UI',sans-serif" font-size="11" fill="#6A6358">Nov</text>
+  <text class="fade-el h" x="1065" y="150" font-family="'Segoe UI',sans-serif" font-size="11" fill="#6A6358">Dec</text>
+  <text class="fade-el h" x="241" y="171" text-anchor="end" font-family="'Segoe UI',sans-serif" font-size="10" fill="#6A6358">Mon</text>
+  <text class="fade-el h" x="241" y="205" text-anchor="end" font-family="'Segoe UI',sans-serif" font-size="10" fill="#6A6358">Wed</text>
+  <text class="fade-el h" x="241" y="239" text-anchor="end" font-family="'Segoe UI',sans-serif" font-size="10" fill="#6A6358">Fri</text>
   <rect class="contribution-cell fade-el h" x="249" y="160" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)" style="animation-delay:0.2s"/>
   <rect class="contribution-cell fade-el h" x="249" y="177" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.203s"/>
   <rect class="contribution-cell fade-el h" x="249" y="194" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:0.206s"/>
@@ -428,13 +428,13 @@
   <rect class="contribution-cell fade-el h" x="1133" y="228" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)" style="animation-delay:1.304s"/>
   <rect class="contribution-cell fade-el h" x="1133" y="245" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)" style="animation-delay:1.307s"/>
   <rect class="contribution-cell fade-el h" x="1133" y="262" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)" style="animation-delay:1.31s"/>
-  <text class="fade-el h" x="269" y="316" font-family="'Segoe UI',sans-serif" font-size="9" fill="#6A6358">Less</text>
+  <text class="fade-el h" x="269" y="316" font-family="'Segoe UI',sans-serif" font-size="11" fill="#6A6358">Less</text>
   <rect class="fade-el h" x="304" y="304" width="14" height="14" rx="3" fill="rgba(201,164,76,0.04)"/>
   <rect class="fade-el h" x="321" y="304" width="14" height="14" rx="3" fill="rgba(201,164,76,0.15)"/>
   <rect class="fade-el h" x="338" y="304" width="14" height="14" rx="3" fill="rgba(201,164,76,0.35)"/>
   <rect class="fade-el h" x="355" y="304" width="14" height="14" rx="3" fill="rgba(201,164,76,0.55)"/>
   <rect class="fade-el h" x="372" y="304" width="14" height="14" rx="3" fill="rgba(201,164,76,0.8)"/>
-  <text class="fade-el h" x="394" y="316" font-family="'Segoe UI',sans-serif" font-size="9" fill="#6A6358">More</text>
+  <text class="fade-el h" x="394" y="316" font-family="'Segoe UI',sans-serif" font-size="11" fill="#6A6358">More</text>
   <text class="fade-el h" x="1140" y="316" text-anchor="end" font-family="Consolas,monospace" font-size="9" fill="#8A8272">~2,400 contributions in the last year</text>
 </g>
 </svg>

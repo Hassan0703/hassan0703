@@ -70,16 +70,16 @@
   <rect x="0" y="0" width="1400" height="620" fill="url(#hexPattern)"/>
   <rect x="0" y="0" width="1400" height="620" fill="url(#vignette)"/>
   <rect x="1.5" y="1.5" width="1397" height="617" rx="19" ry="19" fill="none" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3"/>
-  <text class="fade-el h" x="700" y="55" text-anchor="middle" font-family="'Arial Black','Segoe UI',sans-serif" font-weight="800" font-size="28" fill="#F5F2EA">Architecture</text>
-  <rect class="fade-el h" x="590" y="70" width="220" height="2.5" rx="1.25" fill="url(#goldGrad)"/>
-  <text class="fade-el h" x="700" y="93" text-anchor="middle" font-family="Consolas,monospace" font-size="10" fill="#8A8272" letter-spacing="2">HOW I BUILD SYSTEMS</text>
+  <text class="fade-el h" x="700" y="55" text-anchor="middle" font-family="'Arial Black','Segoe UI',sans-serif" font-weight="800" font-size="32" fill="#F5F2EA">Architecture</text>
+  <rect class="fade-el h" x="590" y="70" width="240" height="3" rx="1.5" fill="url(#goldGrad)"/>
+  <text class="fade-el h" x="700" y="93" text-anchor="middle" font-family="Consolas,monospace" font-size="12" fill="#8A8272" letter-spacing="2">HOW I BUILD SYSTEMS</text>
   <!-- Left column layers -->
   <!-- Frontend -->
   <g transform="translate(320, 120)"><g class="fade-el l1"><g class="layer-card">
-    <rect class="layer-bg" x="0" y="0" width="240" height="40" rx="10" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.7" stroke-opacity="0.3" filter="url(#cardShadow)"/>
-    <rect class="holo-overlay" x="0" y="0" width="240" height="40" rx="10" fill="url(#holoSweep)" opacity="0"/>
-    <text class="layer-title" x="16" y="25" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="13" fill="#EDE7D8">Frontend</text>
-    <text x="100" y="25" font-family="'Segoe UI',sans-serif" font-size="10" fill="#8A8272">Vue 3 / JS</text>
+    <rect class="layer-bg" x="0" y="0" width="240" height="46" rx="10" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.7" stroke-opacity="0.3" filter="url(#cardShadow)"/>
+    <rect class="holo-overlay" x="0" y="0" width="240" height="46" rx="10" fill="url(#holoSweep)" opacity="0"/>
+    <text class="layer-title" x="16" y="25" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="15" fill="#EDE7D8">Frontend</text>
+    <text x="100" y="25" font-family="'Segoe UI',sans-serif" font-size="12" fill="#8A8272">Vue 3 / JS</text>
   </g></g></g>
   <!-- Arrow 1 -->
   <g transform="translate(440, 160)"><g class="fade-el l1">
@@ -91,10 +91,10 @@
   </g></g>
   <!-- API Layer -->
   <g transform="translate(320, 195)"><g class="fade-el l2"><g class="layer-card">
-    <rect class="layer-bg" x="0" y="0" width="240" height="40" rx="10" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.7" stroke-opacity="0.3" filter="url(#cardShadow)"/>
-    <rect class="holo-overlay" x="0" y="0" width="240" height="40" rx="10" fill="url(#holoSweep)" opacity="0"/>
-    <text class="layer-title" x="16" y="25" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="13" fill="#EDE7D8">API Layer</text>
-    <text x="100" y="25" font-family="'Segoe UI',sans-serif" font-size="10" fill="#8A8272">REST / GraphQL</text>
+    <rect class="layer-bg" x="0" y="0" width="240" height="46" rx="10" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.7" stroke-opacity="0.3" filter="url(#cardShadow)"/>
+    <rect class="holo-overlay" x="0" y="0" width="240" height="46" rx="10" fill="url(#holoSweep)" opacity="0"/>
+    <text class="layer-title" x="16" y="25" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="15" fill="#EDE7D8">API Layer</text>
+    <text x="100" y="25" font-family="'Segoe UI',sans-serif" font-size="12" fill="#8A8272">REST / GraphQL</text>
   </g></g></g>
   <!-- Arrow 2 -->
   <g transform="translate(440, 235)"><g class="fade-el l2">
@@ -106,10 +106,10 @@
   </g></g>
   <!-- Frappe Framework -->
   <g transform="translate(320, 270)"><g class="fade-el l3"><g class="layer-card">
-    <rect class="layer-bg" x="0" y="0" width="240" height="40" rx="10" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.7" stroke-opacity="0.3" filter="url(#cardShadow)"/>
-    <rect class="holo-overlay" x="0" y="0" width="240" height="40" rx="10" fill="url(#holoSweep)" opacity="0"/>
-    <text class="layer-title" x="16" y="25" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="13" fill="#EDE7D8">Frappe Framework</text>
-    <text x="140" y="25" font-family="'Segoe UI',sans-serif" font-size="10" fill="#8A8272">Python / Jinja2</text>
+    <rect class="layer-bg" x="0" y="0" width="240" height="46" rx="10" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.7" stroke-opacity="0.3" filter="url(#cardShadow)"/>
+    <rect class="holo-overlay" x="0" y="0" width="240" height="46" rx="10" fill="url(#holoSweep)" opacity="0"/>
+    <text class="layer-title" x="16" y="25" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="15" fill="#EDE7D8">Frappe Framework</text>
+    <text x="140" y="25" font-family="'Segoe UI',sans-serif" font-size="12" fill="#8A8272">Python / Jinja2</text>
   </g></g></g>
   <!-- Arrow 3 -->
   <g transform="translate(440, 310)"><g class="fade-el l3">
@@ -121,10 +121,10 @@
   </g></g>
   <!-- ERPNext -->
   <g transform="translate(320, 345)"><g class="fade-el l4"><g class="layer-card">
-    <rect class="layer-bg" x="0" y="0" width="240" height="40" rx="10" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.7" stroke-opacity="0.3" filter="url(#cardShadow)"/>
-    <rect class="holo-overlay" x="0" y="0" width="240" height="40" rx="10" fill="url(#holoSweep)" opacity="0"/>
-    <text class="layer-title" x="16" y="25" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="13" fill="#EDE7D8">ERPNext</text>
-    <text x="100" y="25" font-family="'Segoe UI',sans-serif" font-size="10" fill="#8A8272">ERP Modules</text>
+    <rect class="layer-bg" x="0" y="0" width="240" height="46" rx="10" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.7" stroke-opacity="0.3" filter="url(#cardShadow)"/>
+    <rect class="holo-overlay" x="0" y="0" width="240" height="46" rx="10" fill="url(#holoSweep)" opacity="0"/>
+    <text class="layer-title" x="16" y="25" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="15" fill="#EDE7D8">ERPNext</text>
+    <text x="100" y="25" font-family="'Segoe UI',sans-serif" font-size="12" fill="#8A8272">ERP Modules</text>
   </g></g></g>
   <!-- Arrow 4 -->
   <g transform="translate(440, 385)"><g class="fade-el l4">
@@ -136,39 +136,39 @@
   </g></g>
   <!-- Business Logic -->
   <g transform="translate(320, 420)"><g class="fade-el l5"><g class="layer-card">
-    <rect class="layer-bg" x="0" y="0" width="240" height="40" rx="10" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.7" stroke-opacity="0.3" filter="url(#cardShadow)"/>
-    <rect class="holo-overlay" x="0" y="0" width="240" height="40" rx="10" fill="url(#holoSweep)" opacity="0"/>
-    <text class="layer-title" x="16" y="25" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="13" fill="#EDE7D8">Business Logic</text>
-    <text x="128" y="25" font-family="'Segoe UI',sans-serif" font-size="10" fill="#8A8272">Python / Hooks</text>
+    <rect class="layer-bg" x="0" y="0" width="240" height="46" rx="10" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.7" stroke-opacity="0.3" filter="url(#cardShadow)"/>
+    <rect class="holo-overlay" x="0" y="0" width="240" height="46" rx="10" fill="url(#holoSweep)" opacity="0"/>
+    <text class="layer-title" x="16" y="25" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="15" fill="#EDE7D8">Business Logic</text>
+    <text x="128" y="25" font-family="'Segoe UI',sans-serif" font-size="12" fill="#8A8272">Python / Hooks</text>
   </g></g></g>
   <!-- Right column: Data / Infrastructure -->
   <!-- MariaDB -->
   <g transform="translate(860, 140)"><g class="fade-el l5"><g class="layer-card">
-    <rect class="layer-bg" x="0" y="0" width="240" height="40" rx="10" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.7" stroke-opacity="0.3" filter="url(#cardShadow)"/>
-    <rect class="holo-overlay" x="0" y="0" width="240" height="40" rx="10" fill="url(#holoSweep)" opacity="0"/>
-    <text class="layer-title" x="16" y="25" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="13" fill="#EDE7D8">MariaDB</text>
-    <text x="100" y="25" font-family="'Segoe UI',sans-serif" font-size="10" fill="#8A8272">Primary Database</text>
+    <rect class="layer-bg" x="0" y="0" width="240" height="46" rx="10" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.7" stroke-opacity="0.3" filter="url(#cardShadow)"/>
+    <rect class="holo-overlay" x="0" y="0" width="240" height="46" rx="10" fill="url(#holoSweep)" opacity="0"/>
+    <text class="layer-title" x="16" y="25" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="15" fill="#EDE7D8">MariaDB</text>
+    <text x="100" y="25" font-family="'Segoe UI',sans-serif" font-size="12" fill="#8A8272">Primary Database</text>
   </g></g></g>
   <!-- Redis -->
   <g transform="translate(860, 215)"><g class="fade-el l6"><g class="layer-card">
-    <rect class="layer-bg" x="0" y="0" width="240" height="40" rx="10" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.7" stroke-opacity="0.3" filter="url(#cardShadow)"/>
-    <rect class="holo-overlay" x="0" y="0" width="240" height="40" rx="10" fill="url(#holoSweep)" opacity="0"/>
-    <text class="layer-title" x="16" y="25" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="13" fill="#EDE7D8">Redis</text>
-    <text x="100" y="25" font-family="'Segoe UI',sans-serif" font-size="10" fill="#8A8272">Cache / Queue</text>
+    <rect class="layer-bg" x="0" y="0" width="240" height="46" rx="10" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.7" stroke-opacity="0.3" filter="url(#cardShadow)"/>
+    <rect class="holo-overlay" x="0" y="0" width="240" height="46" rx="10" fill="url(#holoSweep)" opacity="0"/>
+    <text class="layer-title" x="16" y="25" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="15" fill="#EDE7D8">Redis</text>
+    <text x="100" y="25" font-family="'Segoe UI',sans-serif" font-size="12" fill="#8A8272">Cache / Queue</text>
   </g></g></g>
   <!-- Scheduler -->
   <g transform="translate(860, 290)"><g class="fade-el l7"><g class="layer-card">
-    <rect class="layer-bg" x="0" y="0" width="240" height="40" rx="10" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.7" stroke-opacity="0.3" filter="url(#cardShadow)"/>
-    <rect class="holo-overlay" x="0" y="0" width="240" height="40" rx="10" fill="url(#holoSweep)" opacity="0"/>
-    <text class="layer-title" x="16" y="25" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="13" fill="#EDE7D8">Scheduler</text>
-    <text x="100" y="25" font-family="'Segoe UI',sans-serif" font-size="10" fill="#8A8272">Cron / Background</text>
+    <rect class="layer-bg" x="0" y="0" width="240" height="46" rx="10" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.7" stroke-opacity="0.3" filter="url(#cardShadow)"/>
+    <rect class="holo-overlay" x="0" y="0" width="240" height="46" rx="10" fill="url(#holoSweep)" opacity="0"/>
+    <text class="layer-title" x="16" y="25" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="15" fill="#EDE7D8">Scheduler</text>
+    <text x="100" y="25" font-family="'Segoe UI',sans-serif" font-size="12" fill="#8A8272">Cron / Background</text>
   </g></g></g>
   <!-- Background Jobs -->
   <g transform="translate(860, 365)"><g class="fade-el l8"><g class="layer-card">
-    <rect class="layer-bg" x="0" y="0" width="240" height="40" rx="10" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.7" stroke-opacity="0.3" filter="url(#cardShadow)"/>
-    <rect class="holo-overlay" x="0" y="0" width="240" height="40" rx="10" fill="url(#holoSweep)" opacity="0"/>
-    <text class="layer-title" x="16" y="25" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="13" fill="#EDE7D8">Background Jobs</text>
-    <text x="140" y="25" font-family="'Segoe UI',sans-serif" font-size="10" fill="#8A8272">Async Workers</text>
+    <rect class="layer-bg" x="0" y="0" width="240" height="46" rx="10" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.7" stroke-opacity="0.3" filter="url(#cardShadow)"/>
+    <rect class="holo-overlay" x="0" y="0" width="240" height="46" rx="10" fill="url(#holoSweep)" opacity="0"/>
+    <text class="layer-title" x="16" y="25" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="15" fill="#EDE7D8">Background Jobs</text>
+    <text x="140" y="25" font-family="'Segoe UI',sans-serif" font-size="12" fill="#8A8272">Async Workers</text>
   </g></g></g>
   <!-- Horizontal connecting arrow from Business Logic to data layer -->
   <g transform="translate(560, 410)"><g class="fade-el l5">
@@ -180,10 +180,10 @@
   </g></g>
   <!-- Users layer at bottom -->
   <g transform="translate(590, 500)"><g class="fade-el l8"><g class="layer-card">
-    <rect class="layer-bg" x="0" y="0" width="240" height="40" rx="10" fill="rgba(201,164,76,0.04)" stroke="url(#goldGrad)" stroke-width="0.7" stroke-opacity="0.35" stroke-dasharray="4 4" filter="url(#cardShadow)"/>
-    <rect class="holo-overlay" x="0" y="0" width="240" height="40" rx="10" fill="url(#holoSweep)" opacity="0"/>
-    <text class="layer-title" x="16" y="25" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="13" fill="#EDE7D8">Users</text>
-    <text x="100" y="25" font-family="'Segoe UI',sans-serif" font-size="10" fill="#8A8272">Desktop / Mobile</text>
+    <rect class="layer-bg" x="0" y="0" width="240" height="46" rx="10" fill="rgba(201,164,76,0.04)" stroke="url(#goldGrad)" stroke-width="0.7" stroke-opacity="0.35" stroke-dasharray="4 4" filter="url(#cardShadow)"/>
+    <rect class="holo-overlay" x="0" y="0" width="240" height="46" rx="10" fill="url(#holoSweep)" opacity="0"/>
+    <text class="layer-title" x="16" y="25" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="15" fill="#EDE7D8">Users</text>
+    <text x="100" y="25" font-family="'Segoe UI',sans-serif" font-size="12" fill="#8A8272">Desktop / Mobile</text>
   </g></g></g>
   <!-- Collector arrows from both columns to Users -->
   <g transform="translate(560, 460)"><g class="fade-el l8">
@@ -193,14 +193,14 @@
     <line x1="0" y1="5" x2="-30" y2="95" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.15" stroke-dasharray="3 4"/>
   </g></g>
   <!-- Central system label -->
-  <text class="fade-el h" x="700" y="110" text-anchor="middle" font-family="Consolas,monospace" font-size="9" fill="#6A6358" letter-spacing="1">SYSTEM ARCHITECTURE</text>
+  <text class="fade-el h" x="700" y="110" text-anchor="middle" font-family="Consolas,monospace" font-size="11" fill="#6A6358" letter-spacing="1">SYSTEM ARCHITECTURE</text>
   <g transform="translate(560, 108)"><g class="fade-el h">
-    <rect x="0" y="0" width="280" height="18" rx="9" fill="rgba(201,164,76,0.04)" stroke="url(#goldGrad)" stroke-width="0.5" stroke-opacity="0.2"/>
-    <text x="140" y="13" text-anchor="middle" font-family="Consolas,monospace" font-size="8" fill="#6A6358" letter-spacing="1">APP LAYER</text>
+    <rect x="0" y="0" width="280" height="22" rx="11" fill="rgba(201,164,76,0.04)" stroke="url(#goldGrad)" stroke-width="0.5" stroke-opacity="0.2"/>
+    <text x="140" y="13" text-anchor="middle" font-family="Consolas,monospace" font-size="10" fill="#6A6358" letter-spacing="1">APP LAYER</text>
   </g></g>
   <g transform="translate(860, 108)"><g class="fade-el h">
-    <rect x="0" y="0" width="240" height="18" rx="9" fill="rgba(201,164,76,0.04)" stroke="url(#goldGrad)" stroke-width="0.5" stroke-opacity="0.2"/>
-    <text x="120" y="13" text-anchor="middle" font-family="Consolas,monospace" font-size="8" fill="#6A6358" letter-spacing="1">DATA LAYER</text>
+    <rect x="0" y="0" width="240" height="22" rx="11" fill="rgba(201,164,76,0.04)" stroke="url(#goldGrad)" stroke-width="0.5" stroke-opacity="0.2"/>
+    <text x="120" y="13" text-anchor="middle" font-family="Consolas,monospace" font-size="10" fill="#6A6358" letter-spacing="1">DATA LAYER</text>
   </g></g>
 </g>
 </svg>

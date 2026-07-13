@@ -90,31 +90,31 @@
   <rect x="0" y="0" width="1400" height="520" fill="url(#vignette)"/>
   <rect x="1.5" y="1.5" width="1397" height="517" rx="19" ry="19" fill="none" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3"/>
   <!-- heading -->
-  <text class="fade-el h" x="700" y="55" text-anchor="middle" font-family="'Arial Black','Segoe UI',sans-serif" font-weight="800" font-size="28" fill="#F5F2EA">Current Focus</text>
-  <rect class="fade-el h" x="590" y="70" width="220" height="2.5" rx="1.25" fill="url(#goldGrad)"/>
-  <text class="fade-el h" x="700" y="93" text-anchor="middle" font-family="Consolas,monospace" font-size="10" fill="#8A8272" letter-spacing="2">WHAT I'M BUILDING NOW</text>
+  <text class="fade-el h" x="700" y="55" text-anchor="middle" font-family="'Arial Black','Segoe UI',sans-serif" font-weight="800" font-size="32" fill="#F5F2EA">Current Focus</text>
+  <rect class="fade-el h" x="590" y="70" width="240" height="3" rx="1.5" fill="url(#goldGrad)"/>
+  <text class="fade-el h" x="700" y="93" text-anchor="middle" font-family="Consolas,monospace" font-size="12" fill="#8A8272" letter-spacing="2">WHAT I'M BUILDING NOW</text>
   <!-- timeline rail -->
   <line x1="395" y1="130" x2="395" y2="470" stroke="#C9A44C" stroke-width="1.5" stroke-opacity="0.15" stroke-dasharray="4 6">
     <animate attributeName="stroke-dashoffset" values="0;-100" dur="8s" repeatCount="indefinite"/>
   </line>
   <!-- Item 1: TradeFlow ERP Platform -->
   <g class="timeline-dot t1">
-    <circle cx="395" cy="155" r="6" fill="#14100B" stroke="url(#goldGrad)" stroke-width="1.5"/>
-    <circle cx="395" cy="155" r="2.5" fill="url(#goldGrad)"/>
+    <circle cx="395" cy="160" r="6" fill="#14100B" stroke="url(#goldGrad)" stroke-width="1.5"/>
+    <circle cx="395" cy="160" r="2.5" fill="url(#goldGrad)"/>
   </g>
   <g transform="translate(420, 128)"><g class="focus-item fade-el f1">
-    <rect class="item-bg" x="0" y="0" width="560" height="56" rx="12" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#cardShadow)"/>
-    <rect class="holo-overlay" x="0" y="0" width="560" height="56" rx="12" fill="url(#holoSweep)" opacity="0"/>
+    <rect class="item-bg" x="0" y="0" width="560" height="64" rx="12" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#cardShadow)"/>
+    <rect class="holo-overlay" x="0" y="0" width="560" height="64" rx="12" fill="url(#holoSweep)" opacity="0"/>
     <g transform="translate(16, 12)">
       <path d="M2 6l8-4 8 4-8 4-8-4z" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
       <path d="M2 10l8 4 8-4" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
       <path d="M2 14l8 4 8-4" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
-    <text class="focus-title" x="46" y="23" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="13" fill="#EDE7D8">TradeFlow ERP Platform</text>
-    <text x="46" y="42" font-family="'Segoe UI',sans-serif" font-size="10" fill="#8A8272">Rice import/export commodity ERP system</text>
+    <text class="focus-title" x="46" y="23" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="16" fill="#EDE7D8">TradeFlow ERP Platform</text>
+    <text x="46" y="42" font-family="'Segoe UI',sans-serif" font-size="12" fill="#8A8272">Rice import/export commodity ERP system</text>
     <g transform="translate(395, 12)">
       <rect x="0" y="0" width="80" height="20" rx="10" fill="rgba(255,183,77,0.1)" stroke="url(#amberGrad)" stroke-width="0.6" stroke-opacity="0.5"/>
-      <text x="40" y="14" text-anchor="middle" font-family="Consolas,monospace" font-size="7" font-weight="700" fill="#FFB74D">BUILDING</text>
+      <text x="40" y="14" text-anchor="middle" font-family="Consolas,monospace" font-size="9" font-weight="700" fill="#FFB74D">BUILDING</text>
     </g>
     <g transform="translate(395, 38)"><g class="progress-fill p1">
       <rect x="0" y="0" width="80" height="3" rx="1.5" fill="rgba(255,255,255,0.05)"/>
@@ -125,21 +125,21 @@
   </g>
   <!-- Item 2: Enterprise ERP Apps -->
   <g class="timeline-dot t2">
-    <circle cx="395" cy="228" r="6" fill="#14100B" stroke="url(#goldGrad)" stroke-width="1.5"/>
-    <circle cx="395" cy="228" r="2.5" fill="url(#goldGrad)"/>
+    <circle cx="395" cy="240" r="6" fill="#14100B" stroke="url(#goldGrad)" stroke-width="1.5"/>
+    <circle cx="395" cy="240" r="2.5" fill="url(#goldGrad)"/>
   </g>
   <g transform="translate(420, 201)"><g class="focus-item fade-el f2">
-    <rect class="item-bg" x="0" y="0" width="560" height="56" rx="12" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#cardShadow)"/>
-    <rect class="holo-overlay" x="0" y="0" width="560" height="56" rx="12" fill="url(#holoSweep)" opacity="0"/>
+    <rect class="item-bg" x="0" y="0" width="560" height="64" rx="12" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#cardShadow)"/>
+    <rect class="holo-overlay" x="0" y="0" width="560" height="64" rx="12" fill="url(#holoSweep)" opacity="0"/>
     <g transform="translate(16, 12)">
       <rect x="0" y="0" width="18" height="14" rx="2" fill="none" stroke="url(#goldGrad)" stroke-width="1.5"/>
       <path d="M2 10l5-5 4 4 5-6" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
-    <text class="focus-title" x="46" y="23" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="13" fill="#EDE7D8">Enterprise ERP Apps</text>
-    <text x="46" y="42" font-family="'Segoe UI',sans-serif" font-size="10" fill="#8A8272">Custom business solutions for clients</text>
+    <text class="focus-title" x="46" y="23" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="16" fill="#EDE7D8">Enterprise ERP Apps</text>
+    <text x="46" y="42" font-family="'Segoe UI',sans-serif" font-size="12" fill="#8A8272">Custom business solutions for clients</text>
     <g transform="translate(395, 12)">
       <rect x="0" y="0" width="80" height="20" rx="10" fill="rgba(66,165,245,0.1)" stroke="url(#blueGrad)" stroke-width="0.6" stroke-opacity="0.5"/>
-      <text x="40" y="14" text-anchor="middle" font-family="Consolas,monospace" font-size="7" font-weight="700" fill="#42A5F5">ACTIVE</text>
+      <text x="40" y="14" text-anchor="middle" font-family="Consolas,monospace" font-size="9" font-weight="700" fill="#42A5F5">ACTIVE</text>
     </g>
     <g transform="translate(395, 38)"><g class="progress-fill p2">
       <rect x="0" y="0" width="80" height="3" rx="1.5" fill="rgba(255,255,255,0.05)"/>
@@ -150,22 +150,22 @@
   </g>
   <!-- Item 3: AI Desktop Companion -->
   <g class="timeline-dot t3">
-    <circle cx="395" cy="301" r="6" fill="#14100B" stroke="url(#goldGrad)" stroke-width="1.5"/>
-    <circle cx="395" cy="301" r="2.5" fill="url(#goldGrad)"/>
+    <circle cx="395" cy="320" r="6" fill="#14100B" stroke="url(#goldGrad)" stroke-width="1.5"/>
+    <circle cx="395" cy="320" r="2.5" fill="url(#goldGrad)"/>
   </g>
   <g transform="translate(420, 274)"><g class="focus-item fade-el f3">
-    <rect class="item-bg" x="0" y="0" width="560" height="56" rx="12" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#cardShadow)"/>
-    <rect class="holo-overlay" x="0" y="0" width="560" height="56" rx="12" fill="url(#holoSweep)" opacity="0"/>
+    <rect class="item-bg" x="0" y="0" width="560" height="64" rx="12" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#cardShadow)"/>
+    <rect class="holo-overlay" x="0" y="0" width="560" height="64" rx="12" fill="url(#holoSweep)" opacity="0"/>
     <g transform="translate(16, 12)">
       <path d="M4 4h16v10H4z" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
       <path d="M8 18h8" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" stroke-linecap="round"/>
       <path d="M12 14v4" fill="none" stroke="url(#goldGrad)" stroke-width="1.5"/>
     </g>
-    <text class="focus-title" x="46" y="23" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="13" fill="#EDE7D8">AI Desktop Companion</text>
-    <text x="46" y="42" font-family="'Segoe UI',sans-serif" font-size="10" fill="#8A8272">Intelligent desktop assistant</text>
+    <text class="focus-title" x="46" y="23" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="16" fill="#EDE7D8">AI Desktop Companion</text>
+    <text x="46" y="42" font-family="'Segoe UI',sans-serif" font-size="12" fill="#8A8272">Intelligent desktop assistant</text>
     <g transform="translate(395, 12)">
       <rect x="0" y="0" width="80" height="20" rx="10" fill="rgba(201,164,76,0.08)" stroke="url(#goldGrad)" stroke-width="0.6" stroke-opacity="0.4"/>
-      <text x="40" y="14" text-anchor="middle" font-family="Consolas,monospace" font-size="7" font-weight="700" fill="#C9A44C">EXPLORING</text>
+      <text x="40" y="14" text-anchor="middle" font-family="Consolas,monospace" font-size="9" font-weight="700" fill="#C9A44C">EXPLORING</text>
     </g>
     <g transform="translate(395, 38)"><g class="progress-fill p3">
       <rect x="0" y="0" width="80" height="3" rx="1.5" fill="rgba(255,255,255,0.05)"/>
@@ -176,22 +176,22 @@
   </g>
   <!-- Item 4: Open Source Components -->
   <g class="timeline-dot t4">
-    <circle cx="395" cy="374" r="6" fill="#14100B" stroke="url(#goldGrad)" stroke-width="1.5"/>
-    <circle cx="395" cy="374" r="2.5" fill="url(#goldGrad)"/>
+    <circle cx="395" cy="400" r="6" fill="#14100B" stroke="url(#goldGrad)" stroke-width="1.5"/>
+    <circle cx="395" cy="400" r="2.5" fill="url(#goldGrad)"/>
   </g>
   <g transform="translate(420, 347)"><g class="focus-item fade-el f4">
-    <rect class="item-bg" x="0" y="0" width="560" height="56" rx="12" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#cardShadow)"/>
-    <rect class="holo-overlay" x="0" y="0" width="560" height="56" rx="12" fill="url(#holoSweep)" opacity="0"/>
+    <rect class="item-bg" x="0" y="0" width="560" height="64" rx="12" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#cardShadow)"/>
+    <rect class="holo-overlay" x="0" y="0" width="560" height="64" rx="12" fill="url(#holoSweep)" opacity="0"/>
     <g transform="translate(16, 12)">
       <path d="M12 2L2 7l10 5 10-5-10-5z" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
       <path d="M2 17l10 5 10-5" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
       <path d="M2 12l10 5 10-5" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
-    <text class="focus-title" x="46" y="23" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="13" fill="#EDE7D8">Open Source Components</text>
-    <text x="46" y="42" font-family="'Segoe UI',sans-serif" font-size="10" fill="#8A8272">Vue 3 &amp; Frappe UI components</text>
+    <text class="focus-title" x="46" y="23" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="16" fill="#EDE7D8">Open Source Components</text>
+    <text x="46" y="42" font-family="'Segoe UI',sans-serif" font-size="12" fill="#8A8272">Vue 3 &amp; Frappe UI components</text>
     <g transform="translate(395, 12)">
       <rect x="0" y="0" width="80" height="20" rx="10" fill="rgba(76,175,80,0.1)" stroke="url(#greenGrad)" stroke-width="0.6" stroke-opacity="0.5"/>
-      <text x="40" y="14" text-anchor="middle" font-family="Consolas,monospace" font-size="7" font-weight="700" fill="#4CAF50">SHARING</text>
+      <text x="40" y="14" text-anchor="middle" font-family="Consolas,monospace" font-size="9" font-weight="700" fill="#4CAF50">SHARING</text>
     </g>
     <g transform="translate(395, 38)"><g class="progress-fill p4">
       <rect x="0" y="0" width="80" height="3" rx="1.5" fill="rgba(255,255,255,0.05)"/>
@@ -202,22 +202,22 @@
   </g>
   <!-- Item 5: Modern Portfolio -->
   <g class="timeline-dot t5">
-    <circle cx="395" cy="447" r="6" fill="#14100B" stroke="url(#goldGrad)" stroke-width="1.5"/>
-    <circle cx="395" cy="447" r="2.5" fill="url(#goldGrad)"/>
+    <circle cx="395" cy="480" r="6" fill="#14100B" stroke="url(#goldGrad)" stroke-width="1.5"/>
+    <circle cx="395" cy="480" r="2.5" fill="url(#goldGrad)"/>
   </g>
-  <g transform="translate(420, 420)"><g class="focus-item fade-el f5">
-    <rect class="item-bg" x="0" y="0" width="560" height="56" rx="12" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#cardShadow)"/>
-    <rect class="holo-overlay" x="0" y="0" width="560" height="56" rx="12" fill="url(#holoSweep)" opacity="0"/>
+  <g transform="translate(420, 444)"><g class="focus-item fade-el f5">
+    <rect class="item-bg" x="0" y="0" width="560" height="64" rx="12" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#cardShadow)"/>
+    <rect class="holo-overlay" x="0" y="0" width="560" height="64" rx="12" fill="url(#holoSweep)" opacity="0"/>
     <g transform="translate(16, 12)">
       <path d="M2 4h20v12H2z" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
       <path d="M8 2v2m8-2v2" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" stroke-linecap="round"/>
       <path d="M2 10h20" fill="none" stroke="url(#goldGrad)" stroke-width="1.5"/>
     </g>
-    <text class="focus-title" x="46" y="23" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="13" fill="#EDE7D8">Modern Portfolio</text>
-    <text x="46" y="42" font-family="'Segoe UI',sans-serif" font-size="10" fill="#8A8272">This developer portfolio &amp; profile</text>
+    <text class="focus-title" x="46" y="23" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="16" fill="#EDE7D8">Modern Portfolio</text>
+    <text x="46" y="42" font-family="'Segoe UI',sans-serif" font-size="12" fill="#8A8272">This developer portfolio &amp; profile</text>
     <g transform="translate(395, 12)">
       <rect x="0" y="0" width="80" height="20" rx="10" fill="rgba(76,175,80,0.1)" stroke="url(#greenGrad)" stroke-width="0.6" stroke-opacity="0.5"/>
-      <text x="40" y="14" text-anchor="middle" font-family="Consolas,monospace" font-size="7" font-weight="700" fill="#4CAF50">LIVE</text>
+      <text x="40" y="14" text-anchor="middle" font-family="Consolas,monospace" font-size="9" font-weight="700" fill="#4CAF50">LIVE</text>
     </g>
     <g transform="translate(395, 38)"><g class="progress-fill p5">
       <rect x="0" y="0" width="80" height="3" rx="1.5" fill="rgba(255,255,255,0.05)"/>

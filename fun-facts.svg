@@ -69,100 +69,100 @@
   <rect x="0" y="0" width="1400" height="250" fill="url(#vignette)"/>
   <rect x="1.5" y="1.5" width="1397" height="247" rx="19" ry="19" fill="none" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3"/>
   <!-- heading -->
-  <text class="fade-el h" x="700" y="50" text-anchor="middle" font-family="'Arial Black','Segoe UI',sans-serif" font-weight="800" font-size="28" fill="#F5F2EA">Fun Facts</text>
-  <rect class="fade-el h" x="610" y="65" width="180" height="2.5" rx="1.25" fill="url(#goldGrad)"/>
-  <text class="fade-el h" x="700" y="88" text-anchor="middle" font-family="Consolas,monospace" font-size="10" fill="#8A8272" letter-spacing="2">DID YOU KNOW</text>
+  <text class="fade-el h" x="700" y="50" text-anchor="middle" font-family="'Arial Black','Segoe UI',sans-serif" font-weight="800" font-size="32" fill="#F5F2EA">Fun Facts</text>
+  <rect class="fade-el h" x="610" y="65" width="200" height="3" rx="1.5" fill="url(#goldGrad)"/>
+  <text class="fade-el h" x="700" y="88" text-anchor="middle" font-family="Consolas,monospace" font-size="12" fill="#8A8272" letter-spacing="2">DID YOU KNOW</text>
   <!-- facts row -->
   <g transform="translate(0, 115)">
     <!-- Coffee Driven -->
     <g transform="translate(76, 0)">
       <g class="fade-el f1">
         <g class="fact-pill">
-      <rect class="pill-bg" x="0" y="0" width="150" height="46" rx="23" fill="rgba(201,164,76,0.03)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#softShadow)"/>
-      <rect class="holo-overlay" x="0" y="0" width="150" height="46" rx="23" fill="url(#holoSweep)" opacity="0"/>
-      <g transform="translate(16, 13)">
+      <rect class="pill-bg" x="0" y="0" width="150" height="52" rx="26" fill="rgba(201,164,76,0.03)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#softShadow)"/>
+      <rect class="holo-overlay" x="0" y="0" width="150" height="52" rx="26" fill="url(#holoSweep)" opacity="0"/>
+      <g transform="translate(18, 15)">
         <path class="icon-path" d="M7 4h8l2 10H5L7 4z" fill="none" stroke="#C9A44C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
         <path class="icon-path" d="M5 14v2a2 2 0 002 2h6a2 2 0 002-2v-2" fill="none" stroke="#C9A44C" stroke-width="1.5"/>
         <path class="icon-path" d="M17 7h1a2 2 0 012 2v1a2 2 0 01-2 2h-1" fill="none" stroke="#C9A44C" stroke-width="1.5"/>
       </g>
-      <text class="fact-text" x="44" y="27" font-family="'Segoe UI',sans-serif" font-size="12" font-weight="600" fill="#D9D3C4">Coffee Driven</text>
+      <text class="fact-text" x="44" y="27" font-family="'Segoe UI',sans-serif" font-size="14" font-weight="600" fill="#D9D3C4">Coffee Driven</text>
     </g></g></g>
     <!-- Linux User -->
     <g transform="translate(246, 0)">
       <g class="fade-el f2">
         <g class="fact-pill">
-      <rect class="pill-bg" x="0" y="0" width="146" height="46" rx="23" fill="rgba(201,164,76,0.03)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#softShadow)"/>
-      <rect class="holo-overlay" x="0" y="0" width="146" height="46" rx="23" fill="url(#holoSweep)" opacity="0"/>
-      <g transform="translate(16, 13)">
+      <rect class="pill-bg" x="0" y="0" width="146" height="52" rx="26" fill="rgba(201,164,76,0.03)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#softShadow)"/>
+      <rect class="holo-overlay" x="0" y="0" width="146" height="52" rx="26" fill="url(#holoSweep)" opacity="0"/>
+      <g transform="translate(18, 15)">
         <path class="icon-path" d="M4 12c0-4 2.5-7 6-7s6 3 6 7" fill="none" stroke="#C9A44C" stroke-width="1.5" stroke-linecap="round"/>
         <path class="icon-path" d="M10 8v6m-3-1h6" fill="none" stroke="#C9A44C" stroke-width="1.5" stroke-linecap="round"/>
       </g>
-      <text class="fact-text" x="44" y="27" font-family="'Segoe UI',sans-serif" font-size="12" font-weight="600" fill="#D9D3C4">Linux User</text>
+      <text class="fact-text" x="44" y="27" font-family="'Segoe UI',sans-serif" font-size="14" font-weight="600" fill="#D9D3C4">Linux User</text>
     </g></g></g>
     <!-- ERP Enthusiast -->
     <g transform="translate(412, 0)">
       <g class="fade-el f3">
         <g class="fact-pill">
-      <rect class="pill-bg" x="0" y="0" width="160" height="46" rx="23" fill="rgba(201,164,76,0.03)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#softShadow)"/>
-      <rect class="holo-overlay" x="0" y="0" width="160" height="46" rx="23" fill="url(#holoSweep)" opacity="0"/>
-      <g transform="translate(16, 13)">
+      <rect class="pill-bg" x="0" y="0" width="160" height="52" rx="26" fill="rgba(201,164,76,0.03)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#softShadow)"/>
+      <rect class="holo-overlay" x="0" y="0" width="160" height="52" rx="26" fill="url(#holoSweep)" opacity="0"/>
+      <g transform="translate(18, 15)">
         <path class="icon-path" d="M2 6l8-4 8 4-8 4-8-4z" fill="none" stroke="#C9A44C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
         <path class="icon-path" d="M2 10l8 4 8-4" fill="none" stroke="#C9A44C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
         <path class="icon-path" d="M2 14l8 4 8-4" fill="none" stroke="#C9A44C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
       </g>
-      <text class="fact-text" x="44" y="27" font-family="'Segoe UI',sans-serif" font-size="12" font-weight="600" fill="#D9D3C4">ERP Enthusiast</text>
+      <text class="fact-text" x="44" y="27" font-family="'Segoe UI',sans-serif" font-size="14" font-weight="600" fill="#D9D3C4">ERP Enthusiast</text>
     </g></g></g>
     <!-- Problem Solver -->
     <g transform="translate(592, 0)">
       <g class="fade-el f4">
         <g class="fact-pill">
-      <rect class="pill-bg" x="0" y="0" width="164" height="46" rx="23" fill="rgba(201,164,76,0.03)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#softShadow)"/>
-      <rect class="holo-overlay" x="0" y="0" width="164" height="46" rx="23" fill="url(#holoSweep)" opacity="0"/>
-      <g transform="translate(16, 13)">
+      <rect class="pill-bg" x="0" y="0" width="164" height="52" rx="26" fill="rgba(201,164,76,0.03)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#softShadow)"/>
+      <rect class="holo-overlay" x="0" y="0" width="164" height="52" rx="26" fill="url(#holoSweep)" opacity="0"/>
+      <g transform="translate(18, 15)">
         <path class="icon-path" d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6z" fill="none" stroke="#C9A44C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
         <path class="icon-path" d="M14 2v6h6" fill="none" stroke="#C9A44C" stroke-width="1.5"/>
         <path class="icon-path" d="M9 15l2 2 4-4" fill="none" stroke="#C9A44C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
       </g>
-      <text class="fact-text" x="44" y="27" font-family="'Segoe UI',sans-serif" font-size="12" font-weight="600" fill="#D9D3C4">Problem Solver</text>
+      <text class="fact-text" x="44" y="27" font-family="'Segoe UI',sans-serif" font-size="14" font-weight="600" fill="#D9D3C4">Problem Solver</text>
     </g></g></g>
     <!-- Always Learning -->
     <g transform="translate(776, 0)">
       <g class="fade-el f5">
         <g class="fact-pill">
-      <rect class="pill-bg" x="0" y="0" width="162" height="46" rx="23" fill="rgba(201,164,76,0.03)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#softShadow)"/>
-      <rect class="holo-overlay" x="0" y="0" width="162" height="46" rx="23" fill="url(#holoSweep)" opacity="0"/>
-      <g transform="translate(16, 13)">
+      <rect class="pill-bg" x="0" y="0" width="162" height="52" rx="26" fill="rgba(201,164,76,0.03)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#softShadow)"/>
+      <rect class="holo-overlay" x="0" y="0" width="162" height="52" rx="26" fill="url(#holoSweep)" opacity="0"/>
+      <g transform="translate(18, 15)">
         <path class="icon-path" d="M12 6v6l4 2" fill="none" stroke="#C9A44C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
         <path class="icon-path" d="M12 2a10 10 0 1010 10" fill="none" stroke="#C9A44C" stroke-width="1.5" stroke-linecap="round"/>
         <path class="icon-path" d="M22 2L12 12" fill="none" stroke="#C9A44C" stroke-width="1.5" stroke-linecap="round"/>
       </g>
-      <text class="fact-text" x="44" y="27" font-family="'Segoe UI',sans-serif" font-size="12" font-weight="600" fill="#D9D3C4">Always Learning</text>
+      <text class="fact-text" x="44" y="27" font-family="'Segoe UI',sans-serif" font-size="14" font-weight="600" fill="#D9D3C4">Always Learning</text>
     </g></g></g>
     <!-- Automation Lover -->
     <g transform="translate(958, 0)">
       <g class="fade-el f6">
         <g class="fact-pill">
-      <rect class="pill-bg" x="0" y="0" width="175" height="46" rx="23" fill="rgba(201,164,76,0.03)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#softShadow)"/>
-      <rect class="holo-overlay" x="0" y="0" width="175" height="46" rx="23" fill="url(#holoSweep)" opacity="0"/>
-      <g transform="translate(16, 13)">
+      <rect class="pill-bg" x="0" y="0" width="175" height="52" rx="26" fill="rgba(201,164,76,0.03)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#softShadow)"/>
+      <rect class="holo-overlay" x="0" y="0" width="175" height="52" rx="26" fill="url(#holoSweep)" opacity="0"/>
+      <g transform="translate(18, 15)">
         <path class="icon-path" d="M4 6h16" fill="none" stroke="#C9A44C" stroke-width="1.5" stroke-linecap="round"/>
         <path class="icon-path" d="M8 12h8" fill="none" stroke="#C9A44C" stroke-width="1.5" stroke-linecap="round"/>
         <path class="icon-path" d="M6 18h12" fill="none" stroke="#C9A44C" stroke-width="1.5" stroke-linecap="round"/>
       </g>
-      <text class="fact-text" x="44" y="27" font-family="'Segoe UI',sans-serif" font-size="12" font-weight="600" fill="#D9D3C4">Automation Lover</text>
+      <text class="fact-text" x="44" y="27" font-family="'Segoe UI',sans-serif" font-size="14" font-weight="600" fill="#D9D3C4">Automation Lover</text>
     </g></g></g>
     <!-- Open Source -->
     <g transform="translate(1153, 0)">
       <g class="fade-el f7">
         <g class="fact-pill">
-      <rect class="pill-bg" x="0" y="0" width="170" height="46" rx="23" fill="rgba(201,164,76,0.03)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#softShadow)"/>
-      <rect class="holo-overlay" x="0" y="0" width="170" height="46" rx="23" fill="url(#holoSweep)" opacity="0"/>
-      <g transform="translate(16, 13)">
+      <rect class="pill-bg" x="0" y="0" width="170" height="52" rx="26" fill="rgba(201,164,76,0.03)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#softShadow)"/>
+      <rect class="holo-overlay" x="0" y="0" width="170" height="52" rx="26" fill="url(#holoSweep)" opacity="0"/>
+      <g transform="translate(18, 15)">
         <path class="icon-path" d="M9 12h6" fill="none" stroke="#C9A44C" stroke-width="1.5" stroke-linecap="round"/>
         <path class="icon-path" d="M12 2a10 10 0 1010 10" fill="none" stroke="#C9A44C" stroke-width="1.5" stroke-linecap="round"/>
         <path class="icon-path" d="M12 2a10 10 0 010 20" fill="none" stroke="#C9A44C" stroke-width="1.5"/>
       </g>
-      <text class="fact-text" x="44" y="27" font-family="'Segoe UI',sans-serif" font-size="12" font-weight="600" fill="#D9D3C4">Open Source</text>
+      <text class="fact-text" x="44" y="27" font-family="'Segoe UI',sans-serif" font-size="14" font-weight="600" fill="#D9D3C4">Open Source</text>
     </g></g></g>
   </g>
 </g>

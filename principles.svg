@@ -69,65 +69,65 @@
   <rect x="0" y="0" width="1400" height="440" fill="url(#hexPattern)"/>
   <rect x="0" y="0" width="1400" height="440" fill="url(#vignette)"/>
   <rect x="1.5" y="1.5" width="1397" height="437" rx="19" ry="19" fill="none" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3"/>
-  <text class="fade-el h" x="700" y="55" text-anchor="middle" font-family="'Arial Black','Segoe UI',sans-serif" font-weight="800" font-size="28" fill="#F5F2EA">My Principles</text>
-  <rect class="fade-el h" x="590" y="70" width="220" height="2.5" rx="1.25" fill="url(#goldGrad)"/>
-  <text class="fade-el h" x="700" y="93" text-anchor="middle" font-family="Consolas,monospace" font-size="10" fill="#8A8272" letter-spacing="2">ENGINEERING PHILOSOPHY</text>
+  <text class="fade-el h" x="700" y="55" text-anchor="middle" font-family="'Arial Black','Segoe UI',sans-serif" font-weight="800" font-size="32" fill="#F5F2EA">My Principles</text>
+  <rect class="fade-el h" x="590" y="70" width="240" height="3" rx="1.5" fill="url(#goldGrad)"/>
+  <text class="fade-el h" x="700" y="93" text-anchor="middle" font-family="Consolas,monospace" font-size="12" fill="#8A8272" letter-spacing="2">ENGINEERING PHILOSOPHY</text>
   <!-- Row 1 -->
   <g transform="translate(55, 130)"><g class="principle-card fade-el c1">
-    <rect class="card-bg" x="0" y="0" width="300" height="120" rx="12" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#cardShadow)"/>
-    <rect class="holo-overlay" x="0" y="0" width="300" height="120" rx="12" fill="url(#holoSweep)" opacity="0"/>
+    <rect class="card-bg" x="0" y="0" width="300" height="130" rx="12" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#cardShadow)"/>
+    <rect class="holo-overlay" x="0" y="0" width="300" height="130" rx="12" fill="url(#holoSweep)" opacity="0"/>
     <g transform="translate(16, 16)">
       <rect x="0" y="0" width="22" height="22" rx="6" fill="rgba(201,164,76,0.08)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.5"/>
-      <text x="11" y="16" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="11" font-weight="700" fill="url(#goldGrad)">01</text>
+      <text x="11" y="16" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="13" font-weight="700" fill="url(#goldGrad)">01</text>
     </g>
-    <text class="principle-title" x="52" y="35" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="14" fill="#EDE7D8">Business First</text>
-    <text x="16" y="62" font-family="'Segoe UI',sans-serif" font-size="10.5" fill="#8A8272">Understand the problem before</text>
-    <text x="16" y="78" font-family="'Segoe UI',sans-serif" font-size="10.5" fill="#8A8272">writing a single line of code.</text>
+    <text class="principle-title" x="52" y="35" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="16" fill="#EDE7D8">Business First</text>
+    <text x="16" y="66" font-family="'Segoe UI',sans-serif" font-size="13" fill="#8A8272">Understand the problem before</text>
+    <text x="16" y="84" font-family="'Segoe UI',sans-serif" font-size="13" fill="#8A8272">writing a single line of code.</text>
     <g class="principle-icon" transform="translate(256, 16)">
       <path d="M12 2l3.1 6.3 6.9 1-5 4.8 1.2 6.9L12 17.3l-6.2 3.2L7 14.1 2 9.3l6.9-1L12 2z" fill="none" stroke="url(#goldGrad)" stroke-width="1.2"/>
     </g>
   </g>
   </g>
   <g transform="translate(385, 130)"><g class="principle-card fade-el c2">
-    <rect class="card-bg" x="0" y="0" width="300" height="120" rx="12" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#cardShadow)"/>
-    <rect class="holo-overlay" x="0" y="0" width="300" height="120" rx="12" fill="url(#holoSweep)" opacity="0"/>
+    <rect class="card-bg" x="0" y="0" width="300" height="130" rx="12" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#cardShadow)"/>
+    <rect class="holo-overlay" x="0" y="0" width="300" height="130" rx="12" fill="url(#holoSweep)" opacity="0"/>
     <g transform="translate(16, 16)">
       <rect x="0" y="0" width="22" height="22" rx="6" fill="rgba(201,164,76,0.08)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.5"/>
-      <text x="11" y="16" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="11" font-weight="700" fill="url(#goldGrad)">02</text>
+      <text x="11" y="16" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="13" font-weight="700" fill="url(#goldGrad)">02</text>
     </g>
-    <text class="principle-title" x="52" y="35" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="14" fill="#EDE7D8">Clean Architecture</text>
-    <text x="16" y="62" font-family="'Segoe UI',sans-serif" font-size="10.5" fill="#8A8272">Maintainable, scalable, and</text>
-    <text x="16" y="78" font-family="'Segoe UI',sans-serif" font-size="10.5" fill="#8A8272">well-structured code always wins.</text>
+    <text class="principle-title" x="52" y="35" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="16" fill="#EDE7D8">Clean Architecture</text>
+    <text x="16" y="66" font-family="'Segoe UI',sans-serif" font-size="13" fill="#8A8272">Maintainable, scalable, and</text>
+    <text x="16" y="84" font-family="'Segoe UI',sans-serif" font-size="13" fill="#8A8272">well-structured code always wins.</text>
     <g class="principle-icon" transform="translate(256, 16)">
       <path d="M4 6h16M4 12h16M4 18h16" fill="none" stroke="url(#goldGrad)" stroke-width="1.2" stroke-linecap="round"/>
     </g>
   </g>
   </g>
   <g transform="translate(715, 130)"><g class="principle-card fade-el c3">
-    <rect class="card-bg" x="0" y="0" width="300" height="120" rx="12" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#cardShadow)"/>
-    <rect class="holo-overlay" x="0" y="0" width="300" height="120" rx="12" fill="url(#holoSweep)" opacity="0"/>
+    <rect class="card-bg" x="0" y="0" width="300" height="130" rx="12" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#cardShadow)"/>
+    <rect class="holo-overlay" x="0" y="0" width="300" height="130" rx="12" fill="url(#holoSweep)" opacity="0"/>
     <g transform="translate(16, 16)">
       <rect x="0" y="0" width="22" height="22" rx="6" fill="rgba(201,164,76,0.08)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.5"/>
-      <text x="11" y="16" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="11" font-weight="700" fill="url(#goldGrad)">03</text>
+      <text x="11" y="16" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="13" font-weight="700" fill="url(#goldGrad)">03</text>
     </g>
-    <text class="principle-title" x="52" y="35" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="14" fill="#EDE7D8">Performance Matters</text>
-    <text x="16" y="62" font-family="'Segoe UI',sans-serif" font-size="10.5" fill="#8A8272">Optimize queries, reduce latency</text>
-    <text x="16" y="78" font-family="'Segoe UI',sans-serif" font-size="10.5" fill="#8A8272">and deliver fast experiences.</text>
+    <text class="principle-title" x="52" y="35" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="16" fill="#EDE7D8">Performance Matters</text>
+    <text x="16" y="66" font-family="'Segoe UI',sans-serif" font-size="13" fill="#8A8272">Optimize queries, reduce latency</text>
+    <text x="16" y="84" font-family="'Segoe UI',sans-serif" font-size="13" fill="#8A8272">and deliver fast experiences.</text>
     <g class="principle-icon" transform="translate(256, 16)">
       <path d="M13 2l-2 7h7l-5 9" fill="none" stroke="url(#goldGrad)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
   </g>
   </g>
   <g transform="translate(1045, 130)"><g class="principle-card fade-el c4">
-    <rect class="card-bg" x="0" y="0" width="300" height="120" rx="12" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#cardShadow)"/>
-    <rect class="holo-overlay" x="0" y="0" width="300" height="120" rx="12" fill="url(#holoSweep)" opacity="0"/>
+    <rect class="card-bg" x="0" y="0" width="300" height="130" rx="12" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#cardShadow)"/>
+    <rect class="holo-overlay" x="0" y="0" width="300" height="130" rx="12" fill="url(#holoSweep)" opacity="0"/>
     <g transform="translate(16, 16)">
       <rect x="0" y="0" width="22" height="22" rx="6" fill="rgba(201,164,76,0.08)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.5"/>
-      <text x="11" y="16" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="11" font-weight="700" fill="url(#goldGrad)">04</text>
+      <text x="11" y="16" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="13" font-weight="700" fill="url(#goldGrad)">04</text>
     </g>
-    <text class="principle-title" x="52" y="35" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="14" fill="#EDE7D8">Automation Over Repetition</text>
-    <text x="16" y="62" font-family="'Segoe UI',sans-serif" font-size="10.5" fill="#8A8272">If you do it twice, script it.</text>
-    <text x="16" y="78" font-family="'Segoe UI',sans-serif" font-size="10.5" fill="#8A8272">If thrice, automate it.</text>
+    <text class="principle-title" x="52" y="35" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="16" fill="#EDE7D8">Automation Over Repetition</text>
+    <text x="16" y="66" font-family="'Segoe UI',sans-serif" font-size="13" fill="#8A8272">If you do it twice, script it.</text>
+    <text x="16" y="84" font-family="'Segoe UI',sans-serif" font-size="13" fill="#8A8272">If thrice, automate it.</text>
     <g class="principle-icon" transform="translate(256, 16)">
       <path d="M4 6h16M8 12h8M6 18h12" fill="none" stroke="url(#goldGrad)" stroke-width="1.2" stroke-linecap="round"/>
     </g>
@@ -135,15 +135,15 @@
   </g>
   <!-- Row 2 -->
   <g transform="translate(55, 270)"><g class="principle-card fade-el c5">
-    <rect class="card-bg" x="0" y="0" width="300" height="120" rx="12" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#cardShadow)"/>
-    <rect class="holo-overlay" x="0" y="0" width="300" height="120" rx="12" fill="url(#holoSweep)" opacity="0"/>
+    <rect class="card-bg" x="0" y="0" width="300" height="130" rx="12" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#cardShadow)"/>
+    <rect class="holo-overlay" x="0" y="0" width="300" height="130" rx="12" fill="url(#holoSweep)" opacity="0"/>
     <g transform="translate(16, 16)">
       <rect x="0" y="0" width="22" height="22" rx="6" fill="rgba(201,164,76,0.08)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.5"/>
-      <text x="11" y="16" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="11" font-weight="700" fill="url(#goldGrad)">05</text>
+      <text x="11" y="16" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="13" font-weight="700" fill="url(#goldGrad)">05</text>
     </g>
-    <text class="principle-title" x="52" y="35" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="14" fill="#EDE7D8">Scalable Solutions</text>
-    <text x="16" y="62" font-family="'Segoe UI',sans-serif" font-size="10.5" fill="#8A8272">Design systems that grow</text>
-    <text x="16" y="78" font-family="'Segoe UI',sans-serif" font-size="10.5" fill="#8A8272">with the business needs.</text>
+    <text class="principle-title" x="52" y="35" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="16" fill="#EDE7D8">Scalable Solutions</text>
+    <text x="16" y="66" font-family="'Segoe UI',sans-serif" font-size="13" fill="#8A8272">Design systems that grow</text>
+    <text x="16" y="84" font-family="'Segoe UI',sans-serif" font-size="13" fill="#8A8272">with the business needs.</text>
     <g class="principle-icon" transform="translate(256, 16)">
       <path d="M3 12h18" fill="none" stroke="url(#goldGrad)" stroke-width="1.2" stroke-linecap="round"/>
       <path d="M12 3v18" fill="none" stroke="url(#goldGrad)" stroke-width="1.2" stroke-linecap="round"/>
@@ -151,15 +151,15 @@
   </g>
   </g>
   <g transform="translate(385, 270)"><g class="principle-card fade-el c6">
-    <rect class="card-bg" x="0" y="0" width="300" height="120" rx="12" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#cardShadow)"/>
-    <rect class="holo-overlay" x="0" y="0" width="300" height="120" rx="12" fill="url(#holoSweep)" opacity="0"/>
+    <rect class="card-bg" x="0" y="0" width="300" height="130" rx="12" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#cardShadow)"/>
+    <rect class="holo-overlay" x="0" y="0" width="300" height="130" rx="12" fill="url(#holoSweep)" opacity="0"/>
     <g transform="translate(16, 16)">
       <rect x="0" y="0" width="22" height="22" rx="6" fill="rgba(201,164,76,0.08)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.5"/>
-      <text x="11" y="16" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="11" font-weight="700" fill="url(#goldGrad)">06</text>
+      <text x="11" y="16" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="13" font-weight="700" fill="url(#goldGrad)">06</text>
     </g>
-    <text class="principle-title" x="52" y="35" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="14" fill="#EDE7D8">Continuous Learning</text>
-    <text x="16" y="62" font-family="'Segoe UI',sans-serif" font-size="10.5" fill="#8A8272">Stay curious. Technology</text>
-    <text x="16" y="78" font-family="'Segoe UI',sans-serif" font-size="10.5" fill="#8A8272">evolves and so should you.</text>
+    <text class="principle-title" x="52" y="35" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="16" fill="#EDE7D8">Continuous Learning</text>
+    <text x="16" y="66" font-family="'Segoe UI',sans-serif" font-size="13" fill="#8A8272">Stay curious. Technology</text>
+    <text x="16" y="84" font-family="'Segoe UI',sans-serif" font-size="13" fill="#8A8272">evolves and so should you.</text>
     <g class="principle-icon" transform="translate(256, 16)">
       <path d="M12 6v6l4 2" fill="none" stroke="url(#goldGrad)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
       <circle cx="12" cy="12" r="10" fill="none" stroke="url(#goldGrad)" stroke-width="1.2"/>
@@ -167,15 +167,15 @@
   </g>
   </g>
   <g transform="translate(715, 270)"><g class="principle-card fade-el c7">
-    <rect class="card-bg" x="0" y="0" width="300" height="120" rx="12" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#cardShadow)"/>
-    <rect class="holo-overlay" x="0" y="0" width="300" height="120" rx="12" fill="url(#holoSweep)" opacity="0"/>
+    <rect class="card-bg" x="0" y="0" width="300" height="130" rx="12" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#cardShadow)"/>
+    <rect class="holo-overlay" x="0" y="0" width="300" height="130" rx="12" fill="url(#holoSweep)" opacity="0"/>
     <g transform="translate(16, 16)">
       <rect x="0" y="0" width="22" height="22" rx="6" fill="rgba(201,164,76,0.08)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.5"/>
-      <text x="11" y="16" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="11" font-weight="700" fill="url(#goldGrad)">07</text>
+      <text x="11" y="16" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="13" font-weight="700" fill="url(#goldGrad)">07</text>
     </g>
-    <text class="principle-title" x="52" y="35" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="14" fill="#EDE7D8">UX Matters</text>
-    <text x="16" y="62" font-family="'Segoe UI',sans-serif" font-size="10.5" fill="#8A8272">Build for humans, not</text>
-    <text x="16" y="78" font-family="'Segoe UI',sans-serif" font-size="10.5" fill="#8A8272">just for machines.</text>
+    <text class="principle-title" x="52" y="35" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="16" fill="#EDE7D8">UX Matters</text>
+    <text x="16" y="66" font-family="'Segoe UI',sans-serif" font-size="13" fill="#8A8272">Build for humans, not</text>
+    <text x="16" y="84" font-family="'Segoe UI',sans-serif" font-size="13" fill="#8A8272">just for machines.</text>
     <g class="principle-icon" transform="translate(256, 16)">
       <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" fill="none" stroke="url(#goldGrad)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
       <circle cx="9" cy="7" r="4" fill="none" stroke="url(#goldGrad)" stroke-width="1.2"/>
@@ -185,15 +185,15 @@
   </g>
   </g>
   <g transform="translate(1045, 270)"><g class="principle-card fade-el c8">
-    <rect class="card-bg" x="0" y="0" width="300" height="120" rx="12" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#cardShadow)"/>
-    <rect class="holo-overlay" x="0" y="0" width="300" height="120" rx="12" fill="url(#holoSweep)" opacity="0"/>
+    <rect class="card-bg" x="0" y="0" width="300" height="130" rx="12" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" filter="url(#cardShadow)"/>
+    <rect class="holo-overlay" x="0" y="0" width="300" height="130" rx="12" fill="url(#holoSweep)" opacity="0"/>
     <g transform="translate(16, 16)">
       <rect x="0" y="0" width="22" height="22" rx="6" fill="rgba(201,164,76,0.08)" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.5"/>
-      <text x="11" y="16" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="11" font-weight="700" fill="url(#goldGrad)">08</text>
+      <text x="11" y="16" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="13" font-weight="700" fill="url(#goldGrad)">08</text>
     </g>
-    <text class="principle-title" x="52" y="35" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="14" fill="#EDE7D8">Quality Over Quantity</text>
-    <text x="16" y="62" font-family="'Segoe UI',sans-serif" font-size="10.5" fill="#8A8272">One great feature is better</text>
-    <text x="16" y="78" font-family="'Segoe UI',sans-serif" font-size="10.5" fill="#8A8272">than ten mediocre ones.</text>
+    <text class="principle-title" x="52" y="35" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="16" fill="#EDE7D8">Quality Over Quantity</text>
+    <text x="16" y="66" font-family="'Segoe UI',sans-serif" font-size="13" fill="#8A8272">One great feature is better</text>
+    <text x="16" y="84" font-family="'Segoe UI',sans-serif" font-size="13" fill="#8A8272">than ten mediocre ones.</text>
     <g class="principle-icon" transform="translate(256, 16)">
       <path d="M12 2l3.1 6.3 6.9 1-5 4.8 1.2 6.9L12 17.3l-6.2 3.2L7 14.1 2 9.3l6.9-1L12 2z" fill="url(#goldGrad)" opacity="0.3"/>
     </g>
