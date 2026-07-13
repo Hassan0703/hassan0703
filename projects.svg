@@ -1,4 +1,4 @@
-<svg width="1400" height="1120" viewBox="0 0 1400 1120" xmlns="http://www.w3.org/2000/svg">
+<svg width="1400" height="1590" viewBox="0 0 1400 1590" xmlns="http://www.w3.org/2000/svg">
 <defs>
   <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
     <stop offset="0%" stop-color="#0A0806"/>
@@ -40,7 +40,7 @@
     <path d="M23 0 L46 13 L46 40 L23 53 L0 40 L0 13 Z" fill="none" stroke="#C9A44C" stroke-opacity="0.04" stroke-width="1"/>
     <path d="M23 40 L46 53 L46 80 L23 93 L0 80 L0 53 Z" fill="none" stroke="#C9A44C" stroke-opacity="0.04" stroke-width="1"/>
   </pattern>
-  <clipPath id="canvasClip"><rect x="0" y="0" width="1400" height="1120" rx="20" ry="20"/></clipPath>
+  <clipPath id="canvasClip"><rect x="0" y="0" width="1400" height="1590" rx="20" ry="20"/></clipPath>
   <clipPath id="cardClip"><rect x="0" y="0" width="406" height="460" rx="16"/></clipPath>
   <clipPath id="thumbClip"><rect x="10" y="10" width="386" height="220" rx="8"/></clipPath>
   <style>
@@ -74,10 +74,10 @@
   </filter>
 </defs>
 <g clip-path="url(#canvasClip)">
-  <rect x="0" y="0" width="1400" height="1120" fill="url(#bgGrad)"/>
-  <rect x="0" y="0" width="1400" height="1120" fill="url(#hexPattern)"/>
-  <rect x="0" y="0" width="1400" height="1120" fill="url(#vignette)"/>
-  <rect x="1.5" y="1.5" width="1397" height="1117" rx="19" ry="19" fill="none" stroke="url(#goldGrad)" stroke-width="1.3" stroke-opacity="0.5" stroke-dasharray="50 30">
+  <rect x="0" y="0" width="1400" height="1590" fill="url(#bgGrad)"/>
+  <rect x="0" y="0" width="1400" height="1590" fill="url(#hexPattern)"/>
+  <rect x="0" y="0" width="1400" height="1590" fill="url(#vignette)"/>
+  <rect x="1.5" y="1.5" width="1397" height="1587" rx="19" ry="19" fill="none" stroke="url(#goldGrad)" stroke-width="1.3" stroke-opacity="0.5" stroke-dasharray="50 30">
     <animate attributeName="stroke-dashoffset" values="0;300" dur="10s" repeatCount="indefinite"/>
   </rect>
   <!-- HEADING -->
@@ -86,7 +86,7 @@
   <text x="700" y="125" text-anchor="middle" font-family="Consolas,monospace" font-size="12" fill="#8A8272" letter-spacing="3">HOVER TO EXPLORE</text>
 
   <!-- PROJECT 1: Gifoy Shop -->
-  <g transform="translate(60, 160)">
+  <g transform="translate(196, 160)">
     <g class="card-outer e1">
       <g class="card-inner">
         <rect class="card-bg" clip-path="url(#cardClip)" x="0" y="0" width="406" height="460" rx="16" ry="16" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="1.1" stroke-opacity="0.35" filter="url(#cardShadow)"/>
@@ -141,7 +141,7 @@
     </g>
   </g>
   <!-- PROJECT 2: NxT Car Rental -->
-  <g transform="translate(496, 160)">
+  <g transform="translate(798, 160)">
     <g class="card-outer e2">
       <g class="card-inner">
         <rect class="card-bg" clip-path="url(#cardClip)" x="0" y="0" width="406" height="460" rx="16" ry="16" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="1.1" stroke-opacity="0.35" filter="url(#cardShadow)"/>
@@ -196,7 +196,7 @@
     </g>
   </g>
   <!-- PROJECT 3: Everest Invoicing -->
-  <g transform="translate(932, 160)">
+  <g transform="translate(196, 630)">
     <g class="card-outer e3">
       <g class="card-inner">
         <rect class="card-bg" clip-path="url(#cardClip)" x="0" y="0" width="406" height="460" rx="16" ry="16" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="1.1" stroke-opacity="0.35" filter="url(#cardShadow)"/>
@@ -251,7 +251,7 @@
     </g>
   </g>
   <!-- PROJECT 4: FrapXel -->
-  <g transform="translate(60, 630)">
+  <g transform="translate(798, 630)">
     <g class="card-outer e4">
       <g class="card-inner">
         <rect class="card-bg" clip-path="url(#cardClip)" x="0" y="0" width="406" height="460" rx="16" ry="16" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="1.1" stroke-opacity="0.35" filter="url(#cardShadow)"/>
@@ -305,7 +305,7 @@
     </g>
   </g>
   <!-- PROJECT 5: ERPNova UI -->
-  <g transform="translate(496, 630)">
+  <g transform="translate(196, 1100)">
     <g class="card-outer e5">
       <g class="card-inner">
         <rect class="card-bg" clip-path="url(#cardClip)" x="0" y="0" width="406" height="460" rx="16" ry="16" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="1.1" stroke-opacity="0.35" filter="url(#cardShadow)"/>
@@ -359,7 +359,7 @@
     </g>
   </g>
   <!-- PROJECT 6: Nexilo Loan App -->
-  <g transform="translate(932, 630)">
+  <g transform="translate(798, 1100)">
     <g class="card-outer e6">
       <g class="card-inner">
         <rect class="card-bg" clip-path="url(#cardClip)" x="0" y="0" width="406" height="460" rx="16" ry="16" fill="rgba(201,164,76,0.02)" stroke="url(#goldGrad)" stroke-width="1.1" stroke-opacity="0.35" filter="url(#cardShadow)"/>
@@ -417,7 +417,7 @@
   <!-- DECORATIVE CODE BRACKETS -->
   <g opacity="0.3">
     <text x="50" y="145" font-family="Consolas,monospace" font-size="14" fill="url(#goldGrad)" opacity="0.5">&lt;projects&gt;</text>
-    <text x="1310" y="1105" font-family="Consolas,monospace" font-size="14" fill="url(#goldGrad)" opacity="0.5">&lt;/projects&gt;</text>
+    <text x="1310" y="1575" font-family="Consolas,monospace" font-size="14" fill="url(#goldGrad)" opacity="0.5">&lt;/projects&gt;</text>
   </g>
 </g>
 </svg>
