@@ -1,39 +1,39 @@
 <div align="center">
-  <img src="profile.svg" alt="Hassan Ali — Frappe / ERPNext Architect" width="100%" style="max-width: 1400px;"/>
+  <img src="https://raw.githubusercontent.com/Hassan0703/hassan0703/main/profile.svg" alt="Hassan Ali — Frappe / ERPNext Architect" width="100%" style="max-width: 1400px;"/>
 </div>
 
 <div align="center">
-  <img src="projects.svg" alt="Featured Projects" width="100%" style="max-width: 1400px;"/>
+  <img src="https://raw.githubusercontent.com/Hassan0703/hassan0703/main/projects.svg" alt="Featured Projects" width="100%" style="max-width: 1400px;"/>
 </div>
 
 <div align="center">
-  <img src="current-focus.svg" alt="Current Focus" width="100%" style="max-width: 1400px;"/>
+  <img src="https://raw.githubusercontent.com/Hassan0703/hassan0703/main/current-focus.svg" alt="Current Focus" width="100%" style="max-width: 1400px;"/>
 </div>
 
 <div align="center">
-  <img src="principles.svg" alt="My Principles" width="100%" style="max-width: 1400px;"/>
+  <img src="https://raw.githubusercontent.com/Hassan0703/hassan0703/main/principles.svg" alt="My Principles" width="100%" style="max-width: 1400px;"/>
 </div>
 
 <div align="center">
-  <img src="architecture.svg" alt="System Architecture" width="100%" style="max-width: 1400px;"/>
+  <img src="https://raw.githubusercontent.com/Hassan0703/hassan0703/main/architecture.svg" alt="System Architecture" width="100%" style="max-width: 1400px;"/>
 </div>
 
 <div align="center">
-  <img src="neural-network-activity.svg" alt="Neural Network Activity" width="100%" style="max-width: 1400px;"/>
+  <img src="https://raw.githubusercontent.com/Hassan0703/hassan0703/main/neural-network-activity.svg" alt="Neural Network Activity" width="100%" style="max-width: 1400px;"/>
 </div>
 
 <div align="center">
-  <img src="tech-radar.svg" alt="Tech Radar" width="100%" style="max-width: 1400px;"/>
+  <img src="https://raw.githubusercontent.com/Hassan0703/hassan0703/main/tech-radar.svg" alt="Tech Radar" width="100%" style="max-width: 1400px;"/>
 </div>
 
 <div align="center">
-  <img src="certifications.svg" alt="Certifications" width="100%" style="max-width: 1400px;"/>
+  <img src="https://raw.githubusercontent.com/Hassan0703/hassan0703/main/certifications.svg" alt="Certifications" width="100%" style="max-width: 1400px;"/>
 </div>
 
 <div align="center">
-  <img src="fun-facts.svg" alt="Fun Facts" width="100%" style="max-width: 1400px;"/>
+  <img src="https://raw.githubusercontent.com/Hassan0703/hassan0703/main/fun-facts.svg" alt="Fun Facts" width="100%" style="max-width: 1400px;"/>
 </div>
 
 <div align="center">
-  <img src="footer.svg" alt="Footer" width="100%" style="max-width: 1400px;"/>
+  <img src="https://raw.githubusercontent.com/Hassan0703/hassan0703/main/footer.svg" alt="Footer" width="100%" style="max-width: 1400px;"/>
 </div>

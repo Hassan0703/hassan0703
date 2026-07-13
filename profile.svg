@@ -405,7 +405,7 @@
     <rect x="1018" y="298" width="264" height="264" fill="#1C160E"/>
     <circle cx="1150" cy="382" r="52" fill="#C9A44C" fill-opacity="0.22"/>
     <path d="M1058 562c0-62 40-100 92-100s92 38 92 100" fill="#C9A44C" fill-opacity="0.22"/>
-    <image class="profile-photo" id="profilePhoto" href="https://raw.githubusercontent.com/Hassan0703/Hassan0703/main/Profile%20pic.png" x="1018" y="298" width="264" height="264" preserveAspectRatio="xMidYMid slice"/>
+    <image class="profile-photo" id="profilePhoto" href="https://raw.githubusercontent.com/Hassan0703/hassan0703/main/Profile%20pic.png" x="1018" y="298" width="264" height="264" preserveAspectRatio="xMidYMid slice"/>
   </g>
   <circle class="photo-glow" cx="1150" cy="430" r="140" fill="url(#photoGlow)" filter="url(#softShadow)"/>
   <circle cx="1150" cy="430" r="132" fill="none" stroke="url(#goldGrad)" stroke-width="2.6" filter="url(#softShadow)"/>
