@@ -37,3 +37,15 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/Hassan0703/hassan0703/main/footer.svg" alt="Footer" width="100%" style="max-width: 1400px;"/>
 </div>
+
+---
+
+<p align="center">
+  <a href="https://hassan-ali-nextjs-portfolio.vercel.app/" target="_blank">
+    <strong>🌐 Visit my Portfolio</strong>
+  </a>
+  <br>
+  <a href="https://hassan-ali-nextjs-portfolio.vercel.app/" target="_blank">
+    https://hassan-ali-nextjs-portfolio.vercel.app/
+  </a>
+</p>
