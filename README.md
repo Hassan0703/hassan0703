@@ -41,11 +41,11 @@
 ---
 
 <p align="center">
-  <a href="https://hassan-ali-nextjs-portfolio.vercel.app/" target="_blank">
+  <a href="https://www.hassanalifrappe.dev/" target="_blank">
     <strong>🌐 Visit my Portfolio</strong>
   </a>
   <br>
-  <a href="https://hassan-ali-nextjs-portfolio.vercel.app/" target="_blank">
-    https://hassan-ali-nextjs-portfolio.vercel.app/
+  <a href="https://www.hassanalifrappe.dev/" target="_blank">
+    https://www.hassanalifrappe.dev/
   </a>
 </p>
